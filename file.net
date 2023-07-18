@@ -1,0 +1,3924 @@
+*Sibcircuit Definition
+.subckt loop 1 2 3 4
+l1 1 2 1e-05
+lg1 1 0 1e-05
+l2 2 3 1e-05
+lg2 2 0 1e-05
+l3 3 4 1e-05
+lg3 3 0 1e-05
+l4 4 1 1e-05
+lg4 4 0 1e-05
+.ends
+
+* Lattice Cite Definitions
+x1x1ya x1x1ya1 x1x1ya2 x1x1ya3 x1x1ya4 loop
+x1x1yb x1x1yb1 x1x1yb2 x1x1yb3 x1x1yb4 loop
+x1x2ya x1x2ya1 x1x2ya2 x1x2ya3 x1x2ya4 loop
+x1x2yb x1x2yb1 x1x2yb2 x1x2yb3 x1x2yb4 loop
+x1x3ya x1x3ya1 x1x3ya2 x1x3ya3 x1x3ya4 loop
+x1x3yb x1x3yb1 x1x3yb2 x1x3yb3 x1x3yb4 loop
+x1x4ya x1x4ya1 x1x4ya2 x1x4ya3 x1x4ya4 loop
+x1x4yb x1x4yb1 x1x4yb2 x1x4yb3 x1x4yb4 loop
+x1x5ya x1x5ya1 x1x5ya2 x1x5ya3 x1x5ya4 loop
+x1x5yb x1x5yb1 x1x5yb2 x1x5yb3 x1x5yb4 loop
+x1x6ya x1x6ya1 x1x6ya2 x1x6ya3 x1x6ya4 loop
+x1x6yb x1x6yb1 x1x6yb2 x1x6yb3 x1x6yb4 loop
+x1x7ya x1x7ya1 x1x7ya2 x1x7ya3 x1x7ya4 loop
+x1x7yb x1x7yb1 x1x7yb2 x1x7yb3 x1x7yb4 loop
+x1x8ya x1x8ya1 x1x8ya2 x1x8ya3 x1x8ya4 loop
+x1x8yb x1x8yb1 x1x8yb2 x1x8yb3 x1x8yb4 loop
+x1x9ya x1x9ya1 x1x9ya2 x1x9ya3 x1x9ya4 loop
+x1x9yb x1x9yb1 x1x9yb2 x1x9yb3 x1x9yb4 loop
+x1x10ya x1x10ya1 x1x10ya2 x1x10ya3 x1x10ya4 loop
+x1x10yb x1x10yb1 x1x10yb2 x1x10yb3 x1x10yb4 loop
+x2x1ya x2x1ya1 x2x1ya2 x2x1ya3 x2x1ya4 loop
+x2x1yb x2x1yb1 x2x1yb2 x2x1yb3 x2x1yb4 loop
+x2x2ya x2x2ya1 x2x2ya2 x2x2ya3 x2x2ya4 loop
+x2x2yb x2x2yb1 x2x2yb2 x2x2yb3 x2x2yb4 loop
+x2x3ya x2x3ya1 x2x3ya2 x2x3ya3 x2x3ya4 loop
+x2x3yb x2x3yb1 x2x3yb2 x2x3yb3 x2x3yb4 loop
+x2x4ya x2x4ya1 x2x4ya2 x2x4ya3 x2x4ya4 loop
+x2x4yb x2x4yb1 x2x4yb2 x2x4yb3 x2x4yb4 loop
+x2x5ya x2x5ya1 x2x5ya2 x2x5ya3 x2x5ya4 loop
+x2x5yb x2x5yb1 x2x5yb2 x2x5yb3 x2x5yb4 loop
+x2x6ya x2x6ya1 x2x6ya2 x2x6ya3 x2x6ya4 loop
+x2x6yb x2x6yb1 x2x6yb2 x2x6yb3 x2x6yb4 loop
+x2x7ya x2x7ya1 x2x7ya2 x2x7ya3 x2x7ya4 loop
+x2x7yb x2x7yb1 x2x7yb2 x2x7yb3 x2x7yb4 loop
+x2x8ya x2x8ya1 x2x8ya2 x2x8ya3 x2x8ya4 loop
+x2x8yb x2x8yb1 x2x8yb2 x2x8yb3 x2x8yb4 loop
+x2x9ya x2x9ya1 x2x9ya2 x2x9ya3 x2x9ya4 loop
+x2x9yb x2x9yb1 x2x9yb2 x2x9yb3 x2x9yb4 loop
+x2x10ya x2x10ya1 x2x10ya2 x2x10ya3 x2x10ya4 loop
+x2x10yb x2x10yb1 x2x10yb2 x2x10yb3 x2x10yb4 loop
+x3x1ya x3x1ya1 x3x1ya2 x3x1ya3 x3x1ya4 loop
+x3x1yb x3x1yb1 x3x1yb2 x3x1yb3 x3x1yb4 loop
+x3x2ya x3x2ya1 x3x2ya2 x3x2ya3 x3x2ya4 loop
+x3x2yb x3x2yb1 x3x2yb2 x3x2yb3 x3x2yb4 loop
+x3x3ya x3x3ya1 x3x3ya2 x3x3ya3 x3x3ya4 loop
+x3x3yb x3x3yb1 x3x3yb2 x3x3yb3 x3x3yb4 loop
+x3x4ya x3x4ya1 x3x4ya2 x3x4ya3 x3x4ya4 loop
+x3x4yb x3x4yb1 x3x4yb2 x3x4yb3 x3x4yb4 loop
+x3x5ya x3x5ya1 x3x5ya2 x3x5ya3 x3x5ya4 loop
+x3x5yb x3x5yb1 x3x5yb2 x3x5yb3 x3x5yb4 loop
+x3x6ya x3x6ya1 x3x6ya2 x3x6ya3 x3x6ya4 loop
+x3x6yb x3x6yb1 x3x6yb2 x3x6yb3 x3x6yb4 loop
+x3x7ya x3x7ya1 x3x7ya2 x3x7ya3 x3x7ya4 loop
+x3x7yb x3x7yb1 x3x7yb2 x3x7yb3 x3x7yb4 loop
+x3x8ya x3x8ya1 x3x8ya2 x3x8ya3 x3x8ya4 loop
+x3x8yb x3x8yb1 x3x8yb2 x3x8yb3 x3x8yb4 loop
+x3x9ya x3x9ya1 x3x9ya2 x3x9ya3 x3x9ya4 loop
+x3x9yb x3x9yb1 x3x9yb2 x3x9yb3 x3x9yb4 loop
+x3x10ya x3x10ya1 x3x10ya2 x3x10ya3 x3x10ya4 loop
+x3x10yb x3x10yb1 x3x10yb2 x3x10yb3 x3x10yb4 loop
+x4x1ya x4x1ya1 x4x1ya2 x4x1ya3 x4x1ya4 loop
+x4x1yb x4x1yb1 x4x1yb2 x4x1yb3 x4x1yb4 loop
+x4x2ya x4x2ya1 x4x2ya2 x4x2ya3 x4x2ya4 loop
+x4x2yb x4x2yb1 x4x2yb2 x4x2yb3 x4x2yb4 loop
+x4x3ya x4x3ya1 x4x3ya2 x4x3ya3 x4x3ya4 loop
+x4x3yb x4x3yb1 x4x3yb2 x4x3yb3 x4x3yb4 loop
+x4x4ya x4x4ya1 x4x4ya2 x4x4ya3 x4x4ya4 loop
+x4x4yb x4x4yb1 x4x4yb2 x4x4yb3 x4x4yb4 loop
+x4x5ya x4x5ya1 x4x5ya2 x4x5ya3 x4x5ya4 loop
+x4x5yb x4x5yb1 x4x5yb2 x4x5yb3 x4x5yb4 loop
+x4x6ya x4x6ya1 x4x6ya2 x4x6ya3 x4x6ya4 loop
+x4x6yb x4x6yb1 x4x6yb2 x4x6yb3 x4x6yb4 loop
+x4x7ya x4x7ya1 x4x7ya2 x4x7ya3 x4x7ya4 loop
+x4x7yb x4x7yb1 x4x7yb2 x4x7yb3 x4x7yb4 loop
+x4x8ya x4x8ya1 x4x8ya2 x4x8ya3 x4x8ya4 loop
+x4x8yb x4x8yb1 x4x8yb2 x4x8yb3 x4x8yb4 loop
+x4x9ya x4x9ya1 x4x9ya2 x4x9ya3 x4x9ya4 loop
+x4x9yb x4x9yb1 x4x9yb2 x4x9yb3 x4x9yb4 loop
+x4x10ya x4x10ya1 x4x10ya2 x4x10ya3 x4x10ya4 loop
+x4x10yb x4x10yb1 x4x10yb2 x4x10yb3 x4x10yb4 loop
+x5x1ya x5x1ya1 x5x1ya2 x5x1ya3 x5x1ya4 loop
+x5x1yb x5x1yb1 x5x1yb2 x5x1yb3 x5x1yb4 loop
+x5x2ya x5x2ya1 x5x2ya2 x5x2ya3 x5x2ya4 loop
+x5x2yb x5x2yb1 x5x2yb2 x5x2yb3 x5x2yb4 loop
+x5x3ya x5x3ya1 x5x3ya2 x5x3ya3 x5x3ya4 loop
+x5x3yb x5x3yb1 x5x3yb2 x5x3yb3 x5x3yb4 loop
+x5x4ya x5x4ya1 x5x4ya2 x5x4ya3 x5x4ya4 loop
+x5x4yb x5x4yb1 x5x4yb2 x5x4yb3 x5x4yb4 loop
+x5x5ya x5x5ya1 x5x5ya2 x5x5ya3 x5x5ya4 loop
+x5x5yb x5x5yb1 x5x5yb2 x5x5yb3 x5x5yb4 loop
+x5x6ya x5x6ya1 x5x6ya2 x5x6ya3 x5x6ya4 loop
+x5x6yb x5x6yb1 x5x6yb2 x5x6yb3 x5x6yb4 loop
+x5x7ya x5x7ya1 x5x7ya2 x5x7ya3 x5x7ya4 loop
+x5x7yb x5x7yb1 x5x7yb2 x5x7yb3 x5x7yb4 loop
+x5x8ya x5x8ya1 x5x8ya2 x5x8ya3 x5x8ya4 loop
+x5x8yb x5x8yb1 x5x8yb2 x5x8yb3 x5x8yb4 loop
+x5x9ya x5x9ya1 x5x9ya2 x5x9ya3 x5x9ya4 loop
+x5x9yb x5x9yb1 x5x9yb2 x5x9yb3 x5x9yb4 loop
+x5x10ya x5x10ya1 x5x10ya2 x5x10ya3 x5x10ya4 loop
+x5x10yb x5x10yb1 x5x10yb2 x5x10yb3 x5x10yb4 loop
+x6x1ya x6x1ya1 x6x1ya2 x6x1ya3 x6x1ya4 loop
+x6x1yb x6x1yb1 x6x1yb2 x6x1yb3 x6x1yb4 loop
+x6x2ya x6x2ya1 x6x2ya2 x6x2ya3 x6x2ya4 loop
+x6x2yb x6x2yb1 x6x2yb2 x6x2yb3 x6x2yb4 loop
+x6x3ya x6x3ya1 x6x3ya2 x6x3ya3 x6x3ya4 loop
+x6x3yb x6x3yb1 x6x3yb2 x6x3yb3 x6x3yb4 loop
+x6x4ya x6x4ya1 x6x4ya2 x6x4ya3 x6x4ya4 loop
+x6x4yb x6x4yb1 x6x4yb2 x6x4yb3 x6x4yb4 loop
+x6x5ya x6x5ya1 x6x5ya2 x6x5ya3 x6x5ya4 loop
+x6x5yb x6x5yb1 x6x5yb2 x6x5yb3 x6x5yb4 loop
+x6x6ya x6x6ya1 x6x6ya2 x6x6ya3 x6x6ya4 loop
+x6x6yb x6x6yb1 x6x6yb2 x6x6yb3 x6x6yb4 loop
+x6x7ya x6x7ya1 x6x7ya2 x6x7ya3 x6x7ya4 loop
+x6x7yb x6x7yb1 x6x7yb2 x6x7yb3 x6x7yb4 loop
+x6x8ya x6x8ya1 x6x8ya2 x6x8ya3 x6x8ya4 loop
+x6x8yb x6x8yb1 x6x8yb2 x6x8yb3 x6x8yb4 loop
+x6x9ya x6x9ya1 x6x9ya2 x6x9ya3 x6x9ya4 loop
+x6x9yb x6x9yb1 x6x9yb2 x6x9yb3 x6x9yb4 loop
+x6x10ya x6x10ya1 x6x10ya2 x6x10ya3 x6x10ya4 loop
+x6x10yb x6x10yb1 x6x10yb2 x6x10yb3 x6x10yb4 loop
+x7x1ya x7x1ya1 x7x1ya2 x7x1ya3 x7x1ya4 loop
+x7x1yb x7x1yb1 x7x1yb2 x7x1yb3 x7x1yb4 loop
+x7x2ya x7x2ya1 x7x2ya2 x7x2ya3 x7x2ya4 loop
+x7x2yb x7x2yb1 x7x2yb2 x7x2yb3 x7x2yb4 loop
+x7x3ya x7x3ya1 x7x3ya2 x7x3ya3 x7x3ya4 loop
+x7x3yb x7x3yb1 x7x3yb2 x7x3yb3 x7x3yb4 loop
+x7x4ya x7x4ya1 x7x4ya2 x7x4ya3 x7x4ya4 loop
+x7x4yb x7x4yb1 x7x4yb2 x7x4yb3 x7x4yb4 loop
+x7x5ya x7x5ya1 x7x5ya2 x7x5ya3 x7x5ya4 loop
+x7x5yb x7x5yb1 x7x5yb2 x7x5yb3 x7x5yb4 loop
+x7x6ya x7x6ya1 x7x6ya2 x7x6ya3 x7x6ya4 loop
+x7x6yb x7x6yb1 x7x6yb2 x7x6yb3 x7x6yb4 loop
+x7x7ya x7x7ya1 x7x7ya2 x7x7ya3 x7x7ya4 loop
+x7x7yb x7x7yb1 x7x7yb2 x7x7yb3 x7x7yb4 loop
+x7x8ya x7x8ya1 x7x8ya2 x7x8ya3 x7x8ya4 loop
+x7x8yb x7x8yb1 x7x8yb2 x7x8yb3 x7x8yb4 loop
+x7x9ya x7x9ya1 x7x9ya2 x7x9ya3 x7x9ya4 loop
+x7x9yb x7x9yb1 x7x9yb2 x7x9yb3 x7x9yb4 loop
+x7x10ya x7x10ya1 x7x10ya2 x7x10ya3 x7x10ya4 loop
+x7x10yb x7x10yb1 x7x10yb2 x7x10yb3 x7x10yb4 loop
+x8x1ya x8x1ya1 x8x1ya2 x8x1ya3 x8x1ya4 loop
+x8x1yb x8x1yb1 x8x1yb2 x8x1yb3 x8x1yb4 loop
+x8x2ya x8x2ya1 x8x2ya2 x8x2ya3 x8x2ya4 loop
+x8x2yb x8x2yb1 x8x2yb2 x8x2yb3 x8x2yb4 loop
+x8x3ya x8x3ya1 x8x3ya2 x8x3ya3 x8x3ya4 loop
+x8x3yb x8x3yb1 x8x3yb2 x8x3yb3 x8x3yb4 loop
+x8x4ya x8x4ya1 x8x4ya2 x8x4ya3 x8x4ya4 loop
+x8x4yb x8x4yb1 x8x4yb2 x8x4yb3 x8x4yb4 loop
+x8x5ya x8x5ya1 x8x5ya2 x8x5ya3 x8x5ya4 loop
+x8x5yb x8x5yb1 x8x5yb2 x8x5yb3 x8x5yb4 loop
+x8x6ya x8x6ya1 x8x6ya2 x8x6ya3 x8x6ya4 loop
+x8x6yb x8x6yb1 x8x6yb2 x8x6yb3 x8x6yb4 loop
+x8x7ya x8x7ya1 x8x7ya2 x8x7ya3 x8x7ya4 loop
+x8x7yb x8x7yb1 x8x7yb2 x8x7yb3 x8x7yb4 loop
+x8x8ya x8x8ya1 x8x8ya2 x8x8ya3 x8x8ya4 loop
+x8x8yb x8x8yb1 x8x8yb2 x8x8yb3 x8x8yb4 loop
+x8x9ya x8x9ya1 x8x9ya2 x8x9ya3 x8x9ya4 loop
+x8x9yb x8x9yb1 x8x9yb2 x8x9yb3 x8x9yb4 loop
+x8x10ya x8x10ya1 x8x10ya2 x8x10ya3 x8x10ya4 loop
+x8x10yb x8x10yb1 x8x10yb2 x8x10yb3 x8x10yb4 loop
+x9x1ya x9x1ya1 x9x1ya2 x9x1ya3 x9x1ya4 loop
+x9x1yb x9x1yb1 x9x1yb2 x9x1yb3 x9x1yb4 loop
+x9x2ya x9x2ya1 x9x2ya2 x9x2ya3 x9x2ya4 loop
+x9x2yb x9x2yb1 x9x2yb2 x9x2yb3 x9x2yb4 loop
+x9x3ya x9x3ya1 x9x3ya2 x9x3ya3 x9x3ya4 loop
+x9x3yb x9x3yb1 x9x3yb2 x9x3yb3 x9x3yb4 loop
+x9x4ya x9x4ya1 x9x4ya2 x9x4ya3 x9x4ya4 loop
+x9x4yb x9x4yb1 x9x4yb2 x9x4yb3 x9x4yb4 loop
+x9x5ya x9x5ya1 x9x5ya2 x9x5ya3 x9x5ya4 loop
+x9x5yb x9x5yb1 x9x5yb2 x9x5yb3 x9x5yb4 loop
+x9x6ya x9x6ya1 x9x6ya2 x9x6ya3 x9x6ya4 loop
+x9x6yb x9x6yb1 x9x6yb2 x9x6yb3 x9x6yb4 loop
+x9x7ya x9x7ya1 x9x7ya2 x9x7ya3 x9x7ya4 loop
+x9x7yb x9x7yb1 x9x7yb2 x9x7yb3 x9x7yb4 loop
+x9x8ya x9x8ya1 x9x8ya2 x9x8ya3 x9x8ya4 loop
+x9x8yb x9x8yb1 x9x8yb2 x9x8yb3 x9x8yb4 loop
+x9x9ya x9x9ya1 x9x9ya2 x9x9ya3 x9x9ya4 loop
+x9x9yb x9x9yb1 x9x9yb2 x9x9yb3 x9x9yb4 loop
+x9x10ya x9x10ya1 x9x10ya2 x9x10ya3 x9x10ya4 loop
+x9x10yb x9x10yb1 x9x10yb2 x9x10yb3 x9x10yb4 loop
+x10x1ya x10x1ya1 x10x1ya2 x10x1ya3 x10x1ya4 loop
+x10x1yb x10x1yb1 x10x1yb2 x10x1yb3 x10x1yb4 loop
+x10x2ya x10x2ya1 x10x2ya2 x10x2ya3 x10x2ya4 loop
+x10x2yb x10x2yb1 x10x2yb2 x10x2yb3 x10x2yb4 loop
+x10x3ya x10x3ya1 x10x3ya2 x10x3ya3 x10x3ya4 loop
+x10x3yb x10x3yb1 x10x3yb2 x10x3yb3 x10x3yb4 loop
+x10x4ya x10x4ya1 x10x4ya2 x10x4ya3 x10x4ya4 loop
+x10x4yb x10x4yb1 x10x4yb2 x10x4yb3 x10x4yb4 loop
+x10x5ya x10x5ya1 x10x5ya2 x10x5ya3 x10x5ya4 loop
+x10x5yb x10x5yb1 x10x5yb2 x10x5yb3 x10x5yb4 loop
+x10x6ya x10x6ya1 x10x6ya2 x10x6ya3 x10x6ya4 loop
+x10x6yb x10x6yb1 x10x6yb2 x10x6yb3 x10x6yb4 loop
+x10x7ya x10x7ya1 x10x7ya2 x10x7ya3 x10x7ya4 loop
+x10x7yb x10x7yb1 x10x7yb2 x10x7yb3 x10x7yb4 loop
+x10x8ya x10x8ya1 x10x8ya2 x10x8ya3 x10x8ya4 loop
+x10x8yb x10x8yb1 x10x8yb2 x10x8yb3 x10x8yb4 loop
+x10x9ya x10x9ya1 x10x9ya2 x10x9ya3 x10x9ya4 loop
+x10x9yb x10x9yb1 x10x9yb2 x10x9yb3 x10x9yb4 loop
+x10x10ya x10x10ya1 x10x10ya2 x10x10ya3 x10x10ya4 loop
+x10x10yb x10x10yb1 x10x10yb2 x10x10yb3 x10x10yb4 loop
+
+*Hopping connection between (1,1) and (1,1)
+Cx1x1yax1x1yb0 x1x1ya1 x1x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x1yax1x1yb1 x1x1ya2 x1x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x1yax1x1yb2 x1x1ya3 x1x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x1yax1x1yb3 x1x1ya4 x1x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,1) and (2,1)
+Cx1x1yax2x1yb0 x1x1ya1 x2x1yb1 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1yb1 x1x1ya2 x2x1yb2 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1yb2 x1x1ya3 x2x1yb3 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1yb3 x1x1ya4 x2x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,1) and (2,1)
+Cx1x1ybx2x1ya0 x1x1yb1 x2x1ya1 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1ya1 x1x1yb2 x2x1ya2 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1ya2 x1x1yb3 x2x1ya3 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1ya3 x1x1yb4 x2x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,1) and (2,1)
+Cx1x1yax2x1ya0 x1x1ya1 x2x1ya2 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1ya1 x1x1ya2 x2x1ya3 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1ya2 x1x1ya3 x2x1ya4 5e-08 Rser=0 Rpar=0
+Cx1x1yax2x1ya3 x1x1ya4 x2x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,1) and (2,1)
+Cx1x1ybx2x1yb0 x1x1yb1 x2x1yb2 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1yb1 x1x1yb2 x2x1yb3 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1yb2 x1x1yb3 x2x1yb4 5e-08 Rser=0 Rpar=0
+Cx1x1ybx2x1yb3 x1x1yb4 x2x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,1) and (1,2)
+Cx1x1ybx1x2ya0 x1x1yb1 x1x2ya1 1e-07 Rser=0 Rpar=0
+Cx1x1ybx1x2ya1 x1x1yb2 x1x2ya2 1e-07 Rser=0 Rpar=0
+Cx1x1ybx1x2ya2 x1x1yb3 x1x2ya3 1e-07 Rser=0 Rpar=0
+Cx1x1ybx1x2ya3 x1x1yb4 x1x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (2,1)
+Cx2x1yax2x1yb0 x2x1ya1 x2x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x1yax2x1yb1 x2x1ya2 x2x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x1yax2x1yb2 x2x1ya3 x2x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x1yax2x1yb3 x2x1ya4 x2x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (3,1)
+Cx2x1yax3x1yb0 x2x1ya1 x3x1yb1 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1yb1 x2x1ya2 x3x1yb2 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1yb2 x2x1ya3 x3x1yb3 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1yb3 x2x1ya4 x3x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (3,1)
+Cx2x1ybx3x1ya0 x2x1yb1 x3x1ya1 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1ya1 x2x1yb2 x3x1ya2 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1ya2 x2x1yb3 x3x1ya3 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1ya3 x2x1yb4 x3x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (3,1)
+Cx2x1yax3x1ya0 x2x1ya1 x3x1ya2 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1ya1 x2x1ya2 x3x1ya3 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1ya2 x2x1ya3 x3x1ya4 5e-08 Rser=0 Rpar=0
+Cx2x1yax3x1ya3 x2x1ya4 x3x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (3,1)
+Cx2x1ybx3x1yb0 x2x1yb1 x3x1yb2 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1yb1 x2x1yb2 x3x1yb3 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1yb2 x2x1yb3 x3x1yb4 5e-08 Rser=0 Rpar=0
+Cx2x1ybx3x1yb3 x2x1yb4 x3x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,1) and (2,2)
+Cx2x1ybx2x2ya0 x2x1yb1 x2x2ya1 1e-07 Rser=0 Rpar=0
+Cx2x1ybx2x2ya1 x2x1yb2 x2x2ya2 1e-07 Rser=0 Rpar=0
+Cx2x1ybx2x2ya2 x2x1yb3 x2x2ya3 1e-07 Rser=0 Rpar=0
+Cx2x1ybx2x2ya3 x2x1yb4 x2x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (3,1)
+Cx3x1yax3x1yb0 x3x1ya1 x3x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x1yax3x1yb1 x3x1ya2 x3x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x1yax3x1yb2 x3x1ya3 x3x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x1yax3x1yb3 x3x1ya4 x3x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (4,1)
+Cx3x1yax4x1yb0 x3x1ya1 x4x1yb1 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1yb1 x3x1ya2 x4x1yb2 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1yb2 x3x1ya3 x4x1yb3 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1yb3 x3x1ya4 x4x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (4,1)
+Cx3x1ybx4x1ya0 x3x1yb1 x4x1ya1 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1ya1 x3x1yb2 x4x1ya2 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1ya2 x3x1yb3 x4x1ya3 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1ya3 x3x1yb4 x4x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (4,1)
+Cx3x1yax4x1ya0 x3x1ya1 x4x1ya2 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1ya1 x3x1ya2 x4x1ya3 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1ya2 x3x1ya3 x4x1ya4 5e-08 Rser=0 Rpar=0
+Cx3x1yax4x1ya3 x3x1ya4 x4x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (4,1)
+Cx3x1ybx4x1yb0 x3x1yb1 x4x1yb2 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1yb1 x3x1yb2 x4x1yb3 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1yb2 x3x1yb3 x4x1yb4 5e-08 Rser=0 Rpar=0
+Cx3x1ybx4x1yb3 x3x1yb4 x4x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,1) and (3,2)
+Cx3x1ybx3x2ya0 x3x1yb1 x3x2ya1 1e-07 Rser=0 Rpar=0
+Cx3x1ybx3x2ya1 x3x1yb2 x3x2ya2 1e-07 Rser=0 Rpar=0
+Cx3x1ybx3x2ya2 x3x1yb3 x3x2ya3 1e-07 Rser=0 Rpar=0
+Cx3x1ybx3x2ya3 x3x1yb4 x3x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (4,1)
+Cx4x1yax4x1yb0 x4x1ya1 x4x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x1yax4x1yb1 x4x1ya2 x4x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x1yax4x1yb2 x4x1ya3 x4x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x1yax4x1yb3 x4x1ya4 x4x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (5,1)
+Cx4x1yax5x1yb0 x4x1ya1 x5x1yb1 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1yb1 x4x1ya2 x5x1yb2 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1yb2 x4x1ya3 x5x1yb3 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1yb3 x4x1ya4 x5x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (5,1)
+Cx4x1ybx5x1ya0 x4x1yb1 x5x1ya1 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1ya1 x4x1yb2 x5x1ya2 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1ya2 x4x1yb3 x5x1ya3 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1ya3 x4x1yb4 x5x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (5,1)
+Cx4x1yax5x1ya0 x4x1ya1 x5x1ya2 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1ya1 x4x1ya2 x5x1ya3 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1ya2 x4x1ya3 x5x1ya4 5e-08 Rser=0 Rpar=0
+Cx4x1yax5x1ya3 x4x1ya4 x5x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (5,1)
+Cx4x1ybx5x1yb0 x4x1yb1 x5x1yb2 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1yb1 x4x1yb2 x5x1yb3 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1yb2 x4x1yb3 x5x1yb4 5e-08 Rser=0 Rpar=0
+Cx4x1ybx5x1yb3 x4x1yb4 x5x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,1) and (4,2)
+Cx4x1ybx4x2ya0 x4x1yb1 x4x2ya1 1e-07 Rser=0 Rpar=0
+Cx4x1ybx4x2ya1 x4x1yb2 x4x2ya2 1e-07 Rser=0 Rpar=0
+Cx4x1ybx4x2ya2 x4x1yb3 x4x2ya3 1e-07 Rser=0 Rpar=0
+Cx4x1ybx4x2ya3 x4x1yb4 x4x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (5,1)
+Cx5x1yax5x1yb0 x5x1ya1 x5x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x1yax5x1yb1 x5x1ya2 x5x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x1yax5x1yb2 x5x1ya3 x5x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x1yax5x1yb3 x5x1ya4 x5x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (6,1)
+Cx5x1yax6x1yb0 x5x1ya1 x6x1yb1 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1yb1 x5x1ya2 x6x1yb2 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1yb2 x5x1ya3 x6x1yb3 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1yb3 x5x1ya4 x6x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (6,1)
+Cx5x1ybx6x1ya0 x5x1yb1 x6x1ya1 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1ya1 x5x1yb2 x6x1ya2 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1ya2 x5x1yb3 x6x1ya3 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1ya3 x5x1yb4 x6x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (6,1)
+Cx5x1yax6x1ya0 x5x1ya1 x6x1ya2 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1ya1 x5x1ya2 x6x1ya3 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1ya2 x5x1ya3 x6x1ya4 5e-08 Rser=0 Rpar=0
+Cx5x1yax6x1ya3 x5x1ya4 x6x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (6,1)
+Cx5x1ybx6x1yb0 x5x1yb1 x6x1yb2 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1yb1 x5x1yb2 x6x1yb3 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1yb2 x5x1yb3 x6x1yb4 5e-08 Rser=0 Rpar=0
+Cx5x1ybx6x1yb3 x5x1yb4 x6x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,1) and (5,2)
+Cx5x1ybx5x2ya0 x5x1yb1 x5x2ya1 1e-07 Rser=0 Rpar=0
+Cx5x1ybx5x2ya1 x5x1yb2 x5x2ya2 1e-07 Rser=0 Rpar=0
+Cx5x1ybx5x2ya2 x5x1yb3 x5x2ya3 1e-07 Rser=0 Rpar=0
+Cx5x1ybx5x2ya3 x5x1yb4 x5x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (6,1)
+Cx6x1yax6x1yb0 x6x1ya1 x6x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x1yax6x1yb1 x6x1ya2 x6x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x1yax6x1yb2 x6x1ya3 x6x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x1yax6x1yb3 x6x1ya4 x6x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (7,1)
+Cx6x1yax7x1yb0 x6x1ya1 x7x1yb1 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1yb1 x6x1ya2 x7x1yb2 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1yb2 x6x1ya3 x7x1yb3 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1yb3 x6x1ya4 x7x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (7,1)
+Cx6x1ybx7x1ya0 x6x1yb1 x7x1ya1 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1ya1 x6x1yb2 x7x1ya2 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1ya2 x6x1yb3 x7x1ya3 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1ya3 x6x1yb4 x7x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (7,1)
+Cx6x1yax7x1ya0 x6x1ya1 x7x1ya2 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1ya1 x6x1ya2 x7x1ya3 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1ya2 x6x1ya3 x7x1ya4 5e-08 Rser=0 Rpar=0
+Cx6x1yax7x1ya3 x6x1ya4 x7x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (7,1)
+Cx6x1ybx7x1yb0 x6x1yb1 x7x1yb2 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1yb1 x6x1yb2 x7x1yb3 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1yb2 x6x1yb3 x7x1yb4 5e-08 Rser=0 Rpar=0
+Cx6x1ybx7x1yb3 x6x1yb4 x7x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,1) and (6,2)
+Cx6x1ybx6x2ya0 x6x1yb1 x6x2ya1 1e-07 Rser=0 Rpar=0
+Cx6x1ybx6x2ya1 x6x1yb2 x6x2ya2 1e-07 Rser=0 Rpar=0
+Cx6x1ybx6x2ya2 x6x1yb3 x6x2ya3 1e-07 Rser=0 Rpar=0
+Cx6x1ybx6x2ya3 x6x1yb4 x6x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (7,1)
+Cx7x1yax7x1yb0 x7x1ya1 x7x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x1yax7x1yb1 x7x1ya2 x7x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x1yax7x1yb2 x7x1ya3 x7x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x1yax7x1yb3 x7x1ya4 x7x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (8,1)
+Cx7x1yax8x1yb0 x7x1ya1 x8x1yb1 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1yb1 x7x1ya2 x8x1yb2 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1yb2 x7x1ya3 x8x1yb3 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1yb3 x7x1ya4 x8x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (8,1)
+Cx7x1ybx8x1ya0 x7x1yb1 x8x1ya1 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1ya1 x7x1yb2 x8x1ya2 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1ya2 x7x1yb3 x8x1ya3 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1ya3 x7x1yb4 x8x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (8,1)
+Cx7x1yax8x1ya0 x7x1ya1 x8x1ya2 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1ya1 x7x1ya2 x8x1ya3 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1ya2 x7x1ya3 x8x1ya4 5e-08 Rser=0 Rpar=0
+Cx7x1yax8x1ya3 x7x1ya4 x8x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (8,1)
+Cx7x1ybx8x1yb0 x7x1yb1 x8x1yb2 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1yb1 x7x1yb2 x8x1yb3 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1yb2 x7x1yb3 x8x1yb4 5e-08 Rser=0 Rpar=0
+Cx7x1ybx8x1yb3 x7x1yb4 x8x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,1) and (7,2)
+Cx7x1ybx7x2ya0 x7x1yb1 x7x2ya1 1e-07 Rser=0 Rpar=0
+Cx7x1ybx7x2ya1 x7x1yb2 x7x2ya2 1e-07 Rser=0 Rpar=0
+Cx7x1ybx7x2ya2 x7x1yb3 x7x2ya3 1e-07 Rser=0 Rpar=0
+Cx7x1ybx7x2ya3 x7x1yb4 x7x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (8,1)
+Cx8x1yax8x1yb0 x8x1ya1 x8x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x1yax8x1yb1 x8x1ya2 x8x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x1yax8x1yb2 x8x1ya3 x8x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x1yax8x1yb3 x8x1ya4 x8x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (9,1)
+Cx8x1yax9x1yb0 x8x1ya1 x9x1yb1 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1yb1 x8x1ya2 x9x1yb2 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1yb2 x8x1ya3 x9x1yb3 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1yb3 x8x1ya4 x9x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (9,1)
+Cx8x1ybx9x1ya0 x8x1yb1 x9x1ya1 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1ya1 x8x1yb2 x9x1ya2 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1ya2 x8x1yb3 x9x1ya3 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1ya3 x8x1yb4 x9x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (9,1)
+Cx8x1yax9x1ya0 x8x1ya1 x9x1ya2 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1ya1 x8x1ya2 x9x1ya3 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1ya2 x8x1ya3 x9x1ya4 5e-08 Rser=0 Rpar=0
+Cx8x1yax9x1ya3 x8x1ya4 x9x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (9,1)
+Cx8x1ybx9x1yb0 x8x1yb1 x9x1yb2 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1yb1 x8x1yb2 x9x1yb3 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1yb2 x8x1yb3 x9x1yb4 5e-08 Rser=0 Rpar=0
+Cx8x1ybx9x1yb3 x8x1yb4 x9x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,1) and (8,2)
+Cx8x1ybx8x2ya0 x8x1yb1 x8x2ya1 1e-07 Rser=0 Rpar=0
+Cx8x1ybx8x2ya1 x8x1yb2 x8x2ya2 1e-07 Rser=0 Rpar=0
+Cx8x1ybx8x2ya2 x8x1yb3 x8x2ya3 1e-07 Rser=0 Rpar=0
+Cx8x1ybx8x2ya3 x8x1yb4 x8x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (9,1)
+Cx9x1yax9x1yb0 x9x1ya1 x9x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x1yax9x1yb1 x9x1ya2 x9x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x1yax9x1yb2 x9x1ya3 x9x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x1yax9x1yb3 x9x1ya4 x9x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (10,1)
+Cx9x1yax10x1yb0 x9x1ya1 x10x1yb1 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1yb1 x9x1ya2 x10x1yb2 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1yb2 x9x1ya3 x10x1yb3 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1yb3 x9x1ya4 x10x1yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (10,1)
+Cx9x1ybx10x1ya0 x9x1yb1 x10x1ya1 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1ya1 x9x1yb2 x10x1ya2 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1ya2 x9x1yb3 x10x1ya3 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1ya3 x9x1yb4 x10x1ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (10,1)
+Cx9x1yax10x1ya0 x9x1ya1 x10x1ya2 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1ya1 x9x1ya2 x10x1ya3 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1ya2 x9x1ya3 x10x1ya4 5e-08 Rser=0 Rpar=0
+Cx9x1yax10x1ya3 x9x1ya4 x10x1ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (10,1)
+Cx9x1ybx10x1yb0 x9x1yb1 x10x1yb2 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1yb1 x9x1yb2 x10x1yb3 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1yb2 x9x1yb3 x10x1yb4 5e-08 Rser=0 Rpar=0
+Cx9x1ybx10x1yb3 x9x1yb4 x10x1yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,1) and (9,2)
+Cx9x1ybx9x2ya0 x9x1yb1 x9x2ya1 1e-07 Rser=0 Rpar=0
+Cx9x1ybx9x2ya1 x9x1yb2 x9x2ya2 1e-07 Rser=0 Rpar=0
+Cx9x1ybx9x2ya2 x9x1yb3 x9x2ya3 1e-07 Rser=0 Rpar=0
+Cx9x1ybx9x2ya3 x9x1yb4 x9x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (1,2)
+Cx1x2yax1x2yb0 x1x2ya1 x1x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x2yax1x2yb1 x1x2ya2 x1x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x2yax1x2yb2 x1x2ya3 x1x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x2yax1x2yb3 x1x2ya4 x1x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (2,2)
+Cx1x2yax2x2yb0 x1x2ya1 x2x2yb1 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2yb1 x1x2ya2 x2x2yb2 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2yb2 x1x2ya3 x2x2yb3 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2yb3 x1x2ya4 x2x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (2,2)
+Cx1x2ybx2x2ya0 x1x2yb1 x2x2ya1 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2ya1 x1x2yb2 x2x2ya2 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2ya2 x1x2yb3 x2x2ya3 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2ya3 x1x2yb4 x2x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (2,2)
+Cx1x2yax2x2ya0 x1x2ya1 x2x2ya2 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2ya1 x1x2ya2 x2x2ya3 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2ya2 x1x2ya3 x2x2ya4 5e-08 Rser=0 Rpar=0
+Cx1x2yax2x2ya3 x1x2ya4 x2x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (2,2)
+Cx1x2ybx2x2yb0 x1x2yb1 x2x2yb2 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2yb1 x1x2yb2 x2x2yb3 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2yb2 x1x2yb3 x2x2yb4 5e-08 Rser=0 Rpar=0
+Cx1x2ybx2x2yb3 x1x2yb4 x2x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,2) and (1,3)
+Cx1x2ybx1x3ya0 x1x2yb1 x1x3ya1 1e-07 Rser=0 Rpar=0
+Cx1x2ybx1x3ya1 x1x2yb2 x1x3ya2 1e-07 Rser=0 Rpar=0
+Cx1x2ybx1x3ya2 x1x2yb3 x1x3ya3 1e-07 Rser=0 Rpar=0
+Cx1x2ybx1x3ya3 x1x2yb4 x1x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (2,2)
+Cx2x2yax2x2yb0 x2x2ya1 x2x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x2yax2x2yb1 x2x2ya2 x2x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x2yax2x2yb2 x2x2ya3 x2x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x2yax2x2yb3 x2x2ya4 x2x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (3,2)
+Cx2x2yax3x2yb0 x2x2ya1 x3x2yb1 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2yb1 x2x2ya2 x3x2yb2 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2yb2 x2x2ya3 x3x2yb3 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2yb3 x2x2ya4 x3x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (3,2)
+Cx2x2ybx3x2ya0 x2x2yb1 x3x2ya1 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2ya1 x2x2yb2 x3x2ya2 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2ya2 x2x2yb3 x3x2ya3 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2ya3 x2x2yb4 x3x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (3,2)
+Cx2x2yax3x2ya0 x2x2ya1 x3x2ya2 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2ya1 x2x2ya2 x3x2ya3 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2ya2 x2x2ya3 x3x2ya4 5e-08 Rser=0 Rpar=0
+Cx2x2yax3x2ya3 x2x2ya4 x3x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (3,2)
+Cx2x2ybx3x2yb0 x2x2yb1 x3x2yb2 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2yb1 x2x2yb2 x3x2yb3 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2yb2 x2x2yb3 x3x2yb4 5e-08 Rser=0 Rpar=0
+Cx2x2ybx3x2yb3 x2x2yb4 x3x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,2) and (2,3)
+Cx2x2ybx2x3ya0 x2x2yb1 x2x3ya1 1e-07 Rser=0 Rpar=0
+Cx2x2ybx2x3ya1 x2x2yb2 x2x3ya2 1e-07 Rser=0 Rpar=0
+Cx2x2ybx2x3ya2 x2x2yb3 x2x3ya3 1e-07 Rser=0 Rpar=0
+Cx2x2ybx2x3ya3 x2x2yb4 x2x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (3,2)
+Cx3x2yax3x2yb0 x3x2ya1 x3x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x2yax3x2yb1 x3x2ya2 x3x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x2yax3x2yb2 x3x2ya3 x3x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x2yax3x2yb3 x3x2ya4 x3x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (4,2)
+Cx3x2yax4x2yb0 x3x2ya1 x4x2yb1 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2yb1 x3x2ya2 x4x2yb2 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2yb2 x3x2ya3 x4x2yb3 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2yb3 x3x2ya4 x4x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (4,2)
+Cx3x2ybx4x2ya0 x3x2yb1 x4x2ya1 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2ya1 x3x2yb2 x4x2ya2 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2ya2 x3x2yb3 x4x2ya3 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2ya3 x3x2yb4 x4x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (4,2)
+Cx3x2yax4x2ya0 x3x2ya1 x4x2ya2 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2ya1 x3x2ya2 x4x2ya3 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2ya2 x3x2ya3 x4x2ya4 5e-08 Rser=0 Rpar=0
+Cx3x2yax4x2ya3 x3x2ya4 x4x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (4,2)
+Cx3x2ybx4x2yb0 x3x2yb1 x4x2yb2 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2yb1 x3x2yb2 x4x2yb3 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2yb2 x3x2yb3 x4x2yb4 5e-08 Rser=0 Rpar=0
+Cx3x2ybx4x2yb3 x3x2yb4 x4x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,2) and (3,3)
+Cx3x2ybx3x3ya0 x3x2yb1 x3x3ya1 1e-07 Rser=0 Rpar=0
+Cx3x2ybx3x3ya1 x3x2yb2 x3x3ya2 1e-07 Rser=0 Rpar=0
+Cx3x2ybx3x3ya2 x3x2yb3 x3x3ya3 1e-07 Rser=0 Rpar=0
+Cx3x2ybx3x3ya3 x3x2yb4 x3x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (4,2)
+Cx4x2yax4x2yb0 x4x2ya1 x4x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x2yax4x2yb1 x4x2ya2 x4x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x2yax4x2yb2 x4x2ya3 x4x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x2yax4x2yb3 x4x2ya4 x4x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (5,2)
+Cx4x2yax5x2yb0 x4x2ya1 x5x2yb1 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2yb1 x4x2ya2 x5x2yb2 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2yb2 x4x2ya3 x5x2yb3 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2yb3 x4x2ya4 x5x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (5,2)
+Cx4x2ybx5x2ya0 x4x2yb1 x5x2ya1 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2ya1 x4x2yb2 x5x2ya2 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2ya2 x4x2yb3 x5x2ya3 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2ya3 x4x2yb4 x5x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (5,2)
+Cx4x2yax5x2ya0 x4x2ya1 x5x2ya2 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2ya1 x4x2ya2 x5x2ya3 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2ya2 x4x2ya3 x5x2ya4 5e-08 Rser=0 Rpar=0
+Cx4x2yax5x2ya3 x4x2ya4 x5x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (5,2)
+Cx4x2ybx5x2yb0 x4x2yb1 x5x2yb2 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2yb1 x4x2yb2 x5x2yb3 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2yb2 x4x2yb3 x5x2yb4 5e-08 Rser=0 Rpar=0
+Cx4x2ybx5x2yb3 x4x2yb4 x5x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,2) and (4,3)
+Cx4x2ybx4x3ya0 x4x2yb1 x4x3ya1 1e-07 Rser=0 Rpar=0
+Cx4x2ybx4x3ya1 x4x2yb2 x4x3ya2 1e-07 Rser=0 Rpar=0
+Cx4x2ybx4x3ya2 x4x2yb3 x4x3ya3 1e-07 Rser=0 Rpar=0
+Cx4x2ybx4x3ya3 x4x2yb4 x4x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (5,2)
+Cx5x2yax5x2yb0 x5x2ya1 x5x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x2yax5x2yb1 x5x2ya2 x5x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x2yax5x2yb2 x5x2ya3 x5x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x2yax5x2yb3 x5x2ya4 x5x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (6,2)
+Cx5x2yax6x2yb0 x5x2ya1 x6x2yb1 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2yb1 x5x2ya2 x6x2yb2 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2yb2 x5x2ya3 x6x2yb3 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2yb3 x5x2ya4 x6x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (6,2)
+Cx5x2ybx6x2ya0 x5x2yb1 x6x2ya1 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2ya1 x5x2yb2 x6x2ya2 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2ya2 x5x2yb3 x6x2ya3 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2ya3 x5x2yb4 x6x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (6,2)
+Cx5x2yax6x2ya0 x5x2ya1 x6x2ya2 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2ya1 x5x2ya2 x6x2ya3 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2ya2 x5x2ya3 x6x2ya4 5e-08 Rser=0 Rpar=0
+Cx5x2yax6x2ya3 x5x2ya4 x6x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (6,2)
+Cx5x2ybx6x2yb0 x5x2yb1 x6x2yb2 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2yb1 x5x2yb2 x6x2yb3 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2yb2 x5x2yb3 x6x2yb4 5e-08 Rser=0 Rpar=0
+Cx5x2ybx6x2yb3 x5x2yb4 x6x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,2) and (5,3)
+Cx5x2ybx5x3ya0 x5x2yb1 x5x3ya1 1e-07 Rser=0 Rpar=0
+Cx5x2ybx5x3ya1 x5x2yb2 x5x3ya2 1e-07 Rser=0 Rpar=0
+Cx5x2ybx5x3ya2 x5x2yb3 x5x3ya3 1e-07 Rser=0 Rpar=0
+Cx5x2ybx5x3ya3 x5x2yb4 x5x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (6,2)
+Cx6x2yax6x2yb0 x6x2ya1 x6x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x2yax6x2yb1 x6x2ya2 x6x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x2yax6x2yb2 x6x2ya3 x6x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x2yax6x2yb3 x6x2ya4 x6x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (7,2)
+Cx6x2yax7x2yb0 x6x2ya1 x7x2yb1 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2yb1 x6x2ya2 x7x2yb2 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2yb2 x6x2ya3 x7x2yb3 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2yb3 x6x2ya4 x7x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (7,2)
+Cx6x2ybx7x2ya0 x6x2yb1 x7x2ya1 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2ya1 x6x2yb2 x7x2ya2 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2ya2 x6x2yb3 x7x2ya3 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2ya3 x6x2yb4 x7x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (7,2)
+Cx6x2yax7x2ya0 x6x2ya1 x7x2ya2 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2ya1 x6x2ya2 x7x2ya3 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2ya2 x6x2ya3 x7x2ya4 5e-08 Rser=0 Rpar=0
+Cx6x2yax7x2ya3 x6x2ya4 x7x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (7,2)
+Cx6x2ybx7x2yb0 x6x2yb1 x7x2yb2 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2yb1 x6x2yb2 x7x2yb3 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2yb2 x6x2yb3 x7x2yb4 5e-08 Rser=0 Rpar=0
+Cx6x2ybx7x2yb3 x6x2yb4 x7x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,2) and (6,3)
+Cx6x2ybx6x3ya0 x6x2yb1 x6x3ya1 1e-07 Rser=0 Rpar=0
+Cx6x2ybx6x3ya1 x6x2yb2 x6x3ya2 1e-07 Rser=0 Rpar=0
+Cx6x2ybx6x3ya2 x6x2yb3 x6x3ya3 1e-07 Rser=0 Rpar=0
+Cx6x2ybx6x3ya3 x6x2yb4 x6x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (7,2)
+Cx7x2yax7x2yb0 x7x2ya1 x7x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x2yax7x2yb1 x7x2ya2 x7x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x2yax7x2yb2 x7x2ya3 x7x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x2yax7x2yb3 x7x2ya4 x7x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (8,2)
+Cx7x2yax8x2yb0 x7x2ya1 x8x2yb1 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2yb1 x7x2ya2 x8x2yb2 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2yb2 x7x2ya3 x8x2yb3 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2yb3 x7x2ya4 x8x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (8,2)
+Cx7x2ybx8x2ya0 x7x2yb1 x8x2ya1 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2ya1 x7x2yb2 x8x2ya2 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2ya2 x7x2yb3 x8x2ya3 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2ya3 x7x2yb4 x8x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (8,2)
+Cx7x2yax8x2ya0 x7x2ya1 x8x2ya2 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2ya1 x7x2ya2 x8x2ya3 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2ya2 x7x2ya3 x8x2ya4 5e-08 Rser=0 Rpar=0
+Cx7x2yax8x2ya3 x7x2ya4 x8x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (8,2)
+Cx7x2ybx8x2yb0 x7x2yb1 x8x2yb2 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2yb1 x7x2yb2 x8x2yb3 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2yb2 x7x2yb3 x8x2yb4 5e-08 Rser=0 Rpar=0
+Cx7x2ybx8x2yb3 x7x2yb4 x8x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,2) and (7,3)
+Cx7x2ybx7x3ya0 x7x2yb1 x7x3ya1 1e-07 Rser=0 Rpar=0
+Cx7x2ybx7x3ya1 x7x2yb2 x7x3ya2 1e-07 Rser=0 Rpar=0
+Cx7x2ybx7x3ya2 x7x2yb3 x7x3ya3 1e-07 Rser=0 Rpar=0
+Cx7x2ybx7x3ya3 x7x2yb4 x7x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (8,2)
+Cx8x2yax8x2yb0 x8x2ya1 x8x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x2yax8x2yb1 x8x2ya2 x8x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x2yax8x2yb2 x8x2ya3 x8x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x2yax8x2yb3 x8x2ya4 x8x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (9,2)
+Cx8x2yax9x2yb0 x8x2ya1 x9x2yb1 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2yb1 x8x2ya2 x9x2yb2 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2yb2 x8x2ya3 x9x2yb3 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2yb3 x8x2ya4 x9x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (9,2)
+Cx8x2ybx9x2ya0 x8x2yb1 x9x2ya1 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2ya1 x8x2yb2 x9x2ya2 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2ya2 x8x2yb3 x9x2ya3 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2ya3 x8x2yb4 x9x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (9,2)
+Cx8x2yax9x2ya0 x8x2ya1 x9x2ya2 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2ya1 x8x2ya2 x9x2ya3 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2ya2 x8x2ya3 x9x2ya4 5e-08 Rser=0 Rpar=0
+Cx8x2yax9x2ya3 x8x2ya4 x9x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (9,2)
+Cx8x2ybx9x2yb0 x8x2yb1 x9x2yb2 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2yb1 x8x2yb2 x9x2yb3 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2yb2 x8x2yb3 x9x2yb4 5e-08 Rser=0 Rpar=0
+Cx8x2ybx9x2yb3 x8x2yb4 x9x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,2) and (8,3)
+Cx8x2ybx8x3ya0 x8x2yb1 x8x3ya1 1e-07 Rser=0 Rpar=0
+Cx8x2ybx8x3ya1 x8x2yb2 x8x3ya2 1e-07 Rser=0 Rpar=0
+Cx8x2ybx8x3ya2 x8x2yb3 x8x3ya3 1e-07 Rser=0 Rpar=0
+Cx8x2ybx8x3ya3 x8x2yb4 x8x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (9,2)
+Cx9x2yax9x2yb0 x9x2ya1 x9x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x2yax9x2yb1 x9x2ya2 x9x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x2yax9x2yb2 x9x2ya3 x9x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x2yax9x2yb3 x9x2ya4 x9x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (10,2)
+Cx9x2yax10x2yb0 x9x2ya1 x10x2yb1 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2yb1 x9x2ya2 x10x2yb2 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2yb2 x9x2ya3 x10x2yb3 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2yb3 x9x2ya4 x10x2yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (10,2)
+Cx9x2ybx10x2ya0 x9x2yb1 x10x2ya1 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2ya1 x9x2yb2 x10x2ya2 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2ya2 x9x2yb3 x10x2ya3 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2ya3 x9x2yb4 x10x2ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (10,2)
+Cx9x2yax10x2ya0 x9x2ya1 x10x2ya2 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2ya1 x9x2ya2 x10x2ya3 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2ya2 x9x2ya3 x10x2ya4 5e-08 Rser=0 Rpar=0
+Cx9x2yax10x2ya3 x9x2ya4 x10x2ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (10,2)
+Cx9x2ybx10x2yb0 x9x2yb1 x10x2yb2 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2yb1 x9x2yb2 x10x2yb3 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2yb2 x9x2yb3 x10x2yb4 5e-08 Rser=0 Rpar=0
+Cx9x2ybx10x2yb3 x9x2yb4 x10x2yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,2) and (9,3)
+Cx9x2ybx9x3ya0 x9x2yb1 x9x3ya1 1e-07 Rser=0 Rpar=0
+Cx9x2ybx9x3ya1 x9x2yb2 x9x3ya2 1e-07 Rser=0 Rpar=0
+Cx9x2ybx9x3ya2 x9x2yb3 x9x3ya3 1e-07 Rser=0 Rpar=0
+Cx9x2ybx9x3ya3 x9x2yb4 x9x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (1,3)
+Cx1x3yax1x3yb0 x1x3ya1 x1x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x3yax1x3yb1 x1x3ya2 x1x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x3yax1x3yb2 x1x3ya3 x1x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x3yax1x3yb3 x1x3ya4 x1x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (2,3)
+Cx1x3yax2x3yb0 x1x3ya1 x2x3yb1 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3yb1 x1x3ya2 x2x3yb2 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3yb2 x1x3ya3 x2x3yb3 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3yb3 x1x3ya4 x2x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (2,3)
+Cx1x3ybx2x3ya0 x1x3yb1 x2x3ya1 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3ya1 x1x3yb2 x2x3ya2 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3ya2 x1x3yb3 x2x3ya3 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3ya3 x1x3yb4 x2x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (2,3)
+Cx1x3yax2x3ya0 x1x3ya1 x2x3ya2 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3ya1 x1x3ya2 x2x3ya3 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3ya2 x1x3ya3 x2x3ya4 5e-08 Rser=0 Rpar=0
+Cx1x3yax2x3ya3 x1x3ya4 x2x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (2,3)
+Cx1x3ybx2x3yb0 x1x3yb1 x2x3yb2 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3yb1 x1x3yb2 x2x3yb3 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3yb2 x1x3yb3 x2x3yb4 5e-08 Rser=0 Rpar=0
+Cx1x3ybx2x3yb3 x1x3yb4 x2x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,3) and (1,4)
+Cx1x3ybx1x4ya0 x1x3yb1 x1x4ya1 1e-07 Rser=0 Rpar=0
+Cx1x3ybx1x4ya1 x1x3yb2 x1x4ya2 1e-07 Rser=0 Rpar=0
+Cx1x3ybx1x4ya2 x1x3yb3 x1x4ya3 1e-07 Rser=0 Rpar=0
+Cx1x3ybx1x4ya3 x1x3yb4 x1x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (2,3)
+Cx2x3yax2x3yb0 x2x3ya1 x2x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x3yax2x3yb1 x2x3ya2 x2x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x3yax2x3yb2 x2x3ya3 x2x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x3yax2x3yb3 x2x3ya4 x2x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (3,3)
+Cx2x3yax3x3yb0 x2x3ya1 x3x3yb1 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3yb1 x2x3ya2 x3x3yb2 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3yb2 x2x3ya3 x3x3yb3 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3yb3 x2x3ya4 x3x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (3,3)
+Cx2x3ybx3x3ya0 x2x3yb1 x3x3ya1 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3ya1 x2x3yb2 x3x3ya2 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3ya2 x2x3yb3 x3x3ya3 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3ya3 x2x3yb4 x3x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (3,3)
+Cx2x3yax3x3ya0 x2x3ya1 x3x3ya2 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3ya1 x2x3ya2 x3x3ya3 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3ya2 x2x3ya3 x3x3ya4 5e-08 Rser=0 Rpar=0
+Cx2x3yax3x3ya3 x2x3ya4 x3x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (3,3)
+Cx2x3ybx3x3yb0 x2x3yb1 x3x3yb2 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3yb1 x2x3yb2 x3x3yb3 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3yb2 x2x3yb3 x3x3yb4 5e-08 Rser=0 Rpar=0
+Cx2x3ybx3x3yb3 x2x3yb4 x3x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,3) and (2,4)
+Cx2x3ybx2x4ya0 x2x3yb1 x2x4ya1 1e-07 Rser=0 Rpar=0
+Cx2x3ybx2x4ya1 x2x3yb2 x2x4ya2 1e-07 Rser=0 Rpar=0
+Cx2x3ybx2x4ya2 x2x3yb3 x2x4ya3 1e-07 Rser=0 Rpar=0
+Cx2x3ybx2x4ya3 x2x3yb4 x2x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (3,3)
+Cx3x3yax3x3yb0 x3x3ya1 x3x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x3yax3x3yb1 x3x3ya2 x3x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x3yax3x3yb2 x3x3ya3 x3x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x3yax3x3yb3 x3x3ya4 x3x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (4,3)
+Cx3x3yax4x3yb0 x3x3ya1 x4x3yb1 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3yb1 x3x3ya2 x4x3yb2 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3yb2 x3x3ya3 x4x3yb3 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3yb3 x3x3ya4 x4x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (4,3)
+Cx3x3ybx4x3ya0 x3x3yb1 x4x3ya1 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3ya1 x3x3yb2 x4x3ya2 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3ya2 x3x3yb3 x4x3ya3 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3ya3 x3x3yb4 x4x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (4,3)
+Cx3x3yax4x3ya0 x3x3ya1 x4x3ya2 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3ya1 x3x3ya2 x4x3ya3 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3ya2 x3x3ya3 x4x3ya4 5e-08 Rser=0 Rpar=0
+Cx3x3yax4x3ya3 x3x3ya4 x4x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (4,3)
+Cx3x3ybx4x3yb0 x3x3yb1 x4x3yb2 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3yb1 x3x3yb2 x4x3yb3 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3yb2 x3x3yb3 x4x3yb4 5e-08 Rser=0 Rpar=0
+Cx3x3ybx4x3yb3 x3x3yb4 x4x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,3) and (3,4)
+Cx3x3ybx3x4ya0 x3x3yb1 x3x4ya1 1e-07 Rser=0 Rpar=0
+Cx3x3ybx3x4ya1 x3x3yb2 x3x4ya2 1e-07 Rser=0 Rpar=0
+Cx3x3ybx3x4ya2 x3x3yb3 x3x4ya3 1e-07 Rser=0 Rpar=0
+Cx3x3ybx3x4ya3 x3x3yb4 x3x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (4,3)
+Cx4x3yax4x3yb0 x4x3ya1 x4x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x3yax4x3yb1 x4x3ya2 x4x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x3yax4x3yb2 x4x3ya3 x4x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x3yax4x3yb3 x4x3ya4 x4x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (5,3)
+Cx4x3yax5x3yb0 x4x3ya1 x5x3yb1 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3yb1 x4x3ya2 x5x3yb2 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3yb2 x4x3ya3 x5x3yb3 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3yb3 x4x3ya4 x5x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (5,3)
+Cx4x3ybx5x3ya0 x4x3yb1 x5x3ya1 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3ya1 x4x3yb2 x5x3ya2 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3ya2 x4x3yb3 x5x3ya3 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3ya3 x4x3yb4 x5x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (5,3)
+Cx4x3yax5x3ya0 x4x3ya1 x5x3ya2 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3ya1 x4x3ya2 x5x3ya3 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3ya2 x4x3ya3 x5x3ya4 5e-08 Rser=0 Rpar=0
+Cx4x3yax5x3ya3 x4x3ya4 x5x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (5,3)
+Cx4x3ybx5x3yb0 x4x3yb1 x5x3yb2 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3yb1 x4x3yb2 x5x3yb3 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3yb2 x4x3yb3 x5x3yb4 5e-08 Rser=0 Rpar=0
+Cx4x3ybx5x3yb3 x4x3yb4 x5x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,3) and (4,4)
+Cx4x3ybx4x4ya0 x4x3yb1 x4x4ya1 1e-07 Rser=0 Rpar=0
+Cx4x3ybx4x4ya1 x4x3yb2 x4x4ya2 1e-07 Rser=0 Rpar=0
+Cx4x3ybx4x4ya2 x4x3yb3 x4x4ya3 1e-07 Rser=0 Rpar=0
+Cx4x3ybx4x4ya3 x4x3yb4 x4x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (5,3)
+Cx5x3yax5x3yb0 x5x3ya1 x5x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x3yax5x3yb1 x5x3ya2 x5x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x3yax5x3yb2 x5x3ya3 x5x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x3yax5x3yb3 x5x3ya4 x5x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (6,3)
+Cx5x3yax6x3yb0 x5x3ya1 x6x3yb1 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3yb1 x5x3ya2 x6x3yb2 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3yb2 x5x3ya3 x6x3yb3 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3yb3 x5x3ya4 x6x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (6,3)
+Cx5x3ybx6x3ya0 x5x3yb1 x6x3ya1 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3ya1 x5x3yb2 x6x3ya2 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3ya2 x5x3yb3 x6x3ya3 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3ya3 x5x3yb4 x6x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (6,3)
+Cx5x3yax6x3ya0 x5x3ya1 x6x3ya2 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3ya1 x5x3ya2 x6x3ya3 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3ya2 x5x3ya3 x6x3ya4 5e-08 Rser=0 Rpar=0
+Cx5x3yax6x3ya3 x5x3ya4 x6x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (6,3)
+Cx5x3ybx6x3yb0 x5x3yb1 x6x3yb2 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3yb1 x5x3yb2 x6x3yb3 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3yb2 x5x3yb3 x6x3yb4 5e-08 Rser=0 Rpar=0
+Cx5x3ybx6x3yb3 x5x3yb4 x6x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,3) and (5,4)
+Cx5x3ybx5x4ya0 x5x3yb1 x5x4ya1 1e-07 Rser=0 Rpar=0
+Cx5x3ybx5x4ya1 x5x3yb2 x5x4ya2 1e-07 Rser=0 Rpar=0
+Cx5x3ybx5x4ya2 x5x3yb3 x5x4ya3 1e-07 Rser=0 Rpar=0
+Cx5x3ybx5x4ya3 x5x3yb4 x5x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (6,3)
+Cx6x3yax6x3yb0 x6x3ya1 x6x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x3yax6x3yb1 x6x3ya2 x6x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x3yax6x3yb2 x6x3ya3 x6x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x3yax6x3yb3 x6x3ya4 x6x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (7,3)
+Cx6x3yax7x3yb0 x6x3ya1 x7x3yb1 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3yb1 x6x3ya2 x7x3yb2 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3yb2 x6x3ya3 x7x3yb3 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3yb3 x6x3ya4 x7x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (7,3)
+Cx6x3ybx7x3ya0 x6x3yb1 x7x3ya1 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3ya1 x6x3yb2 x7x3ya2 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3ya2 x6x3yb3 x7x3ya3 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3ya3 x6x3yb4 x7x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (7,3)
+Cx6x3yax7x3ya0 x6x3ya1 x7x3ya2 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3ya1 x6x3ya2 x7x3ya3 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3ya2 x6x3ya3 x7x3ya4 5e-08 Rser=0 Rpar=0
+Cx6x3yax7x3ya3 x6x3ya4 x7x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (7,3)
+Cx6x3ybx7x3yb0 x6x3yb1 x7x3yb2 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3yb1 x6x3yb2 x7x3yb3 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3yb2 x6x3yb3 x7x3yb4 5e-08 Rser=0 Rpar=0
+Cx6x3ybx7x3yb3 x6x3yb4 x7x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,3) and (6,4)
+Cx6x3ybx6x4ya0 x6x3yb1 x6x4ya1 1e-07 Rser=0 Rpar=0
+Cx6x3ybx6x4ya1 x6x3yb2 x6x4ya2 1e-07 Rser=0 Rpar=0
+Cx6x3ybx6x4ya2 x6x3yb3 x6x4ya3 1e-07 Rser=0 Rpar=0
+Cx6x3ybx6x4ya3 x6x3yb4 x6x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (7,3)
+Cx7x3yax7x3yb0 x7x3ya1 x7x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x3yax7x3yb1 x7x3ya2 x7x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x3yax7x3yb2 x7x3ya3 x7x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x3yax7x3yb3 x7x3ya4 x7x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (8,3)
+Cx7x3yax8x3yb0 x7x3ya1 x8x3yb1 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3yb1 x7x3ya2 x8x3yb2 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3yb2 x7x3ya3 x8x3yb3 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3yb3 x7x3ya4 x8x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (8,3)
+Cx7x3ybx8x3ya0 x7x3yb1 x8x3ya1 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3ya1 x7x3yb2 x8x3ya2 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3ya2 x7x3yb3 x8x3ya3 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3ya3 x7x3yb4 x8x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (8,3)
+Cx7x3yax8x3ya0 x7x3ya1 x8x3ya2 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3ya1 x7x3ya2 x8x3ya3 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3ya2 x7x3ya3 x8x3ya4 5e-08 Rser=0 Rpar=0
+Cx7x3yax8x3ya3 x7x3ya4 x8x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (8,3)
+Cx7x3ybx8x3yb0 x7x3yb1 x8x3yb2 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3yb1 x7x3yb2 x8x3yb3 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3yb2 x7x3yb3 x8x3yb4 5e-08 Rser=0 Rpar=0
+Cx7x3ybx8x3yb3 x7x3yb4 x8x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,3) and (7,4)
+Cx7x3ybx7x4ya0 x7x3yb1 x7x4ya1 1e-07 Rser=0 Rpar=0
+Cx7x3ybx7x4ya1 x7x3yb2 x7x4ya2 1e-07 Rser=0 Rpar=0
+Cx7x3ybx7x4ya2 x7x3yb3 x7x4ya3 1e-07 Rser=0 Rpar=0
+Cx7x3ybx7x4ya3 x7x3yb4 x7x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (8,3)
+Cx8x3yax8x3yb0 x8x3ya1 x8x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x3yax8x3yb1 x8x3ya2 x8x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x3yax8x3yb2 x8x3ya3 x8x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x3yax8x3yb3 x8x3ya4 x8x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (9,3)
+Cx8x3yax9x3yb0 x8x3ya1 x9x3yb1 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3yb1 x8x3ya2 x9x3yb2 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3yb2 x8x3ya3 x9x3yb3 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3yb3 x8x3ya4 x9x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (9,3)
+Cx8x3ybx9x3ya0 x8x3yb1 x9x3ya1 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3ya1 x8x3yb2 x9x3ya2 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3ya2 x8x3yb3 x9x3ya3 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3ya3 x8x3yb4 x9x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (9,3)
+Cx8x3yax9x3ya0 x8x3ya1 x9x3ya2 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3ya1 x8x3ya2 x9x3ya3 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3ya2 x8x3ya3 x9x3ya4 5e-08 Rser=0 Rpar=0
+Cx8x3yax9x3ya3 x8x3ya4 x9x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (9,3)
+Cx8x3ybx9x3yb0 x8x3yb1 x9x3yb2 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3yb1 x8x3yb2 x9x3yb3 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3yb2 x8x3yb3 x9x3yb4 5e-08 Rser=0 Rpar=0
+Cx8x3ybx9x3yb3 x8x3yb4 x9x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,3) and (8,4)
+Cx8x3ybx8x4ya0 x8x3yb1 x8x4ya1 1e-07 Rser=0 Rpar=0
+Cx8x3ybx8x4ya1 x8x3yb2 x8x4ya2 1e-07 Rser=0 Rpar=0
+Cx8x3ybx8x4ya2 x8x3yb3 x8x4ya3 1e-07 Rser=0 Rpar=0
+Cx8x3ybx8x4ya3 x8x3yb4 x8x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (9,3)
+Cx9x3yax9x3yb0 x9x3ya1 x9x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x3yax9x3yb1 x9x3ya2 x9x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x3yax9x3yb2 x9x3ya3 x9x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x3yax9x3yb3 x9x3ya4 x9x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (10,3)
+Cx9x3yax10x3yb0 x9x3ya1 x10x3yb1 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3yb1 x9x3ya2 x10x3yb2 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3yb2 x9x3ya3 x10x3yb3 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3yb3 x9x3ya4 x10x3yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (10,3)
+Cx9x3ybx10x3ya0 x9x3yb1 x10x3ya1 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3ya1 x9x3yb2 x10x3ya2 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3ya2 x9x3yb3 x10x3ya3 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3ya3 x9x3yb4 x10x3ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (10,3)
+Cx9x3yax10x3ya0 x9x3ya1 x10x3ya2 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3ya1 x9x3ya2 x10x3ya3 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3ya2 x9x3ya3 x10x3ya4 5e-08 Rser=0 Rpar=0
+Cx9x3yax10x3ya3 x9x3ya4 x10x3ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (10,3)
+Cx9x3ybx10x3yb0 x9x3yb1 x10x3yb2 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3yb1 x9x3yb2 x10x3yb3 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3yb2 x9x3yb3 x10x3yb4 5e-08 Rser=0 Rpar=0
+Cx9x3ybx10x3yb3 x9x3yb4 x10x3yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,3) and (9,4)
+Cx9x3ybx9x4ya0 x9x3yb1 x9x4ya1 1e-07 Rser=0 Rpar=0
+Cx9x3ybx9x4ya1 x9x3yb2 x9x4ya2 1e-07 Rser=0 Rpar=0
+Cx9x3ybx9x4ya2 x9x3yb3 x9x4ya3 1e-07 Rser=0 Rpar=0
+Cx9x3ybx9x4ya3 x9x3yb4 x9x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (1,4)
+Cx1x4yax1x4yb0 x1x4ya1 x1x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x4yax1x4yb1 x1x4ya2 x1x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x4yax1x4yb2 x1x4ya3 x1x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x4yax1x4yb3 x1x4ya4 x1x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (2,4)
+Cx1x4yax2x4yb0 x1x4ya1 x2x4yb1 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4yb1 x1x4ya2 x2x4yb2 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4yb2 x1x4ya3 x2x4yb3 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4yb3 x1x4ya4 x2x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (2,4)
+Cx1x4ybx2x4ya0 x1x4yb1 x2x4ya1 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4ya1 x1x4yb2 x2x4ya2 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4ya2 x1x4yb3 x2x4ya3 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4ya3 x1x4yb4 x2x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (2,4)
+Cx1x4yax2x4ya0 x1x4ya1 x2x4ya2 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4ya1 x1x4ya2 x2x4ya3 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4ya2 x1x4ya3 x2x4ya4 5e-08 Rser=0 Rpar=0
+Cx1x4yax2x4ya3 x1x4ya4 x2x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (2,4)
+Cx1x4ybx2x4yb0 x1x4yb1 x2x4yb2 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4yb1 x1x4yb2 x2x4yb3 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4yb2 x1x4yb3 x2x4yb4 5e-08 Rser=0 Rpar=0
+Cx1x4ybx2x4yb3 x1x4yb4 x2x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,4) and (1,5)
+Cx1x4ybx1x5ya0 x1x4yb1 x1x5ya1 1e-07 Rser=0 Rpar=0
+Cx1x4ybx1x5ya1 x1x4yb2 x1x5ya2 1e-07 Rser=0 Rpar=0
+Cx1x4ybx1x5ya2 x1x4yb3 x1x5ya3 1e-07 Rser=0 Rpar=0
+Cx1x4ybx1x5ya3 x1x4yb4 x1x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (2,4)
+Cx2x4yax2x4yb0 x2x4ya1 x2x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x4yax2x4yb1 x2x4ya2 x2x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x4yax2x4yb2 x2x4ya3 x2x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x4yax2x4yb3 x2x4ya4 x2x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (3,4)
+Cx2x4yax3x4yb0 x2x4ya1 x3x4yb1 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4yb1 x2x4ya2 x3x4yb2 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4yb2 x2x4ya3 x3x4yb3 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4yb3 x2x4ya4 x3x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (3,4)
+Cx2x4ybx3x4ya0 x2x4yb1 x3x4ya1 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4ya1 x2x4yb2 x3x4ya2 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4ya2 x2x4yb3 x3x4ya3 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4ya3 x2x4yb4 x3x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (3,4)
+Cx2x4yax3x4ya0 x2x4ya1 x3x4ya2 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4ya1 x2x4ya2 x3x4ya3 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4ya2 x2x4ya3 x3x4ya4 5e-08 Rser=0 Rpar=0
+Cx2x4yax3x4ya3 x2x4ya4 x3x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (3,4)
+Cx2x4ybx3x4yb0 x2x4yb1 x3x4yb2 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4yb1 x2x4yb2 x3x4yb3 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4yb2 x2x4yb3 x3x4yb4 5e-08 Rser=0 Rpar=0
+Cx2x4ybx3x4yb3 x2x4yb4 x3x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,4) and (2,5)
+Cx2x4ybx2x5ya0 x2x4yb1 x2x5ya1 1e-07 Rser=0 Rpar=0
+Cx2x4ybx2x5ya1 x2x4yb2 x2x5ya2 1e-07 Rser=0 Rpar=0
+Cx2x4ybx2x5ya2 x2x4yb3 x2x5ya3 1e-07 Rser=0 Rpar=0
+Cx2x4ybx2x5ya3 x2x4yb4 x2x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (3,4)
+Cx3x4yax3x4yb0 x3x4ya1 x3x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x4yax3x4yb1 x3x4ya2 x3x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x4yax3x4yb2 x3x4ya3 x3x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x4yax3x4yb3 x3x4ya4 x3x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (4,4)
+Cx3x4yax4x4yb0 x3x4ya1 x4x4yb1 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4yb1 x3x4ya2 x4x4yb2 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4yb2 x3x4ya3 x4x4yb3 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4yb3 x3x4ya4 x4x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (4,4)
+Cx3x4ybx4x4ya0 x3x4yb1 x4x4ya1 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4ya1 x3x4yb2 x4x4ya2 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4ya2 x3x4yb3 x4x4ya3 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4ya3 x3x4yb4 x4x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (4,4)
+Cx3x4yax4x4ya0 x3x4ya1 x4x4ya2 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4ya1 x3x4ya2 x4x4ya3 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4ya2 x3x4ya3 x4x4ya4 5e-08 Rser=0 Rpar=0
+Cx3x4yax4x4ya3 x3x4ya4 x4x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (4,4)
+Cx3x4ybx4x4yb0 x3x4yb1 x4x4yb2 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4yb1 x3x4yb2 x4x4yb3 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4yb2 x3x4yb3 x4x4yb4 5e-08 Rser=0 Rpar=0
+Cx3x4ybx4x4yb3 x3x4yb4 x4x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,4) and (3,5)
+Cx3x4ybx3x5ya0 x3x4yb1 x3x5ya1 1e-07 Rser=0 Rpar=0
+Cx3x4ybx3x5ya1 x3x4yb2 x3x5ya2 1e-07 Rser=0 Rpar=0
+Cx3x4ybx3x5ya2 x3x4yb3 x3x5ya3 1e-07 Rser=0 Rpar=0
+Cx3x4ybx3x5ya3 x3x4yb4 x3x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (4,4)
+Cx4x4yax4x4yb0 x4x4ya1 x4x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x4yax4x4yb1 x4x4ya2 x4x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x4yax4x4yb2 x4x4ya3 x4x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x4yax4x4yb3 x4x4ya4 x4x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (5,4)
+Cx4x4yax5x4yb0 x4x4ya1 x5x4yb1 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4yb1 x4x4ya2 x5x4yb2 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4yb2 x4x4ya3 x5x4yb3 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4yb3 x4x4ya4 x5x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (5,4)
+Cx4x4ybx5x4ya0 x4x4yb1 x5x4ya1 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4ya1 x4x4yb2 x5x4ya2 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4ya2 x4x4yb3 x5x4ya3 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4ya3 x4x4yb4 x5x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (5,4)
+Cx4x4yax5x4ya0 x4x4ya1 x5x4ya2 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4ya1 x4x4ya2 x5x4ya3 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4ya2 x4x4ya3 x5x4ya4 5e-08 Rser=0 Rpar=0
+Cx4x4yax5x4ya3 x4x4ya4 x5x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (5,4)
+Cx4x4ybx5x4yb0 x4x4yb1 x5x4yb2 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4yb1 x4x4yb2 x5x4yb3 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4yb2 x4x4yb3 x5x4yb4 5e-08 Rser=0 Rpar=0
+Cx4x4ybx5x4yb3 x4x4yb4 x5x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,4) and (4,5)
+Cx4x4ybx4x5ya0 x4x4yb1 x4x5ya1 1e-07 Rser=0 Rpar=0
+Cx4x4ybx4x5ya1 x4x4yb2 x4x5ya2 1e-07 Rser=0 Rpar=0
+Cx4x4ybx4x5ya2 x4x4yb3 x4x5ya3 1e-07 Rser=0 Rpar=0
+Cx4x4ybx4x5ya3 x4x4yb4 x4x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (5,4)
+Cx5x4yax5x4yb0 x5x4ya1 x5x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x4yax5x4yb1 x5x4ya2 x5x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x4yax5x4yb2 x5x4ya3 x5x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x4yax5x4yb3 x5x4ya4 x5x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (6,4)
+Cx5x4yax6x4yb0 x5x4ya1 x6x4yb1 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4yb1 x5x4ya2 x6x4yb2 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4yb2 x5x4ya3 x6x4yb3 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4yb3 x5x4ya4 x6x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (6,4)
+Cx5x4ybx6x4ya0 x5x4yb1 x6x4ya1 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4ya1 x5x4yb2 x6x4ya2 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4ya2 x5x4yb3 x6x4ya3 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4ya3 x5x4yb4 x6x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (6,4)
+Cx5x4yax6x4ya0 x5x4ya1 x6x4ya2 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4ya1 x5x4ya2 x6x4ya3 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4ya2 x5x4ya3 x6x4ya4 5e-08 Rser=0 Rpar=0
+Cx5x4yax6x4ya3 x5x4ya4 x6x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (6,4)
+Cx5x4ybx6x4yb0 x5x4yb1 x6x4yb2 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4yb1 x5x4yb2 x6x4yb3 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4yb2 x5x4yb3 x6x4yb4 5e-08 Rser=0 Rpar=0
+Cx5x4ybx6x4yb3 x5x4yb4 x6x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,4) and (5,5)
+Cx5x4ybx5x5ya0 x5x4yb1 x5x5ya1 1e-07 Rser=0 Rpar=0
+Cx5x4ybx5x5ya1 x5x4yb2 x5x5ya2 1e-07 Rser=0 Rpar=0
+Cx5x4ybx5x5ya2 x5x4yb3 x5x5ya3 1e-07 Rser=0 Rpar=0
+Cx5x4ybx5x5ya3 x5x4yb4 x5x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (6,4)
+Cx6x4yax6x4yb0 x6x4ya1 x6x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x4yax6x4yb1 x6x4ya2 x6x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x4yax6x4yb2 x6x4ya3 x6x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x4yax6x4yb3 x6x4ya4 x6x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (7,4)
+Cx6x4yax7x4yb0 x6x4ya1 x7x4yb1 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4yb1 x6x4ya2 x7x4yb2 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4yb2 x6x4ya3 x7x4yb3 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4yb3 x6x4ya4 x7x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (7,4)
+Cx6x4ybx7x4ya0 x6x4yb1 x7x4ya1 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4ya1 x6x4yb2 x7x4ya2 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4ya2 x6x4yb3 x7x4ya3 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4ya3 x6x4yb4 x7x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (7,4)
+Cx6x4yax7x4ya0 x6x4ya1 x7x4ya2 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4ya1 x6x4ya2 x7x4ya3 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4ya2 x6x4ya3 x7x4ya4 5e-08 Rser=0 Rpar=0
+Cx6x4yax7x4ya3 x6x4ya4 x7x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (7,4)
+Cx6x4ybx7x4yb0 x6x4yb1 x7x4yb2 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4yb1 x6x4yb2 x7x4yb3 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4yb2 x6x4yb3 x7x4yb4 5e-08 Rser=0 Rpar=0
+Cx6x4ybx7x4yb3 x6x4yb4 x7x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,4) and (6,5)
+Cx6x4ybx6x5ya0 x6x4yb1 x6x5ya1 1e-07 Rser=0 Rpar=0
+Cx6x4ybx6x5ya1 x6x4yb2 x6x5ya2 1e-07 Rser=0 Rpar=0
+Cx6x4ybx6x5ya2 x6x4yb3 x6x5ya3 1e-07 Rser=0 Rpar=0
+Cx6x4ybx6x5ya3 x6x4yb4 x6x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (7,4)
+Cx7x4yax7x4yb0 x7x4ya1 x7x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x4yax7x4yb1 x7x4ya2 x7x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x4yax7x4yb2 x7x4ya3 x7x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x4yax7x4yb3 x7x4ya4 x7x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (8,4)
+Cx7x4yax8x4yb0 x7x4ya1 x8x4yb1 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4yb1 x7x4ya2 x8x4yb2 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4yb2 x7x4ya3 x8x4yb3 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4yb3 x7x4ya4 x8x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (8,4)
+Cx7x4ybx8x4ya0 x7x4yb1 x8x4ya1 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4ya1 x7x4yb2 x8x4ya2 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4ya2 x7x4yb3 x8x4ya3 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4ya3 x7x4yb4 x8x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (8,4)
+Cx7x4yax8x4ya0 x7x4ya1 x8x4ya2 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4ya1 x7x4ya2 x8x4ya3 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4ya2 x7x4ya3 x8x4ya4 5e-08 Rser=0 Rpar=0
+Cx7x4yax8x4ya3 x7x4ya4 x8x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (8,4)
+Cx7x4ybx8x4yb0 x7x4yb1 x8x4yb2 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4yb1 x7x4yb2 x8x4yb3 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4yb2 x7x4yb3 x8x4yb4 5e-08 Rser=0 Rpar=0
+Cx7x4ybx8x4yb3 x7x4yb4 x8x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,4) and (7,5)
+Cx7x4ybx7x5ya0 x7x4yb1 x7x5ya1 1e-07 Rser=0 Rpar=0
+Cx7x4ybx7x5ya1 x7x4yb2 x7x5ya2 1e-07 Rser=0 Rpar=0
+Cx7x4ybx7x5ya2 x7x4yb3 x7x5ya3 1e-07 Rser=0 Rpar=0
+Cx7x4ybx7x5ya3 x7x4yb4 x7x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (8,4)
+Cx8x4yax8x4yb0 x8x4ya1 x8x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x4yax8x4yb1 x8x4ya2 x8x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x4yax8x4yb2 x8x4ya3 x8x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x4yax8x4yb3 x8x4ya4 x8x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (9,4)
+Cx8x4yax9x4yb0 x8x4ya1 x9x4yb1 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4yb1 x8x4ya2 x9x4yb2 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4yb2 x8x4ya3 x9x4yb3 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4yb3 x8x4ya4 x9x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (9,4)
+Cx8x4ybx9x4ya0 x8x4yb1 x9x4ya1 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4ya1 x8x4yb2 x9x4ya2 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4ya2 x8x4yb3 x9x4ya3 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4ya3 x8x4yb4 x9x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (9,4)
+Cx8x4yax9x4ya0 x8x4ya1 x9x4ya2 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4ya1 x8x4ya2 x9x4ya3 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4ya2 x8x4ya3 x9x4ya4 5e-08 Rser=0 Rpar=0
+Cx8x4yax9x4ya3 x8x4ya4 x9x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (9,4)
+Cx8x4ybx9x4yb0 x8x4yb1 x9x4yb2 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4yb1 x8x4yb2 x9x4yb3 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4yb2 x8x4yb3 x9x4yb4 5e-08 Rser=0 Rpar=0
+Cx8x4ybx9x4yb3 x8x4yb4 x9x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,4) and (8,5)
+Cx8x4ybx8x5ya0 x8x4yb1 x8x5ya1 1e-07 Rser=0 Rpar=0
+Cx8x4ybx8x5ya1 x8x4yb2 x8x5ya2 1e-07 Rser=0 Rpar=0
+Cx8x4ybx8x5ya2 x8x4yb3 x8x5ya3 1e-07 Rser=0 Rpar=0
+Cx8x4ybx8x5ya3 x8x4yb4 x8x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (9,4)
+Cx9x4yax9x4yb0 x9x4ya1 x9x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x4yax9x4yb1 x9x4ya2 x9x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x4yax9x4yb2 x9x4ya3 x9x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x4yax9x4yb3 x9x4ya4 x9x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (10,4)
+Cx9x4yax10x4yb0 x9x4ya1 x10x4yb1 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4yb1 x9x4ya2 x10x4yb2 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4yb2 x9x4ya3 x10x4yb3 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4yb3 x9x4ya4 x10x4yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (10,4)
+Cx9x4ybx10x4ya0 x9x4yb1 x10x4ya1 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4ya1 x9x4yb2 x10x4ya2 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4ya2 x9x4yb3 x10x4ya3 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4ya3 x9x4yb4 x10x4ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (10,4)
+Cx9x4yax10x4ya0 x9x4ya1 x10x4ya2 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4ya1 x9x4ya2 x10x4ya3 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4ya2 x9x4ya3 x10x4ya4 5e-08 Rser=0 Rpar=0
+Cx9x4yax10x4ya3 x9x4ya4 x10x4ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (10,4)
+Cx9x4ybx10x4yb0 x9x4yb1 x10x4yb2 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4yb1 x9x4yb2 x10x4yb3 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4yb2 x9x4yb3 x10x4yb4 5e-08 Rser=0 Rpar=0
+Cx9x4ybx10x4yb3 x9x4yb4 x10x4yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,4) and (9,5)
+Cx9x4ybx9x5ya0 x9x4yb1 x9x5ya1 1e-07 Rser=0 Rpar=0
+Cx9x4ybx9x5ya1 x9x4yb2 x9x5ya2 1e-07 Rser=0 Rpar=0
+Cx9x4ybx9x5ya2 x9x4yb3 x9x5ya3 1e-07 Rser=0 Rpar=0
+Cx9x4ybx9x5ya3 x9x4yb4 x9x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (1,5)
+Cx1x5yax1x5yb0 x1x5ya1 x1x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x5yax1x5yb1 x1x5ya2 x1x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x5yax1x5yb2 x1x5ya3 x1x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x5yax1x5yb3 x1x5ya4 x1x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (2,5)
+Cx1x5yax2x5yb0 x1x5ya1 x2x5yb1 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5yb1 x1x5ya2 x2x5yb2 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5yb2 x1x5ya3 x2x5yb3 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5yb3 x1x5ya4 x2x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (2,5)
+Cx1x5ybx2x5ya0 x1x5yb1 x2x5ya1 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5ya1 x1x5yb2 x2x5ya2 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5ya2 x1x5yb3 x2x5ya3 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5ya3 x1x5yb4 x2x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (2,5)
+Cx1x5yax2x5ya0 x1x5ya1 x2x5ya2 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5ya1 x1x5ya2 x2x5ya3 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5ya2 x1x5ya3 x2x5ya4 5e-08 Rser=0 Rpar=0
+Cx1x5yax2x5ya3 x1x5ya4 x2x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (2,5)
+Cx1x5ybx2x5yb0 x1x5yb1 x2x5yb2 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5yb1 x1x5yb2 x2x5yb3 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5yb2 x1x5yb3 x2x5yb4 5e-08 Rser=0 Rpar=0
+Cx1x5ybx2x5yb3 x1x5yb4 x2x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,5) and (1,6)
+Cx1x5ybx1x6ya0 x1x5yb1 x1x6ya1 1e-07 Rser=0 Rpar=0
+Cx1x5ybx1x6ya1 x1x5yb2 x1x6ya2 1e-07 Rser=0 Rpar=0
+Cx1x5ybx1x6ya2 x1x5yb3 x1x6ya3 1e-07 Rser=0 Rpar=0
+Cx1x5ybx1x6ya3 x1x5yb4 x1x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (2,5)
+Cx2x5yax2x5yb0 x2x5ya1 x2x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x5yax2x5yb1 x2x5ya2 x2x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x5yax2x5yb2 x2x5ya3 x2x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x5yax2x5yb3 x2x5ya4 x2x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (3,5)
+Cx2x5yax3x5yb0 x2x5ya1 x3x5yb1 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5yb1 x2x5ya2 x3x5yb2 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5yb2 x2x5ya3 x3x5yb3 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5yb3 x2x5ya4 x3x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (3,5)
+Cx2x5ybx3x5ya0 x2x5yb1 x3x5ya1 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5ya1 x2x5yb2 x3x5ya2 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5ya2 x2x5yb3 x3x5ya3 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5ya3 x2x5yb4 x3x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (3,5)
+Cx2x5yax3x5ya0 x2x5ya1 x3x5ya2 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5ya1 x2x5ya2 x3x5ya3 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5ya2 x2x5ya3 x3x5ya4 5e-08 Rser=0 Rpar=0
+Cx2x5yax3x5ya3 x2x5ya4 x3x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (3,5)
+Cx2x5ybx3x5yb0 x2x5yb1 x3x5yb2 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5yb1 x2x5yb2 x3x5yb3 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5yb2 x2x5yb3 x3x5yb4 5e-08 Rser=0 Rpar=0
+Cx2x5ybx3x5yb3 x2x5yb4 x3x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,5) and (2,6)
+Cx2x5ybx2x6ya0 x2x5yb1 x2x6ya1 1e-07 Rser=0 Rpar=0
+Cx2x5ybx2x6ya1 x2x5yb2 x2x6ya2 1e-07 Rser=0 Rpar=0
+Cx2x5ybx2x6ya2 x2x5yb3 x2x6ya3 1e-07 Rser=0 Rpar=0
+Cx2x5ybx2x6ya3 x2x5yb4 x2x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (3,5)
+Cx3x5yax3x5yb0 x3x5ya1 x3x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x5yax3x5yb1 x3x5ya2 x3x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x5yax3x5yb2 x3x5ya3 x3x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x5yax3x5yb3 x3x5ya4 x3x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (4,5)
+Cx3x5yax4x5yb0 x3x5ya1 x4x5yb1 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5yb1 x3x5ya2 x4x5yb2 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5yb2 x3x5ya3 x4x5yb3 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5yb3 x3x5ya4 x4x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (4,5)
+Cx3x5ybx4x5ya0 x3x5yb1 x4x5ya1 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5ya1 x3x5yb2 x4x5ya2 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5ya2 x3x5yb3 x4x5ya3 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5ya3 x3x5yb4 x4x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (4,5)
+Cx3x5yax4x5ya0 x3x5ya1 x4x5ya2 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5ya1 x3x5ya2 x4x5ya3 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5ya2 x3x5ya3 x4x5ya4 5e-08 Rser=0 Rpar=0
+Cx3x5yax4x5ya3 x3x5ya4 x4x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (4,5)
+Cx3x5ybx4x5yb0 x3x5yb1 x4x5yb2 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5yb1 x3x5yb2 x4x5yb3 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5yb2 x3x5yb3 x4x5yb4 5e-08 Rser=0 Rpar=0
+Cx3x5ybx4x5yb3 x3x5yb4 x4x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,5) and (3,6)
+Cx3x5ybx3x6ya0 x3x5yb1 x3x6ya1 1e-07 Rser=0 Rpar=0
+Cx3x5ybx3x6ya1 x3x5yb2 x3x6ya2 1e-07 Rser=0 Rpar=0
+Cx3x5ybx3x6ya2 x3x5yb3 x3x6ya3 1e-07 Rser=0 Rpar=0
+Cx3x5ybx3x6ya3 x3x5yb4 x3x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (4,5)
+Cx4x5yax4x5yb0 x4x5ya1 x4x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x5yax4x5yb1 x4x5ya2 x4x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x5yax4x5yb2 x4x5ya3 x4x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x5yax4x5yb3 x4x5ya4 x4x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (5,5)
+Cx4x5yax5x5yb0 x4x5ya1 x5x5yb1 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5yb1 x4x5ya2 x5x5yb2 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5yb2 x4x5ya3 x5x5yb3 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5yb3 x4x5ya4 x5x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (5,5)
+Cx4x5ybx5x5ya0 x4x5yb1 x5x5ya1 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5ya1 x4x5yb2 x5x5ya2 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5ya2 x4x5yb3 x5x5ya3 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5ya3 x4x5yb4 x5x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (5,5)
+Cx4x5yax5x5ya0 x4x5ya1 x5x5ya2 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5ya1 x4x5ya2 x5x5ya3 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5ya2 x4x5ya3 x5x5ya4 5e-08 Rser=0 Rpar=0
+Cx4x5yax5x5ya3 x4x5ya4 x5x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (5,5)
+Cx4x5ybx5x5yb0 x4x5yb1 x5x5yb2 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5yb1 x4x5yb2 x5x5yb3 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5yb2 x4x5yb3 x5x5yb4 5e-08 Rser=0 Rpar=0
+Cx4x5ybx5x5yb3 x4x5yb4 x5x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,5) and (4,6)
+Cx4x5ybx4x6ya0 x4x5yb1 x4x6ya1 1e-07 Rser=0 Rpar=0
+Cx4x5ybx4x6ya1 x4x5yb2 x4x6ya2 1e-07 Rser=0 Rpar=0
+Cx4x5ybx4x6ya2 x4x5yb3 x4x6ya3 1e-07 Rser=0 Rpar=0
+Cx4x5ybx4x6ya3 x4x5yb4 x4x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (5,5)
+Cx5x5yax5x5yb0 x5x5ya1 x5x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x5yax5x5yb1 x5x5ya2 x5x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x5yax5x5yb2 x5x5ya3 x5x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x5yax5x5yb3 x5x5ya4 x5x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (6,5)
+Cx5x5yax6x5yb0 x5x5ya1 x6x5yb1 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5yb1 x5x5ya2 x6x5yb2 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5yb2 x5x5ya3 x6x5yb3 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5yb3 x5x5ya4 x6x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (6,5)
+Cx5x5ybx6x5ya0 x5x5yb1 x6x5ya1 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5ya1 x5x5yb2 x6x5ya2 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5ya2 x5x5yb3 x6x5ya3 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5ya3 x5x5yb4 x6x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (6,5)
+Cx5x5yax6x5ya0 x5x5ya1 x6x5ya2 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5ya1 x5x5ya2 x6x5ya3 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5ya2 x5x5ya3 x6x5ya4 5e-08 Rser=0 Rpar=0
+Cx5x5yax6x5ya3 x5x5ya4 x6x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (6,5)
+Cx5x5ybx6x5yb0 x5x5yb1 x6x5yb2 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5yb1 x5x5yb2 x6x5yb3 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5yb2 x5x5yb3 x6x5yb4 5e-08 Rser=0 Rpar=0
+Cx5x5ybx6x5yb3 x5x5yb4 x6x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,5) and (5,6)
+Cx5x5ybx5x6ya0 x5x5yb1 x5x6ya1 1e-07 Rser=0 Rpar=0
+Cx5x5ybx5x6ya1 x5x5yb2 x5x6ya2 1e-07 Rser=0 Rpar=0
+Cx5x5ybx5x6ya2 x5x5yb3 x5x6ya3 1e-07 Rser=0 Rpar=0
+Cx5x5ybx5x6ya3 x5x5yb4 x5x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (6,5)
+Cx6x5yax6x5yb0 x6x5ya1 x6x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x5yax6x5yb1 x6x5ya2 x6x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x5yax6x5yb2 x6x5ya3 x6x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x5yax6x5yb3 x6x5ya4 x6x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (7,5)
+Cx6x5yax7x5yb0 x6x5ya1 x7x5yb1 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5yb1 x6x5ya2 x7x5yb2 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5yb2 x6x5ya3 x7x5yb3 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5yb3 x6x5ya4 x7x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (7,5)
+Cx6x5ybx7x5ya0 x6x5yb1 x7x5ya1 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5ya1 x6x5yb2 x7x5ya2 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5ya2 x6x5yb3 x7x5ya3 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5ya3 x6x5yb4 x7x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (7,5)
+Cx6x5yax7x5ya0 x6x5ya1 x7x5ya2 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5ya1 x6x5ya2 x7x5ya3 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5ya2 x6x5ya3 x7x5ya4 5e-08 Rser=0 Rpar=0
+Cx6x5yax7x5ya3 x6x5ya4 x7x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (7,5)
+Cx6x5ybx7x5yb0 x6x5yb1 x7x5yb2 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5yb1 x6x5yb2 x7x5yb3 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5yb2 x6x5yb3 x7x5yb4 5e-08 Rser=0 Rpar=0
+Cx6x5ybx7x5yb3 x6x5yb4 x7x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,5) and (6,6)
+Cx6x5ybx6x6ya0 x6x5yb1 x6x6ya1 1e-07 Rser=0 Rpar=0
+Cx6x5ybx6x6ya1 x6x5yb2 x6x6ya2 1e-07 Rser=0 Rpar=0
+Cx6x5ybx6x6ya2 x6x5yb3 x6x6ya3 1e-07 Rser=0 Rpar=0
+Cx6x5ybx6x6ya3 x6x5yb4 x6x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (7,5)
+Cx7x5yax7x5yb0 x7x5ya1 x7x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x5yax7x5yb1 x7x5ya2 x7x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x5yax7x5yb2 x7x5ya3 x7x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x5yax7x5yb3 x7x5ya4 x7x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (8,5)
+Cx7x5yax8x5yb0 x7x5ya1 x8x5yb1 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5yb1 x7x5ya2 x8x5yb2 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5yb2 x7x5ya3 x8x5yb3 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5yb3 x7x5ya4 x8x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (8,5)
+Cx7x5ybx8x5ya0 x7x5yb1 x8x5ya1 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5ya1 x7x5yb2 x8x5ya2 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5ya2 x7x5yb3 x8x5ya3 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5ya3 x7x5yb4 x8x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (8,5)
+Cx7x5yax8x5ya0 x7x5ya1 x8x5ya2 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5ya1 x7x5ya2 x8x5ya3 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5ya2 x7x5ya3 x8x5ya4 5e-08 Rser=0 Rpar=0
+Cx7x5yax8x5ya3 x7x5ya4 x8x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (8,5)
+Cx7x5ybx8x5yb0 x7x5yb1 x8x5yb2 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5yb1 x7x5yb2 x8x5yb3 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5yb2 x7x5yb3 x8x5yb4 5e-08 Rser=0 Rpar=0
+Cx7x5ybx8x5yb3 x7x5yb4 x8x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,5) and (7,6)
+Cx7x5ybx7x6ya0 x7x5yb1 x7x6ya1 1e-07 Rser=0 Rpar=0
+Cx7x5ybx7x6ya1 x7x5yb2 x7x6ya2 1e-07 Rser=0 Rpar=0
+Cx7x5ybx7x6ya2 x7x5yb3 x7x6ya3 1e-07 Rser=0 Rpar=0
+Cx7x5ybx7x6ya3 x7x5yb4 x7x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (8,5)
+Cx8x5yax8x5yb0 x8x5ya1 x8x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x5yax8x5yb1 x8x5ya2 x8x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x5yax8x5yb2 x8x5ya3 x8x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x5yax8x5yb3 x8x5ya4 x8x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (9,5)
+Cx8x5yax9x5yb0 x8x5ya1 x9x5yb1 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5yb1 x8x5ya2 x9x5yb2 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5yb2 x8x5ya3 x9x5yb3 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5yb3 x8x5ya4 x9x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (9,5)
+Cx8x5ybx9x5ya0 x8x5yb1 x9x5ya1 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5ya1 x8x5yb2 x9x5ya2 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5ya2 x8x5yb3 x9x5ya3 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5ya3 x8x5yb4 x9x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (9,5)
+Cx8x5yax9x5ya0 x8x5ya1 x9x5ya2 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5ya1 x8x5ya2 x9x5ya3 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5ya2 x8x5ya3 x9x5ya4 5e-08 Rser=0 Rpar=0
+Cx8x5yax9x5ya3 x8x5ya4 x9x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (9,5)
+Cx8x5ybx9x5yb0 x8x5yb1 x9x5yb2 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5yb1 x8x5yb2 x9x5yb3 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5yb2 x8x5yb3 x9x5yb4 5e-08 Rser=0 Rpar=0
+Cx8x5ybx9x5yb3 x8x5yb4 x9x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,5) and (8,6)
+Cx8x5ybx8x6ya0 x8x5yb1 x8x6ya1 1e-07 Rser=0 Rpar=0
+Cx8x5ybx8x6ya1 x8x5yb2 x8x6ya2 1e-07 Rser=0 Rpar=0
+Cx8x5ybx8x6ya2 x8x5yb3 x8x6ya3 1e-07 Rser=0 Rpar=0
+Cx8x5ybx8x6ya3 x8x5yb4 x8x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (9,5)
+Cx9x5yax9x5yb0 x9x5ya1 x9x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x5yax9x5yb1 x9x5ya2 x9x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x5yax9x5yb2 x9x5ya3 x9x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x5yax9x5yb3 x9x5ya4 x9x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (10,5)
+Cx9x5yax10x5yb0 x9x5ya1 x10x5yb1 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5yb1 x9x5ya2 x10x5yb2 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5yb2 x9x5ya3 x10x5yb3 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5yb3 x9x5ya4 x10x5yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (10,5)
+Cx9x5ybx10x5ya0 x9x5yb1 x10x5ya1 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5ya1 x9x5yb2 x10x5ya2 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5ya2 x9x5yb3 x10x5ya3 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5ya3 x9x5yb4 x10x5ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (10,5)
+Cx9x5yax10x5ya0 x9x5ya1 x10x5ya2 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5ya1 x9x5ya2 x10x5ya3 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5ya2 x9x5ya3 x10x5ya4 5e-08 Rser=0 Rpar=0
+Cx9x5yax10x5ya3 x9x5ya4 x10x5ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (10,5)
+Cx9x5ybx10x5yb0 x9x5yb1 x10x5yb2 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5yb1 x9x5yb2 x10x5yb3 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5yb2 x9x5yb3 x10x5yb4 5e-08 Rser=0 Rpar=0
+Cx9x5ybx10x5yb3 x9x5yb4 x10x5yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,5) and (9,6)
+Cx9x5ybx9x6ya0 x9x5yb1 x9x6ya1 1e-07 Rser=0 Rpar=0
+Cx9x5ybx9x6ya1 x9x5yb2 x9x6ya2 1e-07 Rser=0 Rpar=0
+Cx9x5ybx9x6ya2 x9x5yb3 x9x6ya3 1e-07 Rser=0 Rpar=0
+Cx9x5ybx9x6ya3 x9x5yb4 x9x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (1,6)
+Cx1x6yax1x6yb0 x1x6ya1 x1x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x6yax1x6yb1 x1x6ya2 x1x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x6yax1x6yb2 x1x6ya3 x1x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x6yax1x6yb3 x1x6ya4 x1x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (2,6)
+Cx1x6yax2x6yb0 x1x6ya1 x2x6yb1 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6yb1 x1x6ya2 x2x6yb2 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6yb2 x1x6ya3 x2x6yb3 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6yb3 x1x6ya4 x2x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (2,6)
+Cx1x6ybx2x6ya0 x1x6yb1 x2x6ya1 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6ya1 x1x6yb2 x2x6ya2 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6ya2 x1x6yb3 x2x6ya3 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6ya3 x1x6yb4 x2x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (2,6)
+Cx1x6yax2x6ya0 x1x6ya1 x2x6ya2 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6ya1 x1x6ya2 x2x6ya3 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6ya2 x1x6ya3 x2x6ya4 5e-08 Rser=0 Rpar=0
+Cx1x6yax2x6ya3 x1x6ya4 x2x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (2,6)
+Cx1x6ybx2x6yb0 x1x6yb1 x2x6yb2 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6yb1 x1x6yb2 x2x6yb3 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6yb2 x1x6yb3 x2x6yb4 5e-08 Rser=0 Rpar=0
+Cx1x6ybx2x6yb3 x1x6yb4 x2x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,6) and (1,7)
+Cx1x6ybx1x7ya0 x1x6yb1 x1x7ya1 1e-07 Rser=0 Rpar=0
+Cx1x6ybx1x7ya1 x1x6yb2 x1x7ya2 1e-07 Rser=0 Rpar=0
+Cx1x6ybx1x7ya2 x1x6yb3 x1x7ya3 1e-07 Rser=0 Rpar=0
+Cx1x6ybx1x7ya3 x1x6yb4 x1x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (2,6)
+Cx2x6yax2x6yb0 x2x6ya1 x2x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x6yax2x6yb1 x2x6ya2 x2x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x6yax2x6yb2 x2x6ya3 x2x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x6yax2x6yb3 x2x6ya4 x2x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (3,6)
+Cx2x6yax3x6yb0 x2x6ya1 x3x6yb1 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6yb1 x2x6ya2 x3x6yb2 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6yb2 x2x6ya3 x3x6yb3 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6yb3 x2x6ya4 x3x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (3,6)
+Cx2x6ybx3x6ya0 x2x6yb1 x3x6ya1 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6ya1 x2x6yb2 x3x6ya2 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6ya2 x2x6yb3 x3x6ya3 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6ya3 x2x6yb4 x3x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (3,6)
+Cx2x6yax3x6ya0 x2x6ya1 x3x6ya2 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6ya1 x2x6ya2 x3x6ya3 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6ya2 x2x6ya3 x3x6ya4 5e-08 Rser=0 Rpar=0
+Cx2x6yax3x6ya3 x2x6ya4 x3x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (3,6)
+Cx2x6ybx3x6yb0 x2x6yb1 x3x6yb2 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6yb1 x2x6yb2 x3x6yb3 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6yb2 x2x6yb3 x3x6yb4 5e-08 Rser=0 Rpar=0
+Cx2x6ybx3x6yb3 x2x6yb4 x3x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,6) and (2,7)
+Cx2x6ybx2x7ya0 x2x6yb1 x2x7ya1 1e-07 Rser=0 Rpar=0
+Cx2x6ybx2x7ya1 x2x6yb2 x2x7ya2 1e-07 Rser=0 Rpar=0
+Cx2x6ybx2x7ya2 x2x6yb3 x2x7ya3 1e-07 Rser=0 Rpar=0
+Cx2x6ybx2x7ya3 x2x6yb4 x2x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (3,6)
+Cx3x6yax3x6yb0 x3x6ya1 x3x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x6yax3x6yb1 x3x6ya2 x3x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x6yax3x6yb2 x3x6ya3 x3x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x6yax3x6yb3 x3x6ya4 x3x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (4,6)
+Cx3x6yax4x6yb0 x3x6ya1 x4x6yb1 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6yb1 x3x6ya2 x4x6yb2 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6yb2 x3x6ya3 x4x6yb3 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6yb3 x3x6ya4 x4x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (4,6)
+Cx3x6ybx4x6ya0 x3x6yb1 x4x6ya1 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6ya1 x3x6yb2 x4x6ya2 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6ya2 x3x6yb3 x4x6ya3 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6ya3 x3x6yb4 x4x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (4,6)
+Cx3x6yax4x6ya0 x3x6ya1 x4x6ya2 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6ya1 x3x6ya2 x4x6ya3 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6ya2 x3x6ya3 x4x6ya4 5e-08 Rser=0 Rpar=0
+Cx3x6yax4x6ya3 x3x6ya4 x4x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (4,6)
+Cx3x6ybx4x6yb0 x3x6yb1 x4x6yb2 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6yb1 x3x6yb2 x4x6yb3 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6yb2 x3x6yb3 x4x6yb4 5e-08 Rser=0 Rpar=0
+Cx3x6ybx4x6yb3 x3x6yb4 x4x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,6) and (3,7)
+Cx3x6ybx3x7ya0 x3x6yb1 x3x7ya1 1e-07 Rser=0 Rpar=0
+Cx3x6ybx3x7ya1 x3x6yb2 x3x7ya2 1e-07 Rser=0 Rpar=0
+Cx3x6ybx3x7ya2 x3x6yb3 x3x7ya3 1e-07 Rser=0 Rpar=0
+Cx3x6ybx3x7ya3 x3x6yb4 x3x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (4,6)
+Cx4x6yax4x6yb0 x4x6ya1 x4x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x6yax4x6yb1 x4x6ya2 x4x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x6yax4x6yb2 x4x6ya3 x4x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x6yax4x6yb3 x4x6ya4 x4x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (5,6)
+Cx4x6yax5x6yb0 x4x6ya1 x5x6yb1 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6yb1 x4x6ya2 x5x6yb2 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6yb2 x4x6ya3 x5x6yb3 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6yb3 x4x6ya4 x5x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (5,6)
+Cx4x6ybx5x6ya0 x4x6yb1 x5x6ya1 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6ya1 x4x6yb2 x5x6ya2 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6ya2 x4x6yb3 x5x6ya3 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6ya3 x4x6yb4 x5x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (5,6)
+Cx4x6yax5x6ya0 x4x6ya1 x5x6ya2 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6ya1 x4x6ya2 x5x6ya3 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6ya2 x4x6ya3 x5x6ya4 5e-08 Rser=0 Rpar=0
+Cx4x6yax5x6ya3 x4x6ya4 x5x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (5,6)
+Cx4x6ybx5x6yb0 x4x6yb1 x5x6yb2 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6yb1 x4x6yb2 x5x6yb3 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6yb2 x4x6yb3 x5x6yb4 5e-08 Rser=0 Rpar=0
+Cx4x6ybx5x6yb3 x4x6yb4 x5x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,6) and (4,7)
+Cx4x6ybx4x7ya0 x4x6yb1 x4x7ya1 1e-07 Rser=0 Rpar=0
+Cx4x6ybx4x7ya1 x4x6yb2 x4x7ya2 1e-07 Rser=0 Rpar=0
+Cx4x6ybx4x7ya2 x4x6yb3 x4x7ya3 1e-07 Rser=0 Rpar=0
+Cx4x6ybx4x7ya3 x4x6yb4 x4x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (5,6)
+Cx5x6yax5x6yb0 x5x6ya1 x5x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x6yax5x6yb1 x5x6ya2 x5x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x6yax5x6yb2 x5x6ya3 x5x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x6yax5x6yb3 x5x6ya4 x5x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (6,6)
+Cx5x6yax6x6yb0 x5x6ya1 x6x6yb1 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6yb1 x5x6ya2 x6x6yb2 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6yb2 x5x6ya3 x6x6yb3 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6yb3 x5x6ya4 x6x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (6,6)
+Cx5x6ybx6x6ya0 x5x6yb1 x6x6ya1 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6ya1 x5x6yb2 x6x6ya2 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6ya2 x5x6yb3 x6x6ya3 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6ya3 x5x6yb4 x6x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (6,6)
+Cx5x6yax6x6ya0 x5x6ya1 x6x6ya2 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6ya1 x5x6ya2 x6x6ya3 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6ya2 x5x6ya3 x6x6ya4 5e-08 Rser=0 Rpar=0
+Cx5x6yax6x6ya3 x5x6ya4 x6x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (6,6)
+Cx5x6ybx6x6yb0 x5x6yb1 x6x6yb2 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6yb1 x5x6yb2 x6x6yb3 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6yb2 x5x6yb3 x6x6yb4 5e-08 Rser=0 Rpar=0
+Cx5x6ybx6x6yb3 x5x6yb4 x6x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,6) and (5,7)
+Cx5x6ybx5x7ya0 x5x6yb1 x5x7ya1 1e-07 Rser=0 Rpar=0
+Cx5x6ybx5x7ya1 x5x6yb2 x5x7ya2 1e-07 Rser=0 Rpar=0
+Cx5x6ybx5x7ya2 x5x6yb3 x5x7ya3 1e-07 Rser=0 Rpar=0
+Cx5x6ybx5x7ya3 x5x6yb4 x5x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (6,6)
+Cx6x6yax6x6yb0 x6x6ya1 x6x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x6yax6x6yb1 x6x6ya2 x6x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x6yax6x6yb2 x6x6ya3 x6x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x6yax6x6yb3 x6x6ya4 x6x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (7,6)
+Cx6x6yax7x6yb0 x6x6ya1 x7x6yb1 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6yb1 x6x6ya2 x7x6yb2 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6yb2 x6x6ya3 x7x6yb3 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6yb3 x6x6ya4 x7x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (7,6)
+Cx6x6ybx7x6ya0 x6x6yb1 x7x6ya1 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6ya1 x6x6yb2 x7x6ya2 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6ya2 x6x6yb3 x7x6ya3 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6ya3 x6x6yb4 x7x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (7,6)
+Cx6x6yax7x6ya0 x6x6ya1 x7x6ya2 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6ya1 x6x6ya2 x7x6ya3 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6ya2 x6x6ya3 x7x6ya4 5e-08 Rser=0 Rpar=0
+Cx6x6yax7x6ya3 x6x6ya4 x7x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (7,6)
+Cx6x6ybx7x6yb0 x6x6yb1 x7x6yb2 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6yb1 x6x6yb2 x7x6yb3 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6yb2 x6x6yb3 x7x6yb4 5e-08 Rser=0 Rpar=0
+Cx6x6ybx7x6yb3 x6x6yb4 x7x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,6) and (6,7)
+Cx6x6ybx6x7ya0 x6x6yb1 x6x7ya1 1e-07 Rser=0 Rpar=0
+Cx6x6ybx6x7ya1 x6x6yb2 x6x7ya2 1e-07 Rser=0 Rpar=0
+Cx6x6ybx6x7ya2 x6x6yb3 x6x7ya3 1e-07 Rser=0 Rpar=0
+Cx6x6ybx6x7ya3 x6x6yb4 x6x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (7,6)
+Cx7x6yax7x6yb0 x7x6ya1 x7x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x6yax7x6yb1 x7x6ya2 x7x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x6yax7x6yb2 x7x6ya3 x7x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x6yax7x6yb3 x7x6ya4 x7x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (8,6)
+Cx7x6yax8x6yb0 x7x6ya1 x8x6yb1 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6yb1 x7x6ya2 x8x6yb2 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6yb2 x7x6ya3 x8x6yb3 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6yb3 x7x6ya4 x8x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (8,6)
+Cx7x6ybx8x6ya0 x7x6yb1 x8x6ya1 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6ya1 x7x6yb2 x8x6ya2 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6ya2 x7x6yb3 x8x6ya3 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6ya3 x7x6yb4 x8x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (8,6)
+Cx7x6yax8x6ya0 x7x6ya1 x8x6ya2 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6ya1 x7x6ya2 x8x6ya3 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6ya2 x7x6ya3 x8x6ya4 5e-08 Rser=0 Rpar=0
+Cx7x6yax8x6ya3 x7x6ya4 x8x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (8,6)
+Cx7x6ybx8x6yb0 x7x6yb1 x8x6yb2 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6yb1 x7x6yb2 x8x6yb3 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6yb2 x7x6yb3 x8x6yb4 5e-08 Rser=0 Rpar=0
+Cx7x6ybx8x6yb3 x7x6yb4 x8x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,6) and (7,7)
+Cx7x6ybx7x7ya0 x7x6yb1 x7x7ya1 1e-07 Rser=0 Rpar=0
+Cx7x6ybx7x7ya1 x7x6yb2 x7x7ya2 1e-07 Rser=0 Rpar=0
+Cx7x6ybx7x7ya2 x7x6yb3 x7x7ya3 1e-07 Rser=0 Rpar=0
+Cx7x6ybx7x7ya3 x7x6yb4 x7x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (8,6)
+Cx8x6yax8x6yb0 x8x6ya1 x8x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x6yax8x6yb1 x8x6ya2 x8x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x6yax8x6yb2 x8x6ya3 x8x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x6yax8x6yb3 x8x6ya4 x8x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (9,6)
+Cx8x6yax9x6yb0 x8x6ya1 x9x6yb1 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6yb1 x8x6ya2 x9x6yb2 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6yb2 x8x6ya3 x9x6yb3 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6yb3 x8x6ya4 x9x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (9,6)
+Cx8x6ybx9x6ya0 x8x6yb1 x9x6ya1 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6ya1 x8x6yb2 x9x6ya2 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6ya2 x8x6yb3 x9x6ya3 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6ya3 x8x6yb4 x9x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (9,6)
+Cx8x6yax9x6ya0 x8x6ya1 x9x6ya2 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6ya1 x8x6ya2 x9x6ya3 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6ya2 x8x6ya3 x9x6ya4 5e-08 Rser=0 Rpar=0
+Cx8x6yax9x6ya3 x8x6ya4 x9x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (9,6)
+Cx8x6ybx9x6yb0 x8x6yb1 x9x6yb2 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6yb1 x8x6yb2 x9x6yb3 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6yb2 x8x6yb3 x9x6yb4 5e-08 Rser=0 Rpar=0
+Cx8x6ybx9x6yb3 x8x6yb4 x9x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,6) and (8,7)
+Cx8x6ybx8x7ya0 x8x6yb1 x8x7ya1 1e-07 Rser=0 Rpar=0
+Cx8x6ybx8x7ya1 x8x6yb2 x8x7ya2 1e-07 Rser=0 Rpar=0
+Cx8x6ybx8x7ya2 x8x6yb3 x8x7ya3 1e-07 Rser=0 Rpar=0
+Cx8x6ybx8x7ya3 x8x6yb4 x8x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (9,6)
+Cx9x6yax9x6yb0 x9x6ya1 x9x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x6yax9x6yb1 x9x6ya2 x9x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x6yax9x6yb2 x9x6ya3 x9x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x6yax9x6yb3 x9x6ya4 x9x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (10,6)
+Cx9x6yax10x6yb0 x9x6ya1 x10x6yb1 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6yb1 x9x6ya2 x10x6yb2 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6yb2 x9x6ya3 x10x6yb3 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6yb3 x9x6ya4 x10x6yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (10,6)
+Cx9x6ybx10x6ya0 x9x6yb1 x10x6ya1 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6ya1 x9x6yb2 x10x6ya2 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6ya2 x9x6yb3 x10x6ya3 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6ya3 x9x6yb4 x10x6ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (10,6)
+Cx9x6yax10x6ya0 x9x6ya1 x10x6ya2 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6ya1 x9x6ya2 x10x6ya3 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6ya2 x9x6ya3 x10x6ya4 5e-08 Rser=0 Rpar=0
+Cx9x6yax10x6ya3 x9x6ya4 x10x6ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (10,6)
+Cx9x6ybx10x6yb0 x9x6yb1 x10x6yb2 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6yb1 x9x6yb2 x10x6yb3 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6yb2 x9x6yb3 x10x6yb4 5e-08 Rser=0 Rpar=0
+Cx9x6ybx10x6yb3 x9x6yb4 x10x6yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,6) and (9,7)
+Cx9x6ybx9x7ya0 x9x6yb1 x9x7ya1 1e-07 Rser=0 Rpar=0
+Cx9x6ybx9x7ya1 x9x6yb2 x9x7ya2 1e-07 Rser=0 Rpar=0
+Cx9x6ybx9x7ya2 x9x6yb3 x9x7ya3 1e-07 Rser=0 Rpar=0
+Cx9x6ybx9x7ya3 x9x6yb4 x9x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (1,7)
+Cx1x7yax1x7yb0 x1x7ya1 x1x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x7yax1x7yb1 x1x7ya2 x1x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x7yax1x7yb2 x1x7ya3 x1x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x7yax1x7yb3 x1x7ya4 x1x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (2,7)
+Cx1x7yax2x7yb0 x1x7ya1 x2x7yb1 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7yb1 x1x7ya2 x2x7yb2 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7yb2 x1x7ya3 x2x7yb3 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7yb3 x1x7ya4 x2x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (2,7)
+Cx1x7ybx2x7ya0 x1x7yb1 x2x7ya1 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7ya1 x1x7yb2 x2x7ya2 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7ya2 x1x7yb3 x2x7ya3 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7ya3 x1x7yb4 x2x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (2,7)
+Cx1x7yax2x7ya0 x1x7ya1 x2x7ya2 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7ya1 x1x7ya2 x2x7ya3 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7ya2 x1x7ya3 x2x7ya4 5e-08 Rser=0 Rpar=0
+Cx1x7yax2x7ya3 x1x7ya4 x2x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (2,7)
+Cx1x7ybx2x7yb0 x1x7yb1 x2x7yb2 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7yb1 x1x7yb2 x2x7yb3 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7yb2 x1x7yb3 x2x7yb4 5e-08 Rser=0 Rpar=0
+Cx1x7ybx2x7yb3 x1x7yb4 x2x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,7) and (1,8)
+Cx1x7ybx1x8ya0 x1x7yb1 x1x8ya1 1e-07 Rser=0 Rpar=0
+Cx1x7ybx1x8ya1 x1x7yb2 x1x8ya2 1e-07 Rser=0 Rpar=0
+Cx1x7ybx1x8ya2 x1x7yb3 x1x8ya3 1e-07 Rser=0 Rpar=0
+Cx1x7ybx1x8ya3 x1x7yb4 x1x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (2,7)
+Cx2x7yax2x7yb0 x2x7ya1 x2x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x7yax2x7yb1 x2x7ya2 x2x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x7yax2x7yb2 x2x7ya3 x2x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x7yax2x7yb3 x2x7ya4 x2x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (3,7)
+Cx2x7yax3x7yb0 x2x7ya1 x3x7yb1 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7yb1 x2x7ya2 x3x7yb2 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7yb2 x2x7ya3 x3x7yb3 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7yb3 x2x7ya4 x3x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (3,7)
+Cx2x7ybx3x7ya0 x2x7yb1 x3x7ya1 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7ya1 x2x7yb2 x3x7ya2 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7ya2 x2x7yb3 x3x7ya3 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7ya3 x2x7yb4 x3x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (3,7)
+Cx2x7yax3x7ya0 x2x7ya1 x3x7ya2 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7ya1 x2x7ya2 x3x7ya3 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7ya2 x2x7ya3 x3x7ya4 5e-08 Rser=0 Rpar=0
+Cx2x7yax3x7ya3 x2x7ya4 x3x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (3,7)
+Cx2x7ybx3x7yb0 x2x7yb1 x3x7yb2 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7yb1 x2x7yb2 x3x7yb3 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7yb2 x2x7yb3 x3x7yb4 5e-08 Rser=0 Rpar=0
+Cx2x7ybx3x7yb3 x2x7yb4 x3x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,7) and (2,8)
+Cx2x7ybx2x8ya0 x2x7yb1 x2x8ya1 1e-07 Rser=0 Rpar=0
+Cx2x7ybx2x8ya1 x2x7yb2 x2x8ya2 1e-07 Rser=0 Rpar=0
+Cx2x7ybx2x8ya2 x2x7yb3 x2x8ya3 1e-07 Rser=0 Rpar=0
+Cx2x7ybx2x8ya3 x2x7yb4 x2x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (3,7)
+Cx3x7yax3x7yb0 x3x7ya1 x3x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x7yax3x7yb1 x3x7ya2 x3x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x7yax3x7yb2 x3x7ya3 x3x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x7yax3x7yb3 x3x7ya4 x3x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (4,7)
+Cx3x7yax4x7yb0 x3x7ya1 x4x7yb1 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7yb1 x3x7ya2 x4x7yb2 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7yb2 x3x7ya3 x4x7yb3 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7yb3 x3x7ya4 x4x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (4,7)
+Cx3x7ybx4x7ya0 x3x7yb1 x4x7ya1 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7ya1 x3x7yb2 x4x7ya2 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7ya2 x3x7yb3 x4x7ya3 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7ya3 x3x7yb4 x4x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (4,7)
+Cx3x7yax4x7ya0 x3x7ya1 x4x7ya2 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7ya1 x3x7ya2 x4x7ya3 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7ya2 x3x7ya3 x4x7ya4 5e-08 Rser=0 Rpar=0
+Cx3x7yax4x7ya3 x3x7ya4 x4x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (4,7)
+Cx3x7ybx4x7yb0 x3x7yb1 x4x7yb2 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7yb1 x3x7yb2 x4x7yb3 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7yb2 x3x7yb3 x4x7yb4 5e-08 Rser=0 Rpar=0
+Cx3x7ybx4x7yb3 x3x7yb4 x4x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,7) and (3,8)
+Cx3x7ybx3x8ya0 x3x7yb1 x3x8ya1 1e-07 Rser=0 Rpar=0
+Cx3x7ybx3x8ya1 x3x7yb2 x3x8ya2 1e-07 Rser=0 Rpar=0
+Cx3x7ybx3x8ya2 x3x7yb3 x3x8ya3 1e-07 Rser=0 Rpar=0
+Cx3x7ybx3x8ya3 x3x7yb4 x3x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (4,7)
+Cx4x7yax4x7yb0 x4x7ya1 x4x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x7yax4x7yb1 x4x7ya2 x4x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x7yax4x7yb2 x4x7ya3 x4x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x7yax4x7yb3 x4x7ya4 x4x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (5,7)
+Cx4x7yax5x7yb0 x4x7ya1 x5x7yb1 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7yb1 x4x7ya2 x5x7yb2 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7yb2 x4x7ya3 x5x7yb3 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7yb3 x4x7ya4 x5x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (5,7)
+Cx4x7ybx5x7ya0 x4x7yb1 x5x7ya1 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7ya1 x4x7yb2 x5x7ya2 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7ya2 x4x7yb3 x5x7ya3 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7ya3 x4x7yb4 x5x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (5,7)
+Cx4x7yax5x7ya0 x4x7ya1 x5x7ya2 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7ya1 x4x7ya2 x5x7ya3 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7ya2 x4x7ya3 x5x7ya4 5e-08 Rser=0 Rpar=0
+Cx4x7yax5x7ya3 x4x7ya4 x5x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (5,7)
+Cx4x7ybx5x7yb0 x4x7yb1 x5x7yb2 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7yb1 x4x7yb2 x5x7yb3 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7yb2 x4x7yb3 x5x7yb4 5e-08 Rser=0 Rpar=0
+Cx4x7ybx5x7yb3 x4x7yb4 x5x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,7) and (4,8)
+Cx4x7ybx4x8ya0 x4x7yb1 x4x8ya1 1e-07 Rser=0 Rpar=0
+Cx4x7ybx4x8ya1 x4x7yb2 x4x8ya2 1e-07 Rser=0 Rpar=0
+Cx4x7ybx4x8ya2 x4x7yb3 x4x8ya3 1e-07 Rser=0 Rpar=0
+Cx4x7ybx4x8ya3 x4x7yb4 x4x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (5,7)
+Cx5x7yax5x7yb0 x5x7ya1 x5x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x7yax5x7yb1 x5x7ya2 x5x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x7yax5x7yb2 x5x7ya3 x5x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x7yax5x7yb3 x5x7ya4 x5x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (6,7)
+Cx5x7yax6x7yb0 x5x7ya1 x6x7yb1 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7yb1 x5x7ya2 x6x7yb2 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7yb2 x5x7ya3 x6x7yb3 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7yb3 x5x7ya4 x6x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (6,7)
+Cx5x7ybx6x7ya0 x5x7yb1 x6x7ya1 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7ya1 x5x7yb2 x6x7ya2 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7ya2 x5x7yb3 x6x7ya3 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7ya3 x5x7yb4 x6x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (6,7)
+Cx5x7yax6x7ya0 x5x7ya1 x6x7ya2 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7ya1 x5x7ya2 x6x7ya3 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7ya2 x5x7ya3 x6x7ya4 5e-08 Rser=0 Rpar=0
+Cx5x7yax6x7ya3 x5x7ya4 x6x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (6,7)
+Cx5x7ybx6x7yb0 x5x7yb1 x6x7yb2 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7yb1 x5x7yb2 x6x7yb3 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7yb2 x5x7yb3 x6x7yb4 5e-08 Rser=0 Rpar=0
+Cx5x7ybx6x7yb3 x5x7yb4 x6x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,7) and (5,8)
+Cx5x7ybx5x8ya0 x5x7yb1 x5x8ya1 1e-07 Rser=0 Rpar=0
+Cx5x7ybx5x8ya1 x5x7yb2 x5x8ya2 1e-07 Rser=0 Rpar=0
+Cx5x7ybx5x8ya2 x5x7yb3 x5x8ya3 1e-07 Rser=0 Rpar=0
+Cx5x7ybx5x8ya3 x5x7yb4 x5x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (6,7)
+Cx6x7yax6x7yb0 x6x7ya1 x6x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x7yax6x7yb1 x6x7ya2 x6x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x7yax6x7yb2 x6x7ya3 x6x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x7yax6x7yb3 x6x7ya4 x6x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (7,7)
+Cx6x7yax7x7yb0 x6x7ya1 x7x7yb1 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7yb1 x6x7ya2 x7x7yb2 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7yb2 x6x7ya3 x7x7yb3 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7yb3 x6x7ya4 x7x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (7,7)
+Cx6x7ybx7x7ya0 x6x7yb1 x7x7ya1 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7ya1 x6x7yb2 x7x7ya2 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7ya2 x6x7yb3 x7x7ya3 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7ya3 x6x7yb4 x7x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (7,7)
+Cx6x7yax7x7ya0 x6x7ya1 x7x7ya2 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7ya1 x6x7ya2 x7x7ya3 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7ya2 x6x7ya3 x7x7ya4 5e-08 Rser=0 Rpar=0
+Cx6x7yax7x7ya3 x6x7ya4 x7x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (7,7)
+Cx6x7ybx7x7yb0 x6x7yb1 x7x7yb2 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7yb1 x6x7yb2 x7x7yb3 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7yb2 x6x7yb3 x7x7yb4 5e-08 Rser=0 Rpar=0
+Cx6x7ybx7x7yb3 x6x7yb4 x7x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,7) and (6,8)
+Cx6x7ybx6x8ya0 x6x7yb1 x6x8ya1 1e-07 Rser=0 Rpar=0
+Cx6x7ybx6x8ya1 x6x7yb2 x6x8ya2 1e-07 Rser=0 Rpar=0
+Cx6x7ybx6x8ya2 x6x7yb3 x6x8ya3 1e-07 Rser=0 Rpar=0
+Cx6x7ybx6x8ya3 x6x7yb4 x6x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (7,7)
+Cx7x7yax7x7yb0 x7x7ya1 x7x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x7yax7x7yb1 x7x7ya2 x7x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x7yax7x7yb2 x7x7ya3 x7x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x7yax7x7yb3 x7x7ya4 x7x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (8,7)
+Cx7x7yax8x7yb0 x7x7ya1 x8x7yb1 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7yb1 x7x7ya2 x8x7yb2 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7yb2 x7x7ya3 x8x7yb3 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7yb3 x7x7ya4 x8x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (8,7)
+Cx7x7ybx8x7ya0 x7x7yb1 x8x7ya1 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7ya1 x7x7yb2 x8x7ya2 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7ya2 x7x7yb3 x8x7ya3 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7ya3 x7x7yb4 x8x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (8,7)
+Cx7x7yax8x7ya0 x7x7ya1 x8x7ya2 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7ya1 x7x7ya2 x8x7ya3 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7ya2 x7x7ya3 x8x7ya4 5e-08 Rser=0 Rpar=0
+Cx7x7yax8x7ya3 x7x7ya4 x8x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (8,7)
+Cx7x7ybx8x7yb0 x7x7yb1 x8x7yb2 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7yb1 x7x7yb2 x8x7yb3 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7yb2 x7x7yb3 x8x7yb4 5e-08 Rser=0 Rpar=0
+Cx7x7ybx8x7yb3 x7x7yb4 x8x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,7) and (7,8)
+Cx7x7ybx7x8ya0 x7x7yb1 x7x8ya1 1e-07 Rser=0 Rpar=0
+Cx7x7ybx7x8ya1 x7x7yb2 x7x8ya2 1e-07 Rser=0 Rpar=0
+Cx7x7ybx7x8ya2 x7x7yb3 x7x8ya3 1e-07 Rser=0 Rpar=0
+Cx7x7ybx7x8ya3 x7x7yb4 x7x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (8,7)
+Cx8x7yax8x7yb0 x8x7ya1 x8x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x7yax8x7yb1 x8x7ya2 x8x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x7yax8x7yb2 x8x7ya3 x8x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x7yax8x7yb3 x8x7ya4 x8x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (9,7)
+Cx8x7yax9x7yb0 x8x7ya1 x9x7yb1 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7yb1 x8x7ya2 x9x7yb2 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7yb2 x8x7ya3 x9x7yb3 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7yb3 x8x7ya4 x9x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (9,7)
+Cx8x7ybx9x7ya0 x8x7yb1 x9x7ya1 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7ya1 x8x7yb2 x9x7ya2 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7ya2 x8x7yb3 x9x7ya3 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7ya3 x8x7yb4 x9x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (9,7)
+Cx8x7yax9x7ya0 x8x7ya1 x9x7ya2 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7ya1 x8x7ya2 x9x7ya3 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7ya2 x8x7ya3 x9x7ya4 5e-08 Rser=0 Rpar=0
+Cx8x7yax9x7ya3 x8x7ya4 x9x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (9,7)
+Cx8x7ybx9x7yb0 x8x7yb1 x9x7yb2 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7yb1 x8x7yb2 x9x7yb3 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7yb2 x8x7yb3 x9x7yb4 5e-08 Rser=0 Rpar=0
+Cx8x7ybx9x7yb3 x8x7yb4 x9x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,7) and (8,8)
+Cx8x7ybx8x8ya0 x8x7yb1 x8x8ya1 1e-07 Rser=0 Rpar=0
+Cx8x7ybx8x8ya1 x8x7yb2 x8x8ya2 1e-07 Rser=0 Rpar=0
+Cx8x7ybx8x8ya2 x8x7yb3 x8x8ya3 1e-07 Rser=0 Rpar=0
+Cx8x7ybx8x8ya3 x8x7yb4 x8x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (9,7)
+Cx9x7yax9x7yb0 x9x7ya1 x9x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x7yax9x7yb1 x9x7ya2 x9x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x7yax9x7yb2 x9x7ya3 x9x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x7yax9x7yb3 x9x7ya4 x9x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (10,7)
+Cx9x7yax10x7yb0 x9x7ya1 x10x7yb1 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7yb1 x9x7ya2 x10x7yb2 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7yb2 x9x7ya3 x10x7yb3 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7yb3 x9x7ya4 x10x7yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (10,7)
+Cx9x7ybx10x7ya0 x9x7yb1 x10x7ya1 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7ya1 x9x7yb2 x10x7ya2 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7ya2 x9x7yb3 x10x7ya3 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7ya3 x9x7yb4 x10x7ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (10,7)
+Cx9x7yax10x7ya0 x9x7ya1 x10x7ya2 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7ya1 x9x7ya2 x10x7ya3 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7ya2 x9x7ya3 x10x7ya4 5e-08 Rser=0 Rpar=0
+Cx9x7yax10x7ya3 x9x7ya4 x10x7ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (10,7)
+Cx9x7ybx10x7yb0 x9x7yb1 x10x7yb2 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7yb1 x9x7yb2 x10x7yb3 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7yb2 x9x7yb3 x10x7yb4 5e-08 Rser=0 Rpar=0
+Cx9x7ybx10x7yb3 x9x7yb4 x10x7yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,7) and (9,8)
+Cx9x7ybx9x8ya0 x9x7yb1 x9x8ya1 1e-07 Rser=0 Rpar=0
+Cx9x7ybx9x8ya1 x9x7yb2 x9x8ya2 1e-07 Rser=0 Rpar=0
+Cx9x7ybx9x8ya2 x9x7yb3 x9x8ya3 1e-07 Rser=0 Rpar=0
+Cx9x7ybx9x8ya3 x9x7yb4 x9x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (1,8)
+Cx1x8yax1x8yb0 x1x8ya1 x1x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x8yax1x8yb1 x1x8ya2 x1x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x8yax1x8yb2 x1x8ya3 x1x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x8yax1x8yb3 x1x8ya4 x1x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (2,8)
+Cx1x8yax2x8yb0 x1x8ya1 x2x8yb1 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8yb1 x1x8ya2 x2x8yb2 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8yb2 x1x8ya3 x2x8yb3 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8yb3 x1x8ya4 x2x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (2,8)
+Cx1x8ybx2x8ya0 x1x8yb1 x2x8ya1 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8ya1 x1x8yb2 x2x8ya2 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8ya2 x1x8yb3 x2x8ya3 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8ya3 x1x8yb4 x2x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (2,8)
+Cx1x8yax2x8ya0 x1x8ya1 x2x8ya2 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8ya1 x1x8ya2 x2x8ya3 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8ya2 x1x8ya3 x2x8ya4 5e-08 Rser=0 Rpar=0
+Cx1x8yax2x8ya3 x1x8ya4 x2x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (2,8)
+Cx1x8ybx2x8yb0 x1x8yb1 x2x8yb2 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8yb1 x1x8yb2 x2x8yb3 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8yb2 x1x8yb3 x2x8yb4 5e-08 Rser=0 Rpar=0
+Cx1x8ybx2x8yb3 x1x8yb4 x2x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,8) and (1,9)
+Cx1x8ybx1x9ya0 x1x8yb1 x1x9ya1 1e-07 Rser=0 Rpar=0
+Cx1x8ybx1x9ya1 x1x8yb2 x1x9ya2 1e-07 Rser=0 Rpar=0
+Cx1x8ybx1x9ya2 x1x8yb3 x1x9ya3 1e-07 Rser=0 Rpar=0
+Cx1x8ybx1x9ya3 x1x8yb4 x1x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (2,8)
+Cx2x8yax2x8yb0 x2x8ya1 x2x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x8yax2x8yb1 x2x8ya2 x2x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x8yax2x8yb2 x2x8ya3 x2x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x8yax2x8yb3 x2x8ya4 x2x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (3,8)
+Cx2x8yax3x8yb0 x2x8ya1 x3x8yb1 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8yb1 x2x8ya2 x3x8yb2 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8yb2 x2x8ya3 x3x8yb3 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8yb3 x2x8ya4 x3x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (3,8)
+Cx2x8ybx3x8ya0 x2x8yb1 x3x8ya1 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8ya1 x2x8yb2 x3x8ya2 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8ya2 x2x8yb3 x3x8ya3 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8ya3 x2x8yb4 x3x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (3,8)
+Cx2x8yax3x8ya0 x2x8ya1 x3x8ya2 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8ya1 x2x8ya2 x3x8ya3 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8ya2 x2x8ya3 x3x8ya4 5e-08 Rser=0 Rpar=0
+Cx2x8yax3x8ya3 x2x8ya4 x3x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (3,8)
+Cx2x8ybx3x8yb0 x2x8yb1 x3x8yb2 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8yb1 x2x8yb2 x3x8yb3 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8yb2 x2x8yb3 x3x8yb4 5e-08 Rser=0 Rpar=0
+Cx2x8ybx3x8yb3 x2x8yb4 x3x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,8) and (2,9)
+Cx2x8ybx2x9ya0 x2x8yb1 x2x9ya1 1e-07 Rser=0 Rpar=0
+Cx2x8ybx2x9ya1 x2x8yb2 x2x9ya2 1e-07 Rser=0 Rpar=0
+Cx2x8ybx2x9ya2 x2x8yb3 x2x9ya3 1e-07 Rser=0 Rpar=0
+Cx2x8ybx2x9ya3 x2x8yb4 x2x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (3,8)
+Cx3x8yax3x8yb0 x3x8ya1 x3x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x8yax3x8yb1 x3x8ya2 x3x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x8yax3x8yb2 x3x8ya3 x3x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x8yax3x8yb3 x3x8ya4 x3x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (4,8)
+Cx3x8yax4x8yb0 x3x8ya1 x4x8yb1 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8yb1 x3x8ya2 x4x8yb2 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8yb2 x3x8ya3 x4x8yb3 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8yb3 x3x8ya4 x4x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (4,8)
+Cx3x8ybx4x8ya0 x3x8yb1 x4x8ya1 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8ya1 x3x8yb2 x4x8ya2 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8ya2 x3x8yb3 x4x8ya3 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8ya3 x3x8yb4 x4x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (4,8)
+Cx3x8yax4x8ya0 x3x8ya1 x4x8ya2 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8ya1 x3x8ya2 x4x8ya3 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8ya2 x3x8ya3 x4x8ya4 5e-08 Rser=0 Rpar=0
+Cx3x8yax4x8ya3 x3x8ya4 x4x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (4,8)
+Cx3x8ybx4x8yb0 x3x8yb1 x4x8yb2 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8yb1 x3x8yb2 x4x8yb3 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8yb2 x3x8yb3 x4x8yb4 5e-08 Rser=0 Rpar=0
+Cx3x8ybx4x8yb3 x3x8yb4 x4x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,8) and (3,9)
+Cx3x8ybx3x9ya0 x3x8yb1 x3x9ya1 1e-07 Rser=0 Rpar=0
+Cx3x8ybx3x9ya1 x3x8yb2 x3x9ya2 1e-07 Rser=0 Rpar=0
+Cx3x8ybx3x9ya2 x3x8yb3 x3x9ya3 1e-07 Rser=0 Rpar=0
+Cx3x8ybx3x9ya3 x3x8yb4 x3x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (4,8)
+Cx4x8yax4x8yb0 x4x8ya1 x4x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x8yax4x8yb1 x4x8ya2 x4x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x8yax4x8yb2 x4x8ya3 x4x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x8yax4x8yb3 x4x8ya4 x4x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (5,8)
+Cx4x8yax5x8yb0 x4x8ya1 x5x8yb1 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8yb1 x4x8ya2 x5x8yb2 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8yb2 x4x8ya3 x5x8yb3 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8yb3 x4x8ya4 x5x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (5,8)
+Cx4x8ybx5x8ya0 x4x8yb1 x5x8ya1 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8ya1 x4x8yb2 x5x8ya2 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8ya2 x4x8yb3 x5x8ya3 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8ya3 x4x8yb4 x5x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (5,8)
+Cx4x8yax5x8ya0 x4x8ya1 x5x8ya2 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8ya1 x4x8ya2 x5x8ya3 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8ya2 x4x8ya3 x5x8ya4 5e-08 Rser=0 Rpar=0
+Cx4x8yax5x8ya3 x4x8ya4 x5x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (5,8)
+Cx4x8ybx5x8yb0 x4x8yb1 x5x8yb2 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8yb1 x4x8yb2 x5x8yb3 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8yb2 x4x8yb3 x5x8yb4 5e-08 Rser=0 Rpar=0
+Cx4x8ybx5x8yb3 x4x8yb4 x5x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,8) and (4,9)
+Cx4x8ybx4x9ya0 x4x8yb1 x4x9ya1 1e-07 Rser=0 Rpar=0
+Cx4x8ybx4x9ya1 x4x8yb2 x4x9ya2 1e-07 Rser=0 Rpar=0
+Cx4x8ybx4x9ya2 x4x8yb3 x4x9ya3 1e-07 Rser=0 Rpar=0
+Cx4x8ybx4x9ya3 x4x8yb4 x4x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (5,8)
+Cx5x8yax5x8yb0 x5x8ya1 x5x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x8yax5x8yb1 x5x8ya2 x5x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x8yax5x8yb2 x5x8ya3 x5x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x8yax5x8yb3 x5x8ya4 x5x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (6,8)
+Cx5x8yax6x8yb0 x5x8ya1 x6x8yb1 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8yb1 x5x8ya2 x6x8yb2 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8yb2 x5x8ya3 x6x8yb3 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8yb3 x5x8ya4 x6x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (6,8)
+Cx5x8ybx6x8ya0 x5x8yb1 x6x8ya1 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8ya1 x5x8yb2 x6x8ya2 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8ya2 x5x8yb3 x6x8ya3 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8ya3 x5x8yb4 x6x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (6,8)
+Cx5x8yax6x8ya0 x5x8ya1 x6x8ya2 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8ya1 x5x8ya2 x6x8ya3 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8ya2 x5x8ya3 x6x8ya4 5e-08 Rser=0 Rpar=0
+Cx5x8yax6x8ya3 x5x8ya4 x6x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (6,8)
+Cx5x8ybx6x8yb0 x5x8yb1 x6x8yb2 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8yb1 x5x8yb2 x6x8yb3 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8yb2 x5x8yb3 x6x8yb4 5e-08 Rser=0 Rpar=0
+Cx5x8ybx6x8yb3 x5x8yb4 x6x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,8) and (5,9)
+Cx5x8ybx5x9ya0 x5x8yb1 x5x9ya1 1e-07 Rser=0 Rpar=0
+Cx5x8ybx5x9ya1 x5x8yb2 x5x9ya2 1e-07 Rser=0 Rpar=0
+Cx5x8ybx5x9ya2 x5x8yb3 x5x9ya3 1e-07 Rser=0 Rpar=0
+Cx5x8ybx5x9ya3 x5x8yb4 x5x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (6,8)
+Cx6x8yax6x8yb0 x6x8ya1 x6x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x8yax6x8yb1 x6x8ya2 x6x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x8yax6x8yb2 x6x8ya3 x6x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x8yax6x8yb3 x6x8ya4 x6x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (7,8)
+Cx6x8yax7x8yb0 x6x8ya1 x7x8yb1 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8yb1 x6x8ya2 x7x8yb2 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8yb2 x6x8ya3 x7x8yb3 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8yb3 x6x8ya4 x7x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (7,8)
+Cx6x8ybx7x8ya0 x6x8yb1 x7x8ya1 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8ya1 x6x8yb2 x7x8ya2 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8ya2 x6x8yb3 x7x8ya3 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8ya3 x6x8yb4 x7x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (7,8)
+Cx6x8yax7x8ya0 x6x8ya1 x7x8ya2 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8ya1 x6x8ya2 x7x8ya3 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8ya2 x6x8ya3 x7x8ya4 5e-08 Rser=0 Rpar=0
+Cx6x8yax7x8ya3 x6x8ya4 x7x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (7,8)
+Cx6x8ybx7x8yb0 x6x8yb1 x7x8yb2 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8yb1 x6x8yb2 x7x8yb3 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8yb2 x6x8yb3 x7x8yb4 5e-08 Rser=0 Rpar=0
+Cx6x8ybx7x8yb3 x6x8yb4 x7x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,8) and (6,9)
+Cx6x8ybx6x9ya0 x6x8yb1 x6x9ya1 1e-07 Rser=0 Rpar=0
+Cx6x8ybx6x9ya1 x6x8yb2 x6x9ya2 1e-07 Rser=0 Rpar=0
+Cx6x8ybx6x9ya2 x6x8yb3 x6x9ya3 1e-07 Rser=0 Rpar=0
+Cx6x8ybx6x9ya3 x6x8yb4 x6x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (7,8)
+Cx7x8yax7x8yb0 x7x8ya1 x7x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x8yax7x8yb1 x7x8ya2 x7x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x8yax7x8yb2 x7x8ya3 x7x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x8yax7x8yb3 x7x8ya4 x7x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (8,8)
+Cx7x8yax8x8yb0 x7x8ya1 x8x8yb1 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8yb1 x7x8ya2 x8x8yb2 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8yb2 x7x8ya3 x8x8yb3 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8yb3 x7x8ya4 x8x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (8,8)
+Cx7x8ybx8x8ya0 x7x8yb1 x8x8ya1 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8ya1 x7x8yb2 x8x8ya2 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8ya2 x7x8yb3 x8x8ya3 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8ya3 x7x8yb4 x8x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (8,8)
+Cx7x8yax8x8ya0 x7x8ya1 x8x8ya2 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8ya1 x7x8ya2 x8x8ya3 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8ya2 x7x8ya3 x8x8ya4 5e-08 Rser=0 Rpar=0
+Cx7x8yax8x8ya3 x7x8ya4 x8x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (8,8)
+Cx7x8ybx8x8yb0 x7x8yb1 x8x8yb2 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8yb1 x7x8yb2 x8x8yb3 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8yb2 x7x8yb3 x8x8yb4 5e-08 Rser=0 Rpar=0
+Cx7x8ybx8x8yb3 x7x8yb4 x8x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,8) and (7,9)
+Cx7x8ybx7x9ya0 x7x8yb1 x7x9ya1 1e-07 Rser=0 Rpar=0
+Cx7x8ybx7x9ya1 x7x8yb2 x7x9ya2 1e-07 Rser=0 Rpar=0
+Cx7x8ybx7x9ya2 x7x8yb3 x7x9ya3 1e-07 Rser=0 Rpar=0
+Cx7x8ybx7x9ya3 x7x8yb4 x7x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (8,8)
+Cx8x8yax8x8yb0 x8x8ya1 x8x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x8yax8x8yb1 x8x8ya2 x8x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x8yax8x8yb2 x8x8ya3 x8x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x8yax8x8yb3 x8x8ya4 x8x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (9,8)
+Cx8x8yax9x8yb0 x8x8ya1 x9x8yb1 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8yb1 x8x8ya2 x9x8yb2 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8yb2 x8x8ya3 x9x8yb3 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8yb3 x8x8ya4 x9x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (9,8)
+Cx8x8ybx9x8ya0 x8x8yb1 x9x8ya1 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8ya1 x8x8yb2 x9x8ya2 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8ya2 x8x8yb3 x9x8ya3 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8ya3 x8x8yb4 x9x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (9,8)
+Cx8x8yax9x8ya0 x8x8ya1 x9x8ya2 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8ya1 x8x8ya2 x9x8ya3 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8ya2 x8x8ya3 x9x8ya4 5e-08 Rser=0 Rpar=0
+Cx8x8yax9x8ya3 x8x8ya4 x9x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (9,8)
+Cx8x8ybx9x8yb0 x8x8yb1 x9x8yb2 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8yb1 x8x8yb2 x9x8yb3 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8yb2 x8x8yb3 x9x8yb4 5e-08 Rser=0 Rpar=0
+Cx8x8ybx9x8yb3 x8x8yb4 x9x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,8) and (8,9)
+Cx8x8ybx8x9ya0 x8x8yb1 x8x9ya1 1e-07 Rser=0 Rpar=0
+Cx8x8ybx8x9ya1 x8x8yb2 x8x9ya2 1e-07 Rser=0 Rpar=0
+Cx8x8ybx8x9ya2 x8x8yb3 x8x9ya3 1e-07 Rser=0 Rpar=0
+Cx8x8ybx8x9ya3 x8x8yb4 x8x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (9,8)
+Cx9x8yax9x8yb0 x9x8ya1 x9x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x8yax9x8yb1 x9x8ya2 x9x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x8yax9x8yb2 x9x8ya3 x9x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x8yax9x8yb3 x9x8ya4 x9x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (10,8)
+Cx9x8yax10x8yb0 x9x8ya1 x10x8yb1 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8yb1 x9x8ya2 x10x8yb2 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8yb2 x9x8ya3 x10x8yb3 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8yb3 x9x8ya4 x10x8yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (10,8)
+Cx9x8ybx10x8ya0 x9x8yb1 x10x8ya1 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8ya1 x9x8yb2 x10x8ya2 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8ya2 x9x8yb3 x10x8ya3 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8ya3 x9x8yb4 x10x8ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (10,8)
+Cx9x8yax10x8ya0 x9x8ya1 x10x8ya2 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8ya1 x9x8ya2 x10x8ya3 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8ya2 x9x8ya3 x10x8ya4 5e-08 Rser=0 Rpar=0
+Cx9x8yax10x8ya3 x9x8ya4 x10x8ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (10,8)
+Cx9x8ybx10x8yb0 x9x8yb1 x10x8yb2 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8yb1 x9x8yb2 x10x8yb3 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8yb2 x9x8yb3 x10x8yb4 5e-08 Rser=0 Rpar=0
+Cx9x8ybx10x8yb3 x9x8yb4 x10x8yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,8) and (9,9)
+Cx9x8ybx9x9ya0 x9x8yb1 x9x9ya1 1e-07 Rser=0 Rpar=0
+Cx9x8ybx9x9ya1 x9x8yb2 x9x9ya2 1e-07 Rser=0 Rpar=0
+Cx9x8ybx9x9ya2 x9x8yb3 x9x9ya3 1e-07 Rser=0 Rpar=0
+Cx9x8ybx9x9ya3 x9x8yb4 x9x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (1,9)
+Cx1x9yax1x9yb0 x1x9ya1 x1x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x9yax1x9yb1 x1x9ya2 x1x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x9yax1x9yb2 x1x9ya3 x1x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x9yax1x9yb3 x1x9ya4 x1x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (2,9)
+Cx1x9yax2x9yb0 x1x9ya1 x2x9yb1 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9yb1 x1x9ya2 x2x9yb2 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9yb2 x1x9ya3 x2x9yb3 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9yb3 x1x9ya4 x2x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (2,9)
+Cx1x9ybx2x9ya0 x1x9yb1 x2x9ya1 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9ya1 x1x9yb2 x2x9ya2 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9ya2 x1x9yb3 x2x9ya3 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9ya3 x1x9yb4 x2x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (2,9)
+Cx1x9yax2x9ya0 x1x9ya1 x2x9ya2 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9ya1 x1x9ya2 x2x9ya3 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9ya2 x1x9ya3 x2x9ya4 5e-08 Rser=0 Rpar=0
+Cx1x9yax2x9ya3 x1x9ya4 x2x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (2,9)
+Cx1x9ybx2x9yb0 x1x9yb1 x2x9yb2 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9yb1 x1x9yb2 x2x9yb3 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9yb2 x1x9yb3 x2x9yb4 5e-08 Rser=0 Rpar=0
+Cx1x9ybx2x9yb3 x1x9yb4 x2x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,9) and (1,10)
+Cx1x9ybx1x10ya0 x1x9yb1 x1x10ya1 1e-07 Rser=0 Rpar=0
+Cx1x9ybx1x10ya1 x1x9yb2 x1x10ya2 1e-07 Rser=0 Rpar=0
+Cx1x9ybx1x10ya2 x1x9yb3 x1x10ya3 1e-07 Rser=0 Rpar=0
+Cx1x9ybx1x10ya3 x1x9yb4 x1x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (2,9)
+Cx2x9yax2x9yb0 x2x9ya1 x2x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x9yax2x9yb1 x2x9ya2 x2x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x9yax2x9yb2 x2x9ya3 x2x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x9yax2x9yb3 x2x9ya4 x2x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (3,9)
+Cx2x9yax3x9yb0 x2x9ya1 x3x9yb1 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9yb1 x2x9ya2 x3x9yb2 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9yb2 x2x9ya3 x3x9yb3 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9yb3 x2x9ya4 x3x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (3,9)
+Cx2x9ybx3x9ya0 x2x9yb1 x3x9ya1 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9ya1 x2x9yb2 x3x9ya2 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9ya2 x2x9yb3 x3x9ya3 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9ya3 x2x9yb4 x3x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (3,9)
+Cx2x9yax3x9ya0 x2x9ya1 x3x9ya2 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9ya1 x2x9ya2 x3x9ya3 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9ya2 x2x9ya3 x3x9ya4 5e-08 Rser=0 Rpar=0
+Cx2x9yax3x9ya3 x2x9ya4 x3x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (3,9)
+Cx2x9ybx3x9yb0 x2x9yb1 x3x9yb2 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9yb1 x2x9yb2 x3x9yb3 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9yb2 x2x9yb3 x3x9yb4 5e-08 Rser=0 Rpar=0
+Cx2x9ybx3x9yb3 x2x9yb4 x3x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,9) and (2,10)
+Cx2x9ybx2x10ya0 x2x9yb1 x2x10ya1 1e-07 Rser=0 Rpar=0
+Cx2x9ybx2x10ya1 x2x9yb2 x2x10ya2 1e-07 Rser=0 Rpar=0
+Cx2x9ybx2x10ya2 x2x9yb3 x2x10ya3 1e-07 Rser=0 Rpar=0
+Cx2x9ybx2x10ya3 x2x9yb4 x2x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (3,9)
+Cx3x9yax3x9yb0 x3x9ya1 x3x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x9yax3x9yb1 x3x9ya2 x3x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x9yax3x9yb2 x3x9ya3 x3x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x9yax3x9yb3 x3x9ya4 x3x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (4,9)
+Cx3x9yax4x9yb0 x3x9ya1 x4x9yb1 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9yb1 x3x9ya2 x4x9yb2 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9yb2 x3x9ya3 x4x9yb3 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9yb3 x3x9ya4 x4x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (4,9)
+Cx3x9ybx4x9ya0 x3x9yb1 x4x9ya1 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9ya1 x3x9yb2 x4x9ya2 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9ya2 x3x9yb3 x4x9ya3 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9ya3 x3x9yb4 x4x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (4,9)
+Cx3x9yax4x9ya0 x3x9ya1 x4x9ya2 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9ya1 x3x9ya2 x4x9ya3 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9ya2 x3x9ya3 x4x9ya4 5e-08 Rser=0 Rpar=0
+Cx3x9yax4x9ya3 x3x9ya4 x4x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (4,9)
+Cx3x9ybx4x9yb0 x3x9yb1 x4x9yb2 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9yb1 x3x9yb2 x4x9yb3 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9yb2 x3x9yb3 x4x9yb4 5e-08 Rser=0 Rpar=0
+Cx3x9ybx4x9yb3 x3x9yb4 x4x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,9) and (3,10)
+Cx3x9ybx3x10ya0 x3x9yb1 x3x10ya1 1e-07 Rser=0 Rpar=0
+Cx3x9ybx3x10ya1 x3x9yb2 x3x10ya2 1e-07 Rser=0 Rpar=0
+Cx3x9ybx3x10ya2 x3x9yb3 x3x10ya3 1e-07 Rser=0 Rpar=0
+Cx3x9ybx3x10ya3 x3x9yb4 x3x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (4,9)
+Cx4x9yax4x9yb0 x4x9ya1 x4x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x9yax4x9yb1 x4x9ya2 x4x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x9yax4x9yb2 x4x9ya3 x4x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x9yax4x9yb3 x4x9ya4 x4x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (5,9)
+Cx4x9yax5x9yb0 x4x9ya1 x5x9yb1 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9yb1 x4x9ya2 x5x9yb2 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9yb2 x4x9ya3 x5x9yb3 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9yb3 x4x9ya4 x5x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (5,9)
+Cx4x9ybx5x9ya0 x4x9yb1 x5x9ya1 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9ya1 x4x9yb2 x5x9ya2 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9ya2 x4x9yb3 x5x9ya3 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9ya3 x4x9yb4 x5x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (5,9)
+Cx4x9yax5x9ya0 x4x9ya1 x5x9ya2 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9ya1 x4x9ya2 x5x9ya3 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9ya2 x4x9ya3 x5x9ya4 5e-08 Rser=0 Rpar=0
+Cx4x9yax5x9ya3 x4x9ya4 x5x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (5,9)
+Cx4x9ybx5x9yb0 x4x9yb1 x5x9yb2 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9yb1 x4x9yb2 x5x9yb3 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9yb2 x4x9yb3 x5x9yb4 5e-08 Rser=0 Rpar=0
+Cx4x9ybx5x9yb3 x4x9yb4 x5x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,9) and (4,10)
+Cx4x9ybx4x10ya0 x4x9yb1 x4x10ya1 1e-07 Rser=0 Rpar=0
+Cx4x9ybx4x10ya1 x4x9yb2 x4x10ya2 1e-07 Rser=0 Rpar=0
+Cx4x9ybx4x10ya2 x4x9yb3 x4x10ya3 1e-07 Rser=0 Rpar=0
+Cx4x9ybx4x10ya3 x4x9yb4 x4x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (5,9)
+Cx5x9yax5x9yb0 x5x9ya1 x5x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x9yax5x9yb1 x5x9ya2 x5x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x9yax5x9yb2 x5x9ya3 x5x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x9yax5x9yb3 x5x9ya4 x5x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (6,9)
+Cx5x9yax6x9yb0 x5x9ya1 x6x9yb1 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9yb1 x5x9ya2 x6x9yb2 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9yb2 x5x9ya3 x6x9yb3 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9yb3 x5x9ya4 x6x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (6,9)
+Cx5x9ybx6x9ya0 x5x9yb1 x6x9ya1 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9ya1 x5x9yb2 x6x9ya2 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9ya2 x5x9yb3 x6x9ya3 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9ya3 x5x9yb4 x6x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (6,9)
+Cx5x9yax6x9ya0 x5x9ya1 x6x9ya2 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9ya1 x5x9ya2 x6x9ya3 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9ya2 x5x9ya3 x6x9ya4 5e-08 Rser=0 Rpar=0
+Cx5x9yax6x9ya3 x5x9ya4 x6x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (6,9)
+Cx5x9ybx6x9yb0 x5x9yb1 x6x9yb2 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9yb1 x5x9yb2 x6x9yb3 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9yb2 x5x9yb3 x6x9yb4 5e-08 Rser=0 Rpar=0
+Cx5x9ybx6x9yb3 x5x9yb4 x6x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,9) and (5,10)
+Cx5x9ybx5x10ya0 x5x9yb1 x5x10ya1 1e-07 Rser=0 Rpar=0
+Cx5x9ybx5x10ya1 x5x9yb2 x5x10ya2 1e-07 Rser=0 Rpar=0
+Cx5x9ybx5x10ya2 x5x9yb3 x5x10ya3 1e-07 Rser=0 Rpar=0
+Cx5x9ybx5x10ya3 x5x9yb4 x5x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (6,9)
+Cx6x9yax6x9yb0 x6x9ya1 x6x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x9yax6x9yb1 x6x9ya2 x6x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x9yax6x9yb2 x6x9ya3 x6x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x9yax6x9yb3 x6x9ya4 x6x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (7,9)
+Cx6x9yax7x9yb0 x6x9ya1 x7x9yb1 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9yb1 x6x9ya2 x7x9yb2 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9yb2 x6x9ya3 x7x9yb3 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9yb3 x6x9ya4 x7x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (7,9)
+Cx6x9ybx7x9ya0 x6x9yb1 x7x9ya1 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9ya1 x6x9yb2 x7x9ya2 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9ya2 x6x9yb3 x7x9ya3 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9ya3 x6x9yb4 x7x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (7,9)
+Cx6x9yax7x9ya0 x6x9ya1 x7x9ya2 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9ya1 x6x9ya2 x7x9ya3 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9ya2 x6x9ya3 x7x9ya4 5e-08 Rser=0 Rpar=0
+Cx6x9yax7x9ya3 x6x9ya4 x7x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (7,9)
+Cx6x9ybx7x9yb0 x6x9yb1 x7x9yb2 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9yb1 x6x9yb2 x7x9yb3 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9yb2 x6x9yb3 x7x9yb4 5e-08 Rser=0 Rpar=0
+Cx6x9ybx7x9yb3 x6x9yb4 x7x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,9) and (6,10)
+Cx6x9ybx6x10ya0 x6x9yb1 x6x10ya1 1e-07 Rser=0 Rpar=0
+Cx6x9ybx6x10ya1 x6x9yb2 x6x10ya2 1e-07 Rser=0 Rpar=0
+Cx6x9ybx6x10ya2 x6x9yb3 x6x10ya3 1e-07 Rser=0 Rpar=0
+Cx6x9ybx6x10ya3 x6x9yb4 x6x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (7,9)
+Cx7x9yax7x9yb0 x7x9ya1 x7x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x9yax7x9yb1 x7x9ya2 x7x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x9yax7x9yb2 x7x9ya3 x7x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x9yax7x9yb3 x7x9ya4 x7x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (8,9)
+Cx7x9yax8x9yb0 x7x9ya1 x8x9yb1 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9yb1 x7x9ya2 x8x9yb2 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9yb2 x7x9ya3 x8x9yb3 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9yb3 x7x9ya4 x8x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (8,9)
+Cx7x9ybx8x9ya0 x7x9yb1 x8x9ya1 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9ya1 x7x9yb2 x8x9ya2 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9ya2 x7x9yb3 x8x9ya3 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9ya3 x7x9yb4 x8x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (8,9)
+Cx7x9yax8x9ya0 x7x9ya1 x8x9ya2 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9ya1 x7x9ya2 x8x9ya3 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9ya2 x7x9ya3 x8x9ya4 5e-08 Rser=0 Rpar=0
+Cx7x9yax8x9ya3 x7x9ya4 x8x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (8,9)
+Cx7x9ybx8x9yb0 x7x9yb1 x8x9yb2 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9yb1 x7x9yb2 x8x9yb3 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9yb2 x7x9yb3 x8x9yb4 5e-08 Rser=0 Rpar=0
+Cx7x9ybx8x9yb3 x7x9yb4 x8x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,9) and (7,10)
+Cx7x9ybx7x10ya0 x7x9yb1 x7x10ya1 1e-07 Rser=0 Rpar=0
+Cx7x9ybx7x10ya1 x7x9yb2 x7x10ya2 1e-07 Rser=0 Rpar=0
+Cx7x9ybx7x10ya2 x7x9yb3 x7x10ya3 1e-07 Rser=0 Rpar=0
+Cx7x9ybx7x10ya3 x7x9yb4 x7x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (8,9)
+Cx8x9yax8x9yb0 x8x9ya1 x8x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x9yax8x9yb1 x8x9ya2 x8x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x9yax8x9yb2 x8x9ya3 x8x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x9yax8x9yb3 x8x9ya4 x8x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (9,9)
+Cx8x9yax9x9yb0 x8x9ya1 x9x9yb1 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9yb1 x8x9ya2 x9x9yb2 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9yb2 x8x9ya3 x9x9yb3 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9yb3 x8x9ya4 x9x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (9,9)
+Cx8x9ybx9x9ya0 x8x9yb1 x9x9ya1 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9ya1 x8x9yb2 x9x9ya2 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9ya2 x8x9yb3 x9x9ya3 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9ya3 x8x9yb4 x9x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (9,9)
+Cx8x9yax9x9ya0 x8x9ya1 x9x9ya2 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9ya1 x8x9ya2 x9x9ya3 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9ya2 x8x9ya3 x9x9ya4 5e-08 Rser=0 Rpar=0
+Cx8x9yax9x9ya3 x8x9ya4 x9x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (9,9)
+Cx8x9ybx9x9yb0 x8x9yb1 x9x9yb2 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9yb1 x8x9yb2 x9x9yb3 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9yb2 x8x9yb3 x9x9yb4 5e-08 Rser=0 Rpar=0
+Cx8x9ybx9x9yb3 x8x9yb4 x9x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,9) and (8,10)
+Cx8x9ybx8x10ya0 x8x9yb1 x8x10ya1 1e-07 Rser=0 Rpar=0
+Cx8x9ybx8x10ya1 x8x9yb2 x8x10ya2 1e-07 Rser=0 Rpar=0
+Cx8x9ybx8x10ya2 x8x9yb3 x8x10ya3 1e-07 Rser=0 Rpar=0
+Cx8x9ybx8x10ya3 x8x9yb4 x8x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (9,9)
+Cx9x9yax9x9yb0 x9x9ya1 x9x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x9yax9x9yb1 x9x9ya2 x9x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x9yax9x9yb2 x9x9ya3 x9x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x9yax9x9yb3 x9x9ya4 x9x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (10,9)
+Cx9x9yax10x9yb0 x9x9ya1 x10x9yb1 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9yb1 x9x9ya2 x10x9yb2 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9yb2 x9x9ya3 x10x9yb3 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9yb3 x9x9ya4 x10x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (10,9)
+Cx9x9ybx10x9ya0 x9x9yb1 x10x9ya1 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9ya1 x9x9yb2 x10x9ya2 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9ya2 x9x9yb3 x10x9ya3 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9ya3 x9x9yb4 x10x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (10,9)
+Cx9x9yax10x9ya0 x9x9ya1 x10x9ya2 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9ya1 x9x9ya2 x10x9ya3 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9ya2 x9x9ya3 x10x9ya4 5e-08 Rser=0 Rpar=0
+Cx9x9yax10x9ya3 x9x9ya4 x10x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (10,9)
+Cx9x9ybx10x9yb0 x9x9yb1 x10x9yb2 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9yb1 x9x9yb2 x10x9yb3 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9yb2 x9x9yb3 x10x9yb4 5e-08 Rser=0 Rpar=0
+Cx9x9ybx10x9yb3 x9x9yb4 x10x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,9) and (9,10)
+Cx9x9ybx9x10ya0 x9x9yb1 x9x10ya1 1e-07 Rser=0 Rpar=0
+Cx9x9ybx9x10ya1 x9x9yb2 x9x10ya2 1e-07 Rser=0 Rpar=0
+Cx9x9ybx9x10ya2 x9x9yb3 x9x10ya3 1e-07 Rser=0 Rpar=0
+Cx9x9ybx9x10ya3 x9x9yb4 x9x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,1) and (10,1)
+Cx10x1yax10x1yb0 x10x1ya1 x10x1yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x1yax10x1yb1 x10x1ya2 x10x1yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x1yax10x1yb2 x10x1ya3 x10x1yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x1yax10x1yb3 x10x1ya4 x10x1yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,1) and (10,2)
+Cx10x1ybx10x2ya0 x10x1yb1 x10x2ya1 1e-07 Rser=0 Rpar=0
+Cx10x1ybx10x2ya1 x10x1yb2 x10x2ya2 1e-07 Rser=0 Rpar=0
+Cx10x1ybx10x2ya2 x10x1yb3 x10x2ya3 1e-07 Rser=0 Rpar=0
+Cx10x1ybx10x2ya3 x10x1yb4 x10x2ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,2) and (10,2)
+Cx10x2yax10x2yb0 x10x2ya1 x10x2yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x2yax10x2yb1 x10x2ya2 x10x2yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x2yax10x2yb2 x10x2ya3 x10x2yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x2yax10x2yb3 x10x2ya4 x10x2yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,2) and (10,3)
+Cx10x2ybx10x3ya0 x10x2yb1 x10x3ya1 1e-07 Rser=0 Rpar=0
+Cx10x2ybx10x3ya1 x10x2yb2 x10x3ya2 1e-07 Rser=0 Rpar=0
+Cx10x2ybx10x3ya2 x10x2yb3 x10x3ya3 1e-07 Rser=0 Rpar=0
+Cx10x2ybx10x3ya3 x10x2yb4 x10x3ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,3) and (10,3)
+Cx10x3yax10x3yb0 x10x3ya1 x10x3yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x3yax10x3yb1 x10x3ya2 x10x3yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x3yax10x3yb2 x10x3ya3 x10x3yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x3yax10x3yb3 x10x3ya4 x10x3yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,3) and (10,4)
+Cx10x3ybx10x4ya0 x10x3yb1 x10x4ya1 1e-07 Rser=0 Rpar=0
+Cx10x3ybx10x4ya1 x10x3yb2 x10x4ya2 1e-07 Rser=0 Rpar=0
+Cx10x3ybx10x4ya2 x10x3yb3 x10x4ya3 1e-07 Rser=0 Rpar=0
+Cx10x3ybx10x4ya3 x10x3yb4 x10x4ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,4) and (10,4)
+Cx10x4yax10x4yb0 x10x4ya1 x10x4yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x4yax10x4yb1 x10x4ya2 x10x4yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x4yax10x4yb2 x10x4ya3 x10x4yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x4yax10x4yb3 x10x4ya4 x10x4yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,4) and (10,5)
+Cx10x4ybx10x5ya0 x10x4yb1 x10x5ya1 1e-07 Rser=0 Rpar=0
+Cx10x4ybx10x5ya1 x10x4yb2 x10x5ya2 1e-07 Rser=0 Rpar=0
+Cx10x4ybx10x5ya2 x10x4yb3 x10x5ya3 1e-07 Rser=0 Rpar=0
+Cx10x4ybx10x5ya3 x10x4yb4 x10x5ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,5) and (10,5)
+Cx10x5yax10x5yb0 x10x5ya1 x10x5yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x5yax10x5yb1 x10x5ya2 x10x5yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x5yax10x5yb2 x10x5ya3 x10x5yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x5yax10x5yb3 x10x5ya4 x10x5yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,5) and (10,6)
+Cx10x5ybx10x6ya0 x10x5yb1 x10x6ya1 1e-07 Rser=0 Rpar=0
+Cx10x5ybx10x6ya1 x10x5yb2 x10x6ya2 1e-07 Rser=0 Rpar=0
+Cx10x5ybx10x6ya2 x10x5yb3 x10x6ya3 1e-07 Rser=0 Rpar=0
+Cx10x5ybx10x6ya3 x10x5yb4 x10x6ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,6) and (10,6)
+Cx10x6yax10x6yb0 x10x6ya1 x10x6yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x6yax10x6yb1 x10x6ya2 x10x6yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x6yax10x6yb2 x10x6ya3 x10x6yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x6yax10x6yb3 x10x6ya4 x10x6yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,6) and (10,7)
+Cx10x6ybx10x7ya0 x10x6yb1 x10x7ya1 1e-07 Rser=0 Rpar=0
+Cx10x6ybx10x7ya1 x10x6yb2 x10x7ya2 1e-07 Rser=0 Rpar=0
+Cx10x6ybx10x7ya2 x10x6yb3 x10x7ya3 1e-07 Rser=0 Rpar=0
+Cx10x6ybx10x7ya3 x10x6yb4 x10x7ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,7) and (10,7)
+Cx10x7yax10x7yb0 x10x7ya1 x10x7yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x7yax10x7yb1 x10x7ya2 x10x7yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x7yax10x7yb2 x10x7ya3 x10x7yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x7yax10x7yb3 x10x7ya4 x10x7yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,7) and (10,8)
+Cx10x7ybx10x8ya0 x10x7yb1 x10x8ya1 1e-07 Rser=0 Rpar=0
+Cx10x7ybx10x8ya1 x10x7yb2 x10x8ya2 1e-07 Rser=0 Rpar=0
+Cx10x7ybx10x8ya2 x10x7yb3 x10x8ya3 1e-07 Rser=0 Rpar=0
+Cx10x7ybx10x8ya3 x10x7yb4 x10x8ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,8) and (10,8)
+Cx10x8yax10x8yb0 x10x8ya1 x10x8yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x8yax10x8yb1 x10x8ya2 x10x8yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x8yax10x8yb2 x10x8ya3 x10x8yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x8yax10x8yb3 x10x8ya4 x10x8yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,8) and (10,9)
+Cx10x8ybx10x9ya0 x10x8yb1 x10x9ya1 1e-07 Rser=0 Rpar=0
+Cx10x8ybx10x9ya1 x10x8yb2 x10x9ya2 1e-07 Rser=0 Rpar=0
+Cx10x8ybx10x9ya2 x10x8yb3 x10x9ya3 1e-07 Rser=0 Rpar=0
+Cx10x8ybx10x9ya3 x10x8yb4 x10x9ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (10,9) and (10,9)
+Cx10x9yax10x9yb0 x10x9ya1 x10x9yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x9yax10x9yb1 x10x9ya2 x10x9yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x9yax10x9yb2 x10x9ya3 x10x9yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x9yax10x9yb3 x10x9ya4 x10x9yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,9) and (10,10)
+Cx10x9ybx10x10ya0 x10x9yb1 x10x10ya1 1e-07 Rser=0 Rpar=0
+Cx10x9ybx10x10ya1 x10x9yb2 x10x10ya2 1e-07 Rser=0 Rpar=0
+Cx10x9ybx10x10ya2 x10x9yb3 x10x10ya3 1e-07 Rser=0 Rpar=0
+Cx10x9ybx10x10ya3 x10x9yb4 x10x10ya4 1e-07 Rser=0 Rpar=0
+
+*Hopping connection between (1,10) and (1,10)
+Cx1x10yax1x10yb0 x1x10ya1 x1x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x10yax1x10yb1 x1x10ya2 x1x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x10yax1x10yb2 x1x10ya3 x1x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx1x10yax1x10yb3 x1x10ya4 x1x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,10) and (2,9)
+Cx1x10yax2x9yb0 x1x10ya1 x2x9yb1 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9yb1 x1x10ya2 x2x9yb2 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9yb2 x1x10ya3 x2x9yb3 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9yb3 x1x10ya4 x2x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,10) and (2,9)
+Cx1x10ybx2x9ya0 x1x10yb1 x2x9ya1 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9ya1 x1x10yb2 x2x9ya2 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9ya2 x1x10yb3 x2x9ya3 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9ya3 x1x10yb4 x2x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,10) and (2,9)
+Cx1x10yax2x9ya0 x1x10ya1 x2x9ya2 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9ya1 x1x10ya2 x2x9ya3 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9ya2 x1x10ya3 x2x9ya4 5e-08 Rser=0 Rpar=0
+Cx1x10yax2x9ya3 x1x10ya4 x2x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (1,10) and (2,9)
+Cx1x10ybx2x9yb0 x1x10yb1 x2x9yb2 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9yb1 x1x10yb2 x2x9yb3 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9yb2 x1x10yb3 x2x9yb4 5e-08 Rser=0 Rpar=0
+Cx1x10ybx2x9yb3 x1x10yb4 x2x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,10) and (2,10)
+Cx2x10yax2x10yb0 x2x10ya1 x2x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x10yax2x10yb1 x2x10ya2 x2x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x10yax2x10yb2 x2x10ya3 x2x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx2x10yax2x10yb3 x2x10ya4 x2x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,10) and (3,9)
+Cx2x10yax3x9yb0 x2x10ya1 x3x9yb1 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9yb1 x2x10ya2 x3x9yb2 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9yb2 x2x10ya3 x3x9yb3 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9yb3 x2x10ya4 x3x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,10) and (3,9)
+Cx2x10ybx3x9ya0 x2x10yb1 x3x9ya1 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9ya1 x2x10yb2 x3x9ya2 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9ya2 x2x10yb3 x3x9ya3 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9ya3 x2x10yb4 x3x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,10) and (3,9)
+Cx2x10yax3x9ya0 x2x10ya1 x3x9ya2 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9ya1 x2x10ya2 x3x9ya3 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9ya2 x2x10ya3 x3x9ya4 5e-08 Rser=0 Rpar=0
+Cx2x10yax3x9ya3 x2x10ya4 x3x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (2,10) and (3,9)
+Cx2x10ybx3x9yb0 x2x10yb1 x3x9yb2 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9yb1 x2x10yb2 x3x9yb3 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9yb2 x2x10yb3 x3x9yb4 5e-08 Rser=0 Rpar=0
+Cx2x10ybx3x9yb3 x2x10yb4 x3x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,10) and (3,10)
+Cx3x10yax3x10yb0 x3x10ya1 x3x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x10yax3x10yb1 x3x10ya2 x3x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x10yax3x10yb2 x3x10ya3 x3x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx3x10yax3x10yb3 x3x10ya4 x3x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,10) and (4,9)
+Cx3x10yax4x9yb0 x3x10ya1 x4x9yb1 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9yb1 x3x10ya2 x4x9yb2 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9yb2 x3x10ya3 x4x9yb3 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9yb3 x3x10ya4 x4x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,10) and (4,9)
+Cx3x10ybx4x9ya0 x3x10yb1 x4x9ya1 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9ya1 x3x10yb2 x4x9ya2 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9ya2 x3x10yb3 x4x9ya3 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9ya3 x3x10yb4 x4x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,10) and (4,9)
+Cx3x10yax4x9ya0 x3x10ya1 x4x9ya2 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9ya1 x3x10ya2 x4x9ya3 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9ya2 x3x10ya3 x4x9ya4 5e-08 Rser=0 Rpar=0
+Cx3x10yax4x9ya3 x3x10ya4 x4x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (3,10) and (4,9)
+Cx3x10ybx4x9yb0 x3x10yb1 x4x9yb2 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9yb1 x3x10yb2 x4x9yb3 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9yb2 x3x10yb3 x4x9yb4 5e-08 Rser=0 Rpar=0
+Cx3x10ybx4x9yb3 x3x10yb4 x4x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,10) and (4,10)
+Cx4x10yax4x10yb0 x4x10ya1 x4x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x10yax4x10yb1 x4x10ya2 x4x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x10yax4x10yb2 x4x10ya3 x4x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx4x10yax4x10yb3 x4x10ya4 x4x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,10) and (5,9)
+Cx4x10yax5x9yb0 x4x10ya1 x5x9yb1 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9yb1 x4x10ya2 x5x9yb2 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9yb2 x4x10ya3 x5x9yb3 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9yb3 x4x10ya4 x5x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,10) and (5,9)
+Cx4x10ybx5x9ya0 x4x10yb1 x5x9ya1 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9ya1 x4x10yb2 x5x9ya2 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9ya2 x4x10yb3 x5x9ya3 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9ya3 x4x10yb4 x5x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,10) and (5,9)
+Cx4x10yax5x9ya0 x4x10ya1 x5x9ya2 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9ya1 x4x10ya2 x5x9ya3 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9ya2 x4x10ya3 x5x9ya4 5e-08 Rser=0 Rpar=0
+Cx4x10yax5x9ya3 x4x10ya4 x5x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (4,10) and (5,9)
+Cx4x10ybx5x9yb0 x4x10yb1 x5x9yb2 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9yb1 x4x10yb2 x5x9yb3 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9yb2 x4x10yb3 x5x9yb4 5e-08 Rser=0 Rpar=0
+Cx4x10ybx5x9yb3 x4x10yb4 x5x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,10) and (5,10)
+Cx5x10yax5x10yb0 x5x10ya1 x5x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x10yax5x10yb1 x5x10ya2 x5x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x10yax5x10yb2 x5x10ya3 x5x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx5x10yax5x10yb3 x5x10ya4 x5x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,10) and (6,9)
+Cx5x10yax6x9yb0 x5x10ya1 x6x9yb1 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9yb1 x5x10ya2 x6x9yb2 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9yb2 x5x10ya3 x6x9yb3 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9yb3 x5x10ya4 x6x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,10) and (6,9)
+Cx5x10ybx6x9ya0 x5x10yb1 x6x9ya1 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9ya1 x5x10yb2 x6x9ya2 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9ya2 x5x10yb3 x6x9ya3 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9ya3 x5x10yb4 x6x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,10) and (6,9)
+Cx5x10yax6x9ya0 x5x10ya1 x6x9ya2 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9ya1 x5x10ya2 x6x9ya3 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9ya2 x5x10ya3 x6x9ya4 5e-08 Rser=0 Rpar=0
+Cx5x10yax6x9ya3 x5x10ya4 x6x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (5,10) and (6,9)
+Cx5x10ybx6x9yb0 x5x10yb1 x6x9yb2 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9yb1 x5x10yb2 x6x9yb3 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9yb2 x5x10yb3 x6x9yb4 5e-08 Rser=0 Rpar=0
+Cx5x10ybx6x9yb3 x5x10yb4 x6x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,10) and (6,10)
+Cx6x10yax6x10yb0 x6x10ya1 x6x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x10yax6x10yb1 x6x10ya2 x6x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x10yax6x10yb2 x6x10ya3 x6x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx6x10yax6x10yb3 x6x10ya4 x6x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,10) and (7,9)
+Cx6x10yax7x9yb0 x6x10ya1 x7x9yb1 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9yb1 x6x10ya2 x7x9yb2 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9yb2 x6x10ya3 x7x9yb3 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9yb3 x6x10ya4 x7x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,10) and (7,9)
+Cx6x10ybx7x9ya0 x6x10yb1 x7x9ya1 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9ya1 x6x10yb2 x7x9ya2 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9ya2 x6x10yb3 x7x9ya3 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9ya3 x6x10yb4 x7x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,10) and (7,9)
+Cx6x10yax7x9ya0 x6x10ya1 x7x9ya2 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9ya1 x6x10ya2 x7x9ya3 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9ya2 x6x10ya3 x7x9ya4 5e-08 Rser=0 Rpar=0
+Cx6x10yax7x9ya3 x6x10ya4 x7x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (6,10) and (7,9)
+Cx6x10ybx7x9yb0 x6x10yb1 x7x9yb2 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9yb1 x6x10yb2 x7x9yb3 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9yb2 x6x10yb3 x7x9yb4 5e-08 Rser=0 Rpar=0
+Cx6x10ybx7x9yb3 x6x10yb4 x7x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,10) and (7,10)
+Cx7x10yax7x10yb0 x7x10ya1 x7x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x10yax7x10yb1 x7x10ya2 x7x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x10yax7x10yb2 x7x10ya3 x7x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx7x10yax7x10yb3 x7x10ya4 x7x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,10) and (8,9)
+Cx7x10yax8x9yb0 x7x10ya1 x8x9yb1 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9yb1 x7x10ya2 x8x9yb2 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9yb2 x7x10ya3 x8x9yb3 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9yb3 x7x10ya4 x8x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,10) and (8,9)
+Cx7x10ybx8x9ya0 x7x10yb1 x8x9ya1 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9ya1 x7x10yb2 x8x9ya2 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9ya2 x7x10yb3 x8x9ya3 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9ya3 x7x10yb4 x8x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,10) and (8,9)
+Cx7x10yax8x9ya0 x7x10ya1 x8x9ya2 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9ya1 x7x10ya2 x8x9ya3 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9ya2 x7x10ya3 x8x9ya4 5e-08 Rser=0 Rpar=0
+Cx7x10yax8x9ya3 x7x10ya4 x8x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (7,10) and (8,9)
+Cx7x10ybx8x9yb0 x7x10yb1 x8x9yb2 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9yb1 x7x10yb2 x8x9yb3 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9yb2 x7x10yb3 x8x9yb4 5e-08 Rser=0 Rpar=0
+Cx7x10ybx8x9yb3 x7x10yb4 x8x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,10) and (8,10)
+Cx8x10yax8x10yb0 x8x10ya1 x8x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x10yax8x10yb1 x8x10ya2 x8x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x10yax8x10yb2 x8x10ya3 x8x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx8x10yax8x10yb3 x8x10ya4 x8x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,10) and (9,9)
+Cx8x10yax9x9yb0 x8x10ya1 x9x9yb1 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9yb1 x8x10ya2 x9x9yb2 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9yb2 x8x10ya3 x9x9yb3 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9yb3 x8x10ya4 x9x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,10) and (9,9)
+Cx8x10ybx9x9ya0 x8x10yb1 x9x9ya1 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9ya1 x8x10yb2 x9x9ya2 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9ya2 x8x10yb3 x9x9ya3 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9ya3 x8x10yb4 x9x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,10) and (9,9)
+Cx8x10yax9x9ya0 x8x10ya1 x9x9ya2 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9ya1 x8x10ya2 x9x9ya3 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9ya2 x8x10ya3 x9x9ya4 5e-08 Rser=0 Rpar=0
+Cx8x10yax9x9ya3 x8x10ya4 x9x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (8,10) and (9,9)
+Cx8x10ybx9x9yb0 x8x10yb1 x9x9yb2 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9yb1 x8x10yb2 x9x9yb3 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9yb2 x8x10yb3 x9x9yb4 5e-08 Rser=0 Rpar=0
+Cx8x10ybx9x9yb3 x8x10yb4 x9x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,10) and (9,10)
+Cx9x10yax9x10yb0 x9x10ya1 x9x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x10yax9x10yb1 x9x10ya2 x9x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x10yax9x10yb2 x9x10ya3 x9x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx9x10yax9x10yb3 x9x10ya4 x9x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,10) and (10,9)
+Cx9x10yax10x9yb0 x9x10ya1 x10x9yb1 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9yb1 x9x10ya2 x10x9yb2 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9yb2 x9x10ya3 x10x9yb3 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9yb3 x9x10ya4 x10x9yb4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,10) and (10,9)
+Cx9x10ybx10x9ya0 x9x10yb1 x10x9ya1 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9ya1 x9x10yb2 x10x9ya2 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9ya2 x9x10yb3 x10x9ya3 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9ya3 x9x10yb4 x10x9ya4 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,10) and (10,9)
+Cx9x10yax10x9ya0 x9x10ya1 x10x9ya2 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9ya1 x9x10ya2 x10x9ya3 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9ya2 x9x10ya3 x10x9ya4 5e-08 Rser=0 Rpar=0
+Cx9x10yax10x9ya3 x9x10ya4 x10x9ya1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (9,10) and (10,9)
+Cx9x10ybx10x9yb0 x9x10yb1 x10x9yb2 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9yb1 x9x10yb2 x10x9yb3 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9yb2 x9x10yb3 x10x9yb4 5e-08 Rser=0 Rpar=0
+Cx9x10ybx10x9yb3 x9x10yb4 x10x9yb1 5e-08 Rser=0 Rpar=0
+
+*Hopping connection between (10,10) and (10,10)
+Cx10x10yax10x10yb0 x10x10ya1 x10x10yb3 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x10yax10x10yb1 x10x10ya2 x10x10yb4 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x10yax10x10yb2 x10x10ya3 x10x10yb1 6.999999999999999e-08 Rser=0 Rpar=0
+Cx10x10yax10x10yb3 x10x10ya4 x10x10yb2 6.999999999999999e-08 Rser=0 Rpar=0
+
+
+* Boundary grounding Nodes
+c0x0yx1x1ya1 x1x1ya1 0 1e-07 Rser=0 Rpar=0
+c0x0yx1x1ya2 x1x1ya2 0 1e-07 Rser=0 Rpar=0
+c0x0yx1x1ya3 x1x1ya3 0 1e-07 Rser=0 Rpar=0
+c0x0yx1x1ya4 x1x1ya4 0 1e-07 Rser=0 Rpar=0
+c0x9yx1x10yb1 x1x10yb1 0 1e-07 Rser=0 Rpar=0
+c0x9yx1x10yb2 x1x10yb2 0 1e-07 Rser=0 Rpar=0
+c0x9yx1x10yb3 x1x10yb3 0 1e-07 Rser=0 Rpar=0
+c0x9yx1x10yb4 x1x10yb4 0 1e-07 Rser=0 Rpar=0
+c1x0yx2x1ya1 x2x1ya1 0 1e-07 Rser=0 Rpar=0
+c1x0yx2x1ya2 x2x1ya2 0 1e-07 Rser=0 Rpar=0
+c1x0yx2x1ya3 x2x1ya3 0 1e-07 Rser=0 Rpar=0
+c1x0yx2x1ya4 x2x1ya4 0 1e-07 Rser=0 Rpar=0
+c1x9yx2x10yb1 x2x10yb1 0 1e-07 Rser=0 Rpar=0
+c1x9yx2x10yb2 x2x10yb2 0 1e-07 Rser=0 Rpar=0
+c1x9yx2x10yb3 x2x10yb3 0 1e-07 Rser=0 Rpar=0
+c1x9yx2x10yb4 x2x10yb4 0 1e-07 Rser=0 Rpar=0
+c2x0yx3x1ya1 x3x1ya1 0 1e-07 Rser=0 Rpar=0
+c2x0yx3x1ya2 x3x1ya2 0 1e-07 Rser=0 Rpar=0
+c2x0yx3x1ya3 x3x1ya3 0 1e-07 Rser=0 Rpar=0
+c2x0yx3x1ya4 x3x1ya4 0 1e-07 Rser=0 Rpar=0
+c2x9yx3x10yb1 x3x10yb1 0 1e-07 Rser=0 Rpar=0
+c2x9yx3x10yb2 x3x10yb2 0 1e-07 Rser=0 Rpar=0
+c2x9yx3x10yb3 x3x10yb3 0 1e-07 Rser=0 Rpar=0
+c2x9yx3x10yb4 x3x10yb4 0 1e-07 Rser=0 Rpar=0
+c3x0yx4x1ya1 x4x1ya1 0 1e-07 Rser=0 Rpar=0
+c3x0yx4x1ya2 x4x1ya2 0 1e-07 Rser=0 Rpar=0
+c3x0yx4x1ya3 x4x1ya3 0 1e-07 Rser=0 Rpar=0
+c3x0yx4x1ya4 x4x1ya4 0 1e-07 Rser=0 Rpar=0
+c3x9yx4x10yb1 x4x10yb1 0 1e-07 Rser=0 Rpar=0
+c3x9yx4x10yb2 x4x10yb2 0 1e-07 Rser=0 Rpar=0
+c3x9yx4x10yb3 x4x10yb3 0 1e-07 Rser=0 Rpar=0
+c3x9yx4x10yb4 x4x10yb4 0 1e-07 Rser=0 Rpar=0
+c4x0yx5x1ya1 x5x1ya1 0 1e-07 Rser=0 Rpar=0
+c4x0yx5x1ya2 x5x1ya2 0 1e-07 Rser=0 Rpar=0
+c4x0yx5x1ya3 x5x1ya3 0 1e-07 Rser=0 Rpar=0
+c4x0yx5x1ya4 x5x1ya4 0 1e-07 Rser=0 Rpar=0
+c4x9yx5x10yb1 x5x10yb1 0 1e-07 Rser=0 Rpar=0
+c4x9yx5x10yb2 x5x10yb2 0 1e-07 Rser=0 Rpar=0
+c4x9yx5x10yb3 x5x10yb3 0 1e-07 Rser=0 Rpar=0
+c4x9yx5x10yb4 x5x10yb4 0 1e-07 Rser=0 Rpar=0
+c5x0yx6x1ya1 x6x1ya1 0 1e-07 Rser=0 Rpar=0
+c5x0yx6x1ya2 x6x1ya2 0 1e-07 Rser=0 Rpar=0
+c5x0yx6x1ya3 x6x1ya3 0 1e-07 Rser=0 Rpar=0
+c5x0yx6x1ya4 x6x1ya4 0 1e-07 Rser=0 Rpar=0
+c5x9yx6x10yb1 x6x10yb1 0 1e-07 Rser=0 Rpar=0
+c5x9yx6x10yb2 x6x10yb2 0 1e-07 Rser=0 Rpar=0
+c5x9yx6x10yb3 x6x10yb3 0 1e-07 Rser=0 Rpar=0
+c5x9yx6x10yb4 x6x10yb4 0 1e-07 Rser=0 Rpar=0
+c6x0yx7x1ya1 x7x1ya1 0 1e-07 Rser=0 Rpar=0
+c6x0yx7x1ya2 x7x1ya2 0 1e-07 Rser=0 Rpar=0
+c6x0yx7x1ya3 x7x1ya3 0 1e-07 Rser=0 Rpar=0
+c6x0yx7x1ya4 x7x1ya4 0 1e-07 Rser=0 Rpar=0
+c6x9yx7x10yb1 x7x10yb1 0 1e-07 Rser=0 Rpar=0
+c6x9yx7x10yb2 x7x10yb2 0 1e-07 Rser=0 Rpar=0
+c6x9yx7x10yb3 x7x10yb3 0 1e-07 Rser=0 Rpar=0
+c6x9yx7x10yb4 x7x10yb4 0 1e-07 Rser=0 Rpar=0
+c7x0yx8x1ya1 x8x1ya1 0 1e-07 Rser=0 Rpar=0
+c7x0yx8x1ya2 x8x1ya2 0 1e-07 Rser=0 Rpar=0
+c7x0yx8x1ya3 x8x1ya3 0 1e-07 Rser=0 Rpar=0
+c7x0yx8x1ya4 x8x1ya4 0 1e-07 Rser=0 Rpar=0
+c7x9yx8x10yb1 x8x10yb1 0 1e-07 Rser=0 Rpar=0
+c7x9yx8x10yb2 x8x10yb2 0 1e-07 Rser=0 Rpar=0
+c7x9yx8x10yb3 x8x10yb3 0 1e-07 Rser=0 Rpar=0
+c7x9yx8x10yb4 x8x10yb4 0 1e-07 Rser=0 Rpar=0
+c8x0yx9x1ya1 x9x1ya1 0 1e-07 Rser=0 Rpar=0
+c8x0yx9x1ya2 x9x1ya2 0 1e-07 Rser=0 Rpar=0
+c8x0yx9x1ya3 x9x1ya3 0 1e-07 Rser=0 Rpar=0
+c8x0yx9x1ya4 x9x1ya4 0 1e-07 Rser=0 Rpar=0
+c8x9yx9x10yb1 x9x10yb1 0 1e-07 Rser=0 Rpar=0
+c8x9yx9x10yb2 x9x10yb2 0 1e-07 Rser=0 Rpar=0
+c8x9yx9x10yb3 x9x10yb3 0 1e-07 Rser=0 Rpar=0
+c8x9yx9x10yb4 x9x10yb4 0 1e-07 Rser=0 Rpar=0
+c9x0yx10x1ya1 x10x1ya1 0 1e-07 Rser=0 Rpar=0
+c9x0yx10x1ya2 x10x1ya2 0 1e-07 Rser=0 Rpar=0
+c9x0yx10x1ya3 x10x1ya3 0 1e-07 Rser=0 Rpar=0
+c9x0yx10x1ya4 x10x1ya4 0 1e-07 Rser=0 Rpar=0
+c9x9yx10x10yb1 x10x10yb1 0 1e-07 Rser=0 Rpar=0
+c9x9yx10x10yb2 x10x10yb2 0 1e-07 Rser=0 Rpar=0
+c9x9yx10x10yb3 x10x10yb3 0 1e-07 Rser=0 Rpar=0
+c9x9yx10x10yb4 x10x10yb4 0 1e-07 Rser=0 Rpar=0
+c0y0x0x1x1ya1 x1x1ya1 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1ya10 x1x1ya1 0 5e-08 Rser=0 Rpar=0
+c0y0x0x1x1ya2 x1x1ya2 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1ya20 x1x1ya2 0 5e-08 Rser=0 Rpar=0
+c0y0x0x1x1ya3 x1x1ya3 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1ya30 x1x1ya3 0 5e-08 Rser=0 Rpar=0
+c0y0x0x1x1ya4 x1x1ya4 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1ya40 x1x1ya4 0 5e-08 Rser=0 Rpar=0
+c0y0x1x1x1yb1 x1x1yb1 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1yb11 x1x1yb1 0 5e-08 Rser=0 Rpar=0
+c0y0x1x1x1yb2 x1x1yb2 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1yb21 x1x1yb2 0 5e-08 Rser=0 Rpar=0
+c0y0x1x1x1yb3 x1x1yb3 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1yb31 x1x1yb3 0 5e-08 Rser=0 Rpar=0
+c0y0x1x1x1yb4 x1x1yb4 0 5e-08 Rser=0 Rpar=0
+c0y0xx1x1yb41 x1x1yb4 0 5e-08 Rser=0 Rpar=0
+c0y9x0x10x1ya1 x10x1ya1 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1ya10 x10x1ya1 0 5e-08 Rser=0 Rpar=0
+c0y9x0x10x1ya2 x10x1ya2 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1ya20 x10x1ya2 0 5e-08 Rser=0 Rpar=0
+c0y9x0x10x1ya3 x10x1ya3 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1ya30 x10x1ya3 0 5e-08 Rser=0 Rpar=0
+c0y9x0x10x1ya4 x10x1ya4 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1ya40 x10x1ya4 0 5e-08 Rser=0 Rpar=0
+c0y9x1x10x1yb1 x10x1yb1 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1yb11 x10x1yb1 0 5e-08 Rser=0 Rpar=0
+c0y9x1x10x1yb2 x10x1yb2 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1yb21 x10x1yb2 0 5e-08 Rser=0 Rpar=0
+c0y9x1x10x1yb3 x10x1yb3 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1yb31 x10x1yb3 0 5e-08 Rser=0 Rpar=0
+c0y9x1x10x1yb4 x10x1yb4 0 5e-08 Rser=0 Rpar=0
+c0y9xx10x1yb41 x10x1yb4 0 5e-08 Rser=0 Rpar=0
+c1y0x0x1x2ya1 x1x2ya1 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2ya10 x1x2ya1 0 5e-08 Rser=0 Rpar=0
+c1y0x0x1x2ya2 x1x2ya2 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2ya20 x1x2ya2 0 5e-08 Rser=0 Rpar=0
+c1y0x0x1x2ya3 x1x2ya3 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2ya30 x1x2ya3 0 5e-08 Rser=0 Rpar=0
+c1y0x0x1x2ya4 x1x2ya4 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2ya40 x1x2ya4 0 5e-08 Rser=0 Rpar=0
+c1y0x1x1x2yb1 x1x2yb1 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2yb11 x1x2yb1 0 5e-08 Rser=0 Rpar=0
+c1y0x1x1x2yb2 x1x2yb2 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2yb21 x1x2yb2 0 5e-08 Rser=0 Rpar=0
+c1y0x1x1x2yb3 x1x2yb3 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2yb31 x1x2yb3 0 5e-08 Rser=0 Rpar=0
+c1y0x1x1x2yb4 x1x2yb4 0 5e-08 Rser=0 Rpar=0
+c1y0xx1x2yb41 x1x2yb4 0 5e-08 Rser=0 Rpar=0
+c1y9x0x10x2ya1 x10x2ya1 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2ya10 x10x2ya1 0 5e-08 Rser=0 Rpar=0
+c1y9x0x10x2ya2 x10x2ya2 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2ya20 x10x2ya2 0 5e-08 Rser=0 Rpar=0
+c1y9x0x10x2ya3 x10x2ya3 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2ya30 x10x2ya3 0 5e-08 Rser=0 Rpar=0
+c1y9x0x10x2ya4 x10x2ya4 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2ya40 x10x2ya4 0 5e-08 Rser=0 Rpar=0
+c1y9x1x10x2yb1 x10x2yb1 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2yb11 x10x2yb1 0 5e-08 Rser=0 Rpar=0
+c1y9x1x10x2yb2 x10x2yb2 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2yb21 x10x2yb2 0 5e-08 Rser=0 Rpar=0
+c1y9x1x10x2yb3 x10x2yb3 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2yb31 x10x2yb3 0 5e-08 Rser=0 Rpar=0
+c1y9x1x10x2yb4 x10x2yb4 0 5e-08 Rser=0 Rpar=0
+c1y9xx10x2yb41 x10x2yb4 0 5e-08 Rser=0 Rpar=0
+c2y0x0x1x3ya1 x1x3ya1 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3ya10 x1x3ya1 0 5e-08 Rser=0 Rpar=0
+c2y0x0x1x3ya2 x1x3ya2 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3ya20 x1x3ya2 0 5e-08 Rser=0 Rpar=0
+c2y0x0x1x3ya3 x1x3ya3 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3ya30 x1x3ya3 0 5e-08 Rser=0 Rpar=0
+c2y0x0x1x3ya4 x1x3ya4 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3ya40 x1x3ya4 0 5e-08 Rser=0 Rpar=0
+c2y0x1x1x3yb1 x1x3yb1 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3yb11 x1x3yb1 0 5e-08 Rser=0 Rpar=0
+c2y0x1x1x3yb2 x1x3yb2 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3yb21 x1x3yb2 0 5e-08 Rser=0 Rpar=0
+c2y0x1x1x3yb3 x1x3yb3 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3yb31 x1x3yb3 0 5e-08 Rser=0 Rpar=0
+c2y0x1x1x3yb4 x1x3yb4 0 5e-08 Rser=0 Rpar=0
+c2y0xx1x3yb41 x1x3yb4 0 5e-08 Rser=0 Rpar=0
+c2y9x0x10x3ya1 x10x3ya1 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3ya10 x10x3ya1 0 5e-08 Rser=0 Rpar=0
+c2y9x0x10x3ya2 x10x3ya2 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3ya20 x10x3ya2 0 5e-08 Rser=0 Rpar=0
+c2y9x0x10x3ya3 x10x3ya3 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3ya30 x10x3ya3 0 5e-08 Rser=0 Rpar=0
+c2y9x0x10x3ya4 x10x3ya4 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3ya40 x10x3ya4 0 5e-08 Rser=0 Rpar=0
+c2y9x1x10x3yb1 x10x3yb1 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3yb11 x10x3yb1 0 5e-08 Rser=0 Rpar=0
+c2y9x1x10x3yb2 x10x3yb2 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3yb21 x10x3yb2 0 5e-08 Rser=0 Rpar=0
+c2y9x1x10x3yb3 x10x3yb3 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3yb31 x10x3yb3 0 5e-08 Rser=0 Rpar=0
+c2y9x1x10x3yb4 x10x3yb4 0 5e-08 Rser=0 Rpar=0
+c2y9xx10x3yb41 x10x3yb4 0 5e-08 Rser=0 Rpar=0
+c3y0x0x1x4ya1 x1x4ya1 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4ya10 x1x4ya1 0 5e-08 Rser=0 Rpar=0
+c3y0x0x1x4ya2 x1x4ya2 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4ya20 x1x4ya2 0 5e-08 Rser=0 Rpar=0
+c3y0x0x1x4ya3 x1x4ya3 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4ya30 x1x4ya3 0 5e-08 Rser=0 Rpar=0
+c3y0x0x1x4ya4 x1x4ya4 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4ya40 x1x4ya4 0 5e-08 Rser=0 Rpar=0
+c3y0x1x1x4yb1 x1x4yb1 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4yb11 x1x4yb1 0 5e-08 Rser=0 Rpar=0
+c3y0x1x1x4yb2 x1x4yb2 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4yb21 x1x4yb2 0 5e-08 Rser=0 Rpar=0
+c3y0x1x1x4yb3 x1x4yb3 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4yb31 x1x4yb3 0 5e-08 Rser=0 Rpar=0
+c3y0x1x1x4yb4 x1x4yb4 0 5e-08 Rser=0 Rpar=0
+c3y0xx1x4yb41 x1x4yb4 0 5e-08 Rser=0 Rpar=0
+c3y9x0x10x4ya1 x10x4ya1 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4ya10 x10x4ya1 0 5e-08 Rser=0 Rpar=0
+c3y9x0x10x4ya2 x10x4ya2 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4ya20 x10x4ya2 0 5e-08 Rser=0 Rpar=0
+c3y9x0x10x4ya3 x10x4ya3 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4ya30 x10x4ya3 0 5e-08 Rser=0 Rpar=0
+c3y9x0x10x4ya4 x10x4ya4 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4ya40 x10x4ya4 0 5e-08 Rser=0 Rpar=0
+c3y9x1x10x4yb1 x10x4yb1 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4yb11 x10x4yb1 0 5e-08 Rser=0 Rpar=0
+c3y9x1x10x4yb2 x10x4yb2 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4yb21 x10x4yb2 0 5e-08 Rser=0 Rpar=0
+c3y9x1x10x4yb3 x10x4yb3 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4yb31 x10x4yb3 0 5e-08 Rser=0 Rpar=0
+c3y9x1x10x4yb4 x10x4yb4 0 5e-08 Rser=0 Rpar=0
+c3y9xx10x4yb41 x10x4yb4 0 5e-08 Rser=0 Rpar=0
+c4y0x0x1x5ya1 x1x5ya1 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5ya10 x1x5ya1 0 5e-08 Rser=0 Rpar=0
+c4y0x0x1x5ya2 x1x5ya2 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5ya20 x1x5ya2 0 5e-08 Rser=0 Rpar=0
+c4y0x0x1x5ya3 x1x5ya3 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5ya30 x1x5ya3 0 5e-08 Rser=0 Rpar=0
+c4y0x0x1x5ya4 x1x5ya4 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5ya40 x1x5ya4 0 5e-08 Rser=0 Rpar=0
+c4y0x1x1x5yb1 x1x5yb1 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5yb11 x1x5yb1 0 5e-08 Rser=0 Rpar=0
+c4y0x1x1x5yb2 x1x5yb2 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5yb21 x1x5yb2 0 5e-08 Rser=0 Rpar=0
+c4y0x1x1x5yb3 x1x5yb3 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5yb31 x1x5yb3 0 5e-08 Rser=0 Rpar=0
+c4y0x1x1x5yb4 x1x5yb4 0 5e-08 Rser=0 Rpar=0
+c4y0xx1x5yb41 x1x5yb4 0 5e-08 Rser=0 Rpar=0
+c4y9x0x10x5ya1 x10x5ya1 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5ya10 x10x5ya1 0 5e-08 Rser=0 Rpar=0
+c4y9x0x10x5ya2 x10x5ya2 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5ya20 x10x5ya2 0 5e-08 Rser=0 Rpar=0
+c4y9x0x10x5ya3 x10x5ya3 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5ya30 x10x5ya3 0 5e-08 Rser=0 Rpar=0
+c4y9x0x10x5ya4 x10x5ya4 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5ya40 x10x5ya4 0 5e-08 Rser=0 Rpar=0
+c4y9x1x10x5yb1 x10x5yb1 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5yb11 x10x5yb1 0 5e-08 Rser=0 Rpar=0
+c4y9x1x10x5yb2 x10x5yb2 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5yb21 x10x5yb2 0 5e-08 Rser=0 Rpar=0
+c4y9x1x10x5yb3 x10x5yb3 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5yb31 x10x5yb3 0 5e-08 Rser=0 Rpar=0
+c4y9x1x10x5yb4 x10x5yb4 0 5e-08 Rser=0 Rpar=0
+c4y9xx10x5yb41 x10x5yb4 0 5e-08 Rser=0 Rpar=0
+c5y0x0x1x6ya1 x1x6ya1 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6ya10 x1x6ya1 0 5e-08 Rser=0 Rpar=0
+c5y0x0x1x6ya2 x1x6ya2 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6ya20 x1x6ya2 0 5e-08 Rser=0 Rpar=0
+c5y0x0x1x6ya3 x1x6ya3 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6ya30 x1x6ya3 0 5e-08 Rser=0 Rpar=0
+c5y0x0x1x6ya4 x1x6ya4 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6ya40 x1x6ya4 0 5e-08 Rser=0 Rpar=0
+c5y0x1x1x6yb1 x1x6yb1 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6yb11 x1x6yb1 0 5e-08 Rser=0 Rpar=0
+c5y0x1x1x6yb2 x1x6yb2 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6yb21 x1x6yb2 0 5e-08 Rser=0 Rpar=0
+c5y0x1x1x6yb3 x1x6yb3 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6yb31 x1x6yb3 0 5e-08 Rser=0 Rpar=0
+c5y0x1x1x6yb4 x1x6yb4 0 5e-08 Rser=0 Rpar=0
+c5y0xx1x6yb41 x1x6yb4 0 5e-08 Rser=0 Rpar=0
+c5y9x0x10x6ya1 x10x6ya1 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6ya10 x10x6ya1 0 5e-08 Rser=0 Rpar=0
+c5y9x0x10x6ya2 x10x6ya2 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6ya20 x10x6ya2 0 5e-08 Rser=0 Rpar=0
+c5y9x0x10x6ya3 x10x6ya3 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6ya30 x10x6ya3 0 5e-08 Rser=0 Rpar=0
+c5y9x0x10x6ya4 x10x6ya4 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6ya40 x10x6ya4 0 5e-08 Rser=0 Rpar=0
+c5y9x1x10x6yb1 x10x6yb1 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6yb11 x10x6yb1 0 5e-08 Rser=0 Rpar=0
+c5y9x1x10x6yb2 x10x6yb2 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6yb21 x10x6yb2 0 5e-08 Rser=0 Rpar=0
+c5y9x1x10x6yb3 x10x6yb3 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6yb31 x10x6yb3 0 5e-08 Rser=0 Rpar=0
+c5y9x1x10x6yb4 x10x6yb4 0 5e-08 Rser=0 Rpar=0
+c5y9xx10x6yb41 x10x6yb4 0 5e-08 Rser=0 Rpar=0
+c6y0x0x1x7ya1 x1x7ya1 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7ya10 x1x7ya1 0 5e-08 Rser=0 Rpar=0
+c6y0x0x1x7ya2 x1x7ya2 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7ya20 x1x7ya2 0 5e-08 Rser=0 Rpar=0
+c6y0x0x1x7ya3 x1x7ya3 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7ya30 x1x7ya3 0 5e-08 Rser=0 Rpar=0
+c6y0x0x1x7ya4 x1x7ya4 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7ya40 x1x7ya4 0 5e-08 Rser=0 Rpar=0
+c6y0x1x1x7yb1 x1x7yb1 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7yb11 x1x7yb1 0 5e-08 Rser=0 Rpar=0
+c6y0x1x1x7yb2 x1x7yb2 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7yb21 x1x7yb2 0 5e-08 Rser=0 Rpar=0
+c6y0x1x1x7yb3 x1x7yb3 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7yb31 x1x7yb3 0 5e-08 Rser=0 Rpar=0
+c6y0x1x1x7yb4 x1x7yb4 0 5e-08 Rser=0 Rpar=0
+c6y0xx1x7yb41 x1x7yb4 0 5e-08 Rser=0 Rpar=0
+c6y9x0x10x7ya1 x10x7ya1 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7ya10 x10x7ya1 0 5e-08 Rser=0 Rpar=0
+c6y9x0x10x7ya2 x10x7ya2 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7ya20 x10x7ya2 0 5e-08 Rser=0 Rpar=0
+c6y9x0x10x7ya3 x10x7ya3 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7ya30 x10x7ya3 0 5e-08 Rser=0 Rpar=0
+c6y9x0x10x7ya4 x10x7ya4 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7ya40 x10x7ya4 0 5e-08 Rser=0 Rpar=0
+c6y9x1x10x7yb1 x10x7yb1 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7yb11 x10x7yb1 0 5e-08 Rser=0 Rpar=0
+c6y9x1x10x7yb2 x10x7yb2 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7yb21 x10x7yb2 0 5e-08 Rser=0 Rpar=0
+c6y9x1x10x7yb3 x10x7yb3 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7yb31 x10x7yb3 0 5e-08 Rser=0 Rpar=0
+c6y9x1x10x7yb4 x10x7yb4 0 5e-08 Rser=0 Rpar=0
+c6y9xx10x7yb41 x10x7yb4 0 5e-08 Rser=0 Rpar=0
+c7y0x0x1x8ya1 x1x8ya1 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8ya10 x1x8ya1 0 5e-08 Rser=0 Rpar=0
+c7y0x0x1x8ya2 x1x8ya2 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8ya20 x1x8ya2 0 5e-08 Rser=0 Rpar=0
+c7y0x0x1x8ya3 x1x8ya3 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8ya30 x1x8ya3 0 5e-08 Rser=0 Rpar=0
+c7y0x0x1x8ya4 x1x8ya4 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8ya40 x1x8ya4 0 5e-08 Rser=0 Rpar=0
+c7y0x1x1x8yb1 x1x8yb1 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8yb11 x1x8yb1 0 5e-08 Rser=0 Rpar=0
+c7y0x1x1x8yb2 x1x8yb2 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8yb21 x1x8yb2 0 5e-08 Rser=0 Rpar=0
+c7y0x1x1x8yb3 x1x8yb3 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8yb31 x1x8yb3 0 5e-08 Rser=0 Rpar=0
+c7y0x1x1x8yb4 x1x8yb4 0 5e-08 Rser=0 Rpar=0
+c7y0xx1x8yb41 x1x8yb4 0 5e-08 Rser=0 Rpar=0
+c7y9x0x10x8ya1 x10x8ya1 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8ya10 x10x8ya1 0 5e-08 Rser=0 Rpar=0
+c7y9x0x10x8ya2 x10x8ya2 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8ya20 x10x8ya2 0 5e-08 Rser=0 Rpar=0
+c7y9x0x10x8ya3 x10x8ya3 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8ya30 x10x8ya3 0 5e-08 Rser=0 Rpar=0
+c7y9x0x10x8ya4 x10x8ya4 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8ya40 x10x8ya4 0 5e-08 Rser=0 Rpar=0
+c7y9x1x10x8yb1 x10x8yb1 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8yb11 x10x8yb1 0 5e-08 Rser=0 Rpar=0
+c7y9x1x10x8yb2 x10x8yb2 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8yb21 x10x8yb2 0 5e-08 Rser=0 Rpar=0
+c7y9x1x10x8yb3 x10x8yb3 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8yb31 x10x8yb3 0 5e-08 Rser=0 Rpar=0
+c7y9x1x10x8yb4 x10x8yb4 0 5e-08 Rser=0 Rpar=0
+c7y9xx10x8yb41 x10x8yb4 0 5e-08 Rser=0 Rpar=0
+c8y0x0x1x9ya1 x1x9ya1 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9ya10 x1x9ya1 0 5e-08 Rser=0 Rpar=0
+c8y0x0x1x9ya2 x1x9ya2 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9ya20 x1x9ya2 0 5e-08 Rser=0 Rpar=0
+c8y0x0x1x9ya3 x1x9ya3 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9ya30 x1x9ya3 0 5e-08 Rser=0 Rpar=0
+c8y0x0x1x9ya4 x1x9ya4 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9ya40 x1x9ya4 0 5e-08 Rser=0 Rpar=0
+c8y0x1x1x9yb1 x1x9yb1 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9yb11 x1x9yb1 0 5e-08 Rser=0 Rpar=0
+c8y0x1x1x9yb2 x1x9yb2 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9yb21 x1x9yb2 0 5e-08 Rser=0 Rpar=0
+c8y0x1x1x9yb3 x1x9yb3 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9yb31 x1x9yb3 0 5e-08 Rser=0 Rpar=0
+c8y0x1x1x9yb4 x1x9yb4 0 5e-08 Rser=0 Rpar=0
+c8y0xx1x9yb41 x1x9yb4 0 5e-08 Rser=0 Rpar=0
+c8y9x0x10x9ya1 x10x9ya1 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9ya10 x10x9ya1 0 5e-08 Rser=0 Rpar=0
+c8y9x0x10x9ya2 x10x9ya2 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9ya20 x10x9ya2 0 5e-08 Rser=0 Rpar=0
+c8y9x0x10x9ya3 x10x9ya3 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9ya30 x10x9ya3 0 5e-08 Rser=0 Rpar=0
+c8y9x0x10x9ya4 x10x9ya4 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9ya40 x10x9ya4 0 5e-08 Rser=0 Rpar=0
+c8y9x1x10x9yb1 x10x9yb1 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9yb11 x10x9yb1 0 5e-08 Rser=0 Rpar=0
+c8y9x1x10x9yb2 x10x9yb2 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9yb21 x10x9yb2 0 5e-08 Rser=0 Rpar=0
+c8y9x1x10x9yb3 x10x9yb3 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9yb31 x10x9yb3 0 5e-08 Rser=0 Rpar=0
+c8y9x1x10x9yb4 x10x9yb4 0 5e-08 Rser=0 Rpar=0
+c8y9xx10x9yb41 x10x9yb4 0 5e-08 Rser=0 Rpar=0
+c9y0x0x1x10ya1 x1x10ya1 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10ya10 x1x10ya1 0 5e-08 Rser=0 Rpar=0
+c9y0x0x1x10ya2 x1x10ya2 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10ya20 x1x10ya2 0 5e-08 Rser=0 Rpar=0
+c9y0x0x1x10ya3 x1x10ya3 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10ya30 x1x10ya3 0 5e-08 Rser=0 Rpar=0
+c9y0x0x1x10ya4 x1x10ya4 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10ya40 x1x10ya4 0 5e-08 Rser=0 Rpar=0
+c9y0x1x1x10yb1 x1x10yb1 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10yb11 x1x10yb1 0 5e-08 Rser=0 Rpar=0
+c9y0x1x1x10yb2 x1x10yb2 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10yb21 x1x10yb2 0 5e-08 Rser=0 Rpar=0
+c9y0x1x1x10yb3 x1x10yb3 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10yb31 x1x10yb3 0 5e-08 Rser=0 Rpar=0
+c9y0x1x1x10yb4 x1x10yb4 0 5e-08 Rser=0 Rpar=0
+c9y0xx1x10yb41 x1x10yb4 0 5e-08 Rser=0 Rpar=0
+c9y9x0x10x10ya1 x10x10ya1 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10ya10 x10x10ya1 0 5e-08 Rser=0 Rpar=0
+c9y9x0x10x10ya2 x10x10ya2 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10ya20 x10x10ya2 0 5e-08 Rser=0 Rpar=0
+c9y9x0x10x10ya3 x10x10ya3 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10ya30 x10x10ya3 0 5e-08 Rser=0 Rpar=0
+c9y9x0x10x10ya4 x10x10ya4 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10ya40 x10x10ya4 0 5e-08 Rser=0 Rpar=0
+c9y9x1x10x10yb1 x10x10yb1 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10yb11 x10x10yb1 0 5e-08 Rser=0 Rpar=0
+c9y9x1x10x10yb2 x10x10yb2 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10yb21 x10x10yb2 0 5e-08 Rser=0 Rpar=0
+c9y9x1x10x10yb3 x10x10yb3 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10yb31 x10x10yb3 0 5e-08 Rser=0 Rpar=0
+c9y9x1x10x10yb4 x10x10yb4 0 5e-08 Rser=0 Rpar=0
+c9y9xx10x10yb41 x10x10yb4 0 5e-08 Rser=0 Rpar=0
+
+
+
+*Source and Directive
+I1 x10x10ya1 x1x1yb1 AC 1 0
+.ac lin 1 143311.12226669196 143311.12226669196
+
+.END
